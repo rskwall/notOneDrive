@@ -1,0 +1,89 @@
+{
+  "workflow_name": "View Table Spaces by Name Filter, Display Status, and Navigate to Tables via DB2 System Catalog TESTING",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type option 1 to select DB2 system catalog on the DB2 Admin main menu",
+      "text": "1",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the System Catalog Objects screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type",
+      "description": "Type option S to select Table Spaces on the System Catalog Objects screen",
+      "text": "S",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 4,
+      "type": "type_variable",
+      "description": "Type a table space name or name pattern in the Schema filter field to narrow the Table Spaces list",
+      "placeholder": "[Table Space Name Filter]",
+      "row": 21,
+      "col": 16
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to submit the filter and display the matching Table Spaces list",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "type",
+      "description": "Type line command DIS in the Select field next to the target table space to display its status",
+      "text": "DIS",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to display the DB2 command output showing the table space status",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "type": "key",
+      "description": "Press PF3 to return to the Table Spaces list",
+      "key": "PF3"
+    },
+    {
+      "step": 9,
+      "type": "type",
+      "description": "Type line command D in the Select field next to the target table space to navigate to its parent database",
+      "text": "D",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 10,
+      "type": "key",
+      "description": "Press Enter to navigate to the Databases list for the selected table space",
+      "key": "Enter"
+    },
+    {
+      "step": 11,
+      "type": "type",
+      "description": "Type line command T in the Select field next to the target database to view its tables",
+      "text": "T",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 12,
+      "type": "key",
+      "description": "Press Enter to navigate to the Tables, Views, and Aliases list for the selected database",
+      "key": "Enter"
+    }
+  ]
+}

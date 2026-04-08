@@ -1,0 +1,218 @@
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      | Option ===>                                                                    |
+  4      |                                            More:     +                         |
+  5      | 0  Settings      Terminal and user parameters            User ID . : USER25    |
+  6      | 1  View          Display source data or listings         Time. . . : 11:16     |
+  7      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  8      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  9      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+ 10      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 11      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 12      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER25    |
+ 13      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 14      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 15      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 16      |EssssssssssssssssssssssssssssssssssssssssssssssN                                |
+ 17      |e Licensed Materials - Property of IBM         e                                |
+ 18      |e 5650-ZOS     Copyright IBM Corp. 1980, 2021. e                                |
+ 19      |e US Government Users Restricted Rights -      e                                |
+ 20      |e Use, duplication or disclosure restricted    e                                |
+ 21      |e by GSA ADP Schedule Contract with IBM Corp.  e ity                            |
+ 22      |DssssssssssssssssssssssssssssssssssssssssssssssM ard  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 4   | 14     | DIFFERENT              | "3                                                                 " |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Help                                                                   |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            Utility Selection Panel                             |
+  3      | Option ===>                                                                    |
+  4      |                                                                    More:     + |
+  5      | 1  Library     Compress or print data set.  Print index listing.  Print,       |
+  6      |                  rename, delete, browse, edit or view members                  |
+  7      | 2  Data Set    Allocate, rename, delete, catalog, uncatalog, or display        |
+  8      |                  information of an entire data set                             |
+  9      | 3  Move/Copy   Move, or copy members or data sets                              |
+ 10      | 4  Dslist      Print or display (to process) list of data set names.           |
+ 11      |                  Print or display VTOC information                             |
+ 12      | 5  Reset       Reset statistics for members of ISPF library                    |
+ 13      | 6  Hardcopy    Initiate hardcopy output                                        |
+ 14      | 8  Outlist     Display, delete, or print held job output                       |
+ 15      | 9  Commands    Create/change an application command table                      |
+ 16      | 11 Format      Format definition for formatted data Edit/Browse                |
+ 17      | 12 SuperC      Compare data sets                             (Standard Dialog) |
+ 18      | 13 SuperCE     Compare data sets Extended                    (Extended Dialog) |
+ 19      | 14 Search-For  Search data sets for strings of data          (Standard Dialog) |
+ 20      | 15 Search-ForE Search data sets for strings of data Extended (Extended Dialog) |
+ 21      | 16 Tables      ISPF Table Utility                                              |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 4   | 14     | DIFFERENT              | "2                                                                 " |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  RefList  Utilities  Help                                               |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                                Data Set Utility                                |
+  3      | Option ===>                                                                    |
+  4      |                                                                                |
+  5      |     A Allocate new data set                 C Catalog data set                 |
+  6      |     R Rename entire data set                U Uncatalog data set               |
+  7      |     D Delete entire data set                S Short data set information       |
+  8      | blank Data set information                  V VSAM Utilities                   |
+  9      |                                                                                |
+ 10      | ISPF Library:                                                                  |
+ 11      |    Project  . . USER25           Enter "/" to select option                    |
+ 12      |    Group  . . . NXG              /  Confirm Data Set Delete                    |
+ 13      |    Type . . . . JCL                                                            |
+ 14      |                                                                                |
+ 15      | Other Partitioned, Sequential or VSAM Data Set:                                |
+ 16      |    Name  . . . . . . .                                                         |
+ 17      |    Volume Serial . . .           (If not cataloged, required for option "C")   |
+ 18      |                                                                                |
+ 19      | Data Set Password  . .           (If password protected)                       |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 14    |
+    | Column | 21    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 2
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 4   | 14     | DIFFERENT              | "D                                                                 " |
+    | 14  | 18     | DIFFERENT              | "tst"                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  RefList  Utilities  Help                                               |
+  1      | s EsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssN ssssss |
+  2      |   e                          Confirm Delete                           e        |
+  3      | O e Command ===>                                                      e        |
+  4      |   e                                                      More:     +  e        |
+  5      |   e Data Set Name . : USER25.NXG.TST                                  e        |
+  6      |   e Volume  . . . . : SS0001 +                                        e        |
+  7      |   e Creation date . : 2026/04/03                                      e        |
+  8      | b e                                                                   e        |
+  9      |   e Enter "/" to select option                                        e        |
+ 10      | I e    Set data set delete confirmation off                           e        |
+ 11      |   e                                                                   e        |
+ 12      |   e Instructions:                                                     e        |
+ 13      |   e   Press ENTER to confirm delete.                                  e        |
+ 14      |   e   (The data set will be deleted and uncataloged.)                 e        |
+ 15      | O e                                                                   e        |
+ 16      |   e   Press CANCEL or EXIT to cancel delete.                          e        |
+ 17      |   e                                                                   e "C")   |
+ 18      |   e  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   e        |
+ 19      | D e  F9=Swap     F12=Cancel                                           e        |
+ 20      |   DsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssM        |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 19    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  RefList  Utilities  Help                                               |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                                Data Set Utility               Data set deleted |
+  3      | Option ===>                                                                    |
+  4      |                                                                                |
+  5      |     A Allocate new data set                 C Catalog data set                 |
+  6      |     R Rename entire data set                U Uncatalog data set               |
+  7      |     D Delete entire data set                S Short data set information       |
+  8      | blank Data set information                  V VSAM Utilities                   |
+  9      |                                                                                |
+ 10      | ISPF Library:                                                                  |
+ 11      |    Project  . . USER25           Enter "/" to select option                    |
+ 12      |    Group  . . . NXG              /  Confirm Data Set Delete                    |
+ 13      |    Type . . . . TST                                                            |
+ 14      |                                                                                |
+ 15      | Other Partitioned, Sequential or VSAM Data Set:                                |
+ 16      |    Name  . . . . . . .                                                         |
+ 17      |    Volume Serial . . .           (If not cataloged, required for option "C")   |
+ 18      |                                                                                |
+ 19      | Data Set Password  . .           (If password protected)                       |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+

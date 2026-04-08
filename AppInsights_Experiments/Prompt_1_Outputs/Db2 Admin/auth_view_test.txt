@@ -1,0 +1,25 @@
+Collecting workspace informationBased on the prompt.json system instructions and the auth_view.txt workflow recording, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## Workflow: View Database Authorizations in DB2 Admin
+
+1. Type `1` in the **Option** field to select "DB2 system catalog"
+2. Press **Enter**
+3. Type `D` in the **Option** field to select "Databases"
+4. In the **Schema** field, type `[Database Name Pattern]` (e.g., a name or partial name with wildcard)
+5. Press **Enter**
+6. Locate the database entry in the results list and type `A` in the **Sel** field next to `[Database Name]`
+7. Press **Enter**
+8. View the **DB2 Database Authorizations** panel, which lists grantors, grantees, grant types, and privilege flags for `[Database Name]`
+9. Press **PF3** or type `=X.ALL` in the **Command** field to exit back to the main menu
+10. Press **Enter**
+
+---
+
+**Notes:**
+- **Step 4** is variable: replace `[Database Name Pattern]` with the name or partial name (supports `%` wildcard) of the database whose authorizations you want to view.
+- **Step 6** is variable: type `A` next to the specific `[Database Name]` row you wish to inspect.
+- Steps 1–3 and 8–10 are constant navigation steps that do not change between uses.
+
+NOTE: Good one! All the steps are accurate.

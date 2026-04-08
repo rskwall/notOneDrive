@@ -1,0 +1,60 @@
+## Create Order Workflow — Starting from the LEGADEMO Main Menu
+
+---
+
+### Open Order Entry
+
+1. Type **"6"** and press **Enter**.
+
+---
+
+### Initiate a New Order
+
+2. In the **Order Number** field, type **[Order Number]**.
+3. Press **F6** (Add).
+
+---
+
+### Assign a Customer to the Order
+
+4. In the **Customer Number** field, type **[Customer Number]** and press **Enter**.
+
+---
+
+### Add Order Line Items
+*(Repeat steps 5–8 for each item; proceed to step 9 when all items are entered.)*
+
+5. In the **Item Number** field on the next available blank line, type **[Item Number]**.
+6. In the **Ordered Quantity** field on the same line, type **[Ordered Quantity]**.
+7. In the **% Discount** field on the same line, type **[Discount Percentage]** (type **"0"** for no discount).
+8. Press **Enter** to confirm the line and move to the next.
+
+---
+
+### Save and Complete the Order
+
+9. Press **Enter** without entering any new item data to save the order and return to the Order Entry start screen.
+
+---
+
+### Verify the Order (Optional)
+
+10. Press **F4** to open the order selection list.
+11. If the new order is not yet visible, press **RollUp** (Page Down) to scroll through the list.
+12. Press **F3** to close the list and exit Order Entry, returning to the LEGADEMO main menu.
+
+---
+
+### Sign Off (Optional)
+
+13. Type **"90"** and press **Enter**.
+
+---
+
+### Verification
+
+| Check | Result |
+|---|---|
+| No recording-specific data values appear literally | ✓ — "40006", "1010", "1104", "1102", "1205", "Zachary Taylor", etc. are absent |
+| All placeholders are descriptively named | ✓ — `[Order Number]`, `[Customer Number]`, `[Item Number]`, `[Ordered Quantity]`, `[Discount Percentage]` |
+| Steps reproduce the same workflow outcome when real values are substituted | ✓ — Navigation path, F-key actions, and field entry sequence are complete and accurate |

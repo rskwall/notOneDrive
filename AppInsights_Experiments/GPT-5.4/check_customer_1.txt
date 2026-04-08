@@ -1,0 +1,22 @@
+PROMPT: Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+Analyzed workflow in check_customer.txt
+This is a recorded IBM i (LegaSuite DEMO) terminal session showing these steps:
+
+IBM i Main Menu — User types legademo in the command line and presses Enter to launch the LEGADEMO application.
+
+Introduction Screen (INTRO-F000) — A welcome/disclaimer screen appears; user presses Enter to continue.
+
+LegaSuite DEMO Main Menu (LEGDEMO1D) — The app's main menu is displayed. User selects option 1 (Maintain Customers).
+
+Maintain Customers screen (CUSMAIN-F000) — Customer number entry screen appears. User presses F4 (Prompt) to open the customer selection list.
+
+Select Customer list — Page 1 (CUSMAIN-F030) — Customers 1001–1013 are shown. User pages forward (Page Down / Enter).
+
+Select Customer list — Page 2 — Customers 1014–1025 shown. User selects customer 1025 (Calvin Coolidge).
+
+Customer Detail screen (CUSMAIN-F100) — Calvin Coolidge's full record is displayed (address, city, zip, country, financials). User presses F12 (Cancel) to go back.
+
+LegaSuite DEMO Main Menu — Returns to the main menu; the session ends here (next action is partially omitted).
+
+In short: the workflow navigates from the IBM i main menu into the LegaSuite demo, browses the customer list, and views a specific customer record before returning to the main menu.

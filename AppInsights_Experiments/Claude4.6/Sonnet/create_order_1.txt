@@ -1,0 +1,29 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Overview of create_order.txt
+
+This file captures a screen-by-screen session log of a user interacting with an **IBM i (AS/400) terminal** running the **LegaSuite DEMO** application. Here's the workflow:
+
+1. **IBM i Main Menu** — User types `LEGADEMO` and presses Enter to launch the demo app.
+
+2. **LegaSuite Intro Screen** — User presses Enter to dismiss the welcome/introduction panel.
+
+3. **LegaSuite DEMO Main Menu** — User selects option `6` (Order Entry).
+
+4. **Order Entry Screen (ORDENTRY-F000)** — User presses **F6 (Add)** with order number `40006` to create a new order.
+
+5. **Order Entry - Customer Entry (ORDENTRY-F010)** — User enters customer number `1010` (Zachary Taylor).
+
+6. **Order Entry - Line Items (ORDENTRY-F100)** — User adds three line items:
+   - Item `1104` — Red Sweater S, qty 150, 10% discount → $6,743.25
+   - Item `1102` — Beer, qty 1, 50% discount → $24.98
+   - Item `1205` — White Sweater L, qty 10, no discount → $499.50
+   - **Order total: $7,267.73**
+
+7. **Back to Order Entry** — User presses Enter with no items, then uses **F4 (Prompt)** to view existing orders, scrolls through the list, and exits with **F3**.
+
+8. **LegaSuite Main Menu** — User enters `90` to **sign off**.
+
+NOTE: Wording is kind of weird, especially on step 4. But still technically accurate.

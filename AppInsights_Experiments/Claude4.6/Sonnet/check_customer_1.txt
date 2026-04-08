@@ -1,0 +1,29 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Workflow Overview: LegaSuite DEMO Session
+
+This file is a recorded IBM i (AS/400) terminal session log showing host states and user actions.
+
+### Steps:
+
+1. **IBM i Main Menu** (Ordinal 2-3) — User types `legademo` in the command line and presses Enter.
+
+2. **LegaSuite DEMO Introduction screen** (Ordinal 4-5) — Intro/welcome panel displays. User presses Enter to continue.
+
+3. **LegaSuite DEMO Main Menu** (Ordinal 6-7) — Menu appears. User selects option `1` (Maintain Customers).
+
+4. **Customer Maintenance - Entry screen** (Ordinal 8-9) — Blank customer number prompt. User presses **F4** (Prompt) to open a customer lookup.
+
+5. **Select Customer popup/subfile** (Ordinal 10-11) — List of customers (1001–1013) shown. User presses **RollUp (Page Down)** to see more.
+
+6. **Next page of customers** (Ordinal 12-13) — Customers 1014–1025 shown. User presses Enter (no selection made, dismisses window).
+
+7. **Customer Maintenance - Entry screen** (Ordinal 14-15) — User manually types customer number `1025` and presses Enter.
+
+8. **Customer detail record** (Ordinal 16-17) — Record for **Calvin Coolidge** (customer 1025) displays. User presses **F3** (Exit).
+
+9. **LegaSuite DEMO Main Menu** (Ordinal 18-19) — Returns to main menu. User enters `90` (Sign off) and presses Enter.
+
+NOTE: Very brief, appreciated.

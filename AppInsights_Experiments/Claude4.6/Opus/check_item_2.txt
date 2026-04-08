@@ -1,0 +1,23 @@
+PROMPT:
+Could you give me step-by-step instructions for how to update the price of item ID 1003 to 12.59? Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to Update Item 1003 Price to 12.59
+
+Starting from the **LEGADEMO Main Menu**:
+
+1. **Type `3`** in the `===>` field (row 19, column 7) and press **Enter**
+   — This selects "Maintain Items" and opens the Item Maintenance screen.
+
+2. **Type `1003`** in the "Item Number" field (row 3, column 31) and press **Enter**
+   — This looks up item 1003 and opens its detail view (record format F100).
+
+3. **Type `12.59`** in the "Item Price" field (row 6, column 31) and press **Enter**
+   — This saves the updated price for item 1003.
+
+4. *(Optional — to verify the change)* **Type `1003`** in the "Item Number" field again and press **Enter**
+   — Confirm the Item Price now shows `12.59`.
+
+5. Press **F3** to exit back to the LEGADEMO Main Menu.
+
+NOTE: These instructions worked! Very compact too.

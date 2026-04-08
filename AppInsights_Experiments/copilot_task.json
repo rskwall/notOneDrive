@@ -1,0 +1,11 @@
+{
+  "prompt_file": "Prompt_Iterations/prompt_2.json",
+  "model": "claude-4-6-sonnet",
+  "workflows_dir": "Workflows",
+  "output_dir": "Copilot_Outputs",
+  "workflow_placeholder": "[INSERT WORKFLOW TEXT FILE HERE]",
+
+  "_comment_prompt_file": "Relative path to prompt. Options: Prompt_Iterations/prompt_2.json | Prompt_Iterations/prompt_2_db2.json | Prompt_Iterations/prompt.json",
+  "_comment_model": "GitHub Models ID. Options: gpt-4.1 | o3 | claude-3-5-sonnet | meta-llama-3.1-70b-instruct",
+  "_comment_output_dir": "All workflow outputs land in <output_dir>/<model>/ mirroring the Workflows/ folder structure"
+}

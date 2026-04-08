@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo version="1.1.2" buildnumber="1.0" exename="Host Picture Builder" exeversion="2.5.2"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout_version="1.1.2" application="collector" application_version="5.0" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000008" library="LEGADEMO" member_name="CUSTPD" message_line_y="24" originator="PictureBuilderMoaxWriter">
+        <size cx="80" cy="24"/>
+        <action key="f3"/>
+        <action key="f4"/>
+        <action key="f12"/>
+        <action key="print"/>
+        <action key="enter"/>
+        <field name="F100" field_type="screen_part">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="23"/>
+            </area>
+            <field name="CUS0101" value="LegaSuite DEMO - Customers Payments" data_type="alphanumeric" data_length="35" display_length="35" field_type="msgid_text">
+                <area>
+                    <position x="21" y="0"/>
+                    <size cx="35" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+            <field value=" CUSTPAY-F100" data_length="13" display_length="13" field_type="fixed_text">
+                <area>
+                    <position x="66" y="0"/>
+                    <size cx="13" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0003" value="Customer Number  . . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTNR" data_type="zoned_decimal" data_length="6" display_length="6" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="2"/>
+                    <size cx="6" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0104" value="Customer Name  . . . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="4"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTNM" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="4"/>
+                    <size cx="30" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0105" value="Customer Address . . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="5"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTAD" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="5"/>
+                    <size cx="30" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0106" value="Customer City  . . . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="6"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTCT" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="6"/>
+                    <size cx="30" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0107" value="Customer Zip Code  . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="7"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTZP" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="7"/>
+                    <size cx="10" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0108" value="Customer Country . . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="8"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTCN" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="8"/>
+                    <size cx="30" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0128" value="Credit Limit . . . . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="9"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTLM" data_type="zoned_decimal" data_length="7" display_length="7" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="9"/>
+                    <size cx="7" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0012" value="Open Amount  . . . . . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="10"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTOP" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="10"/>
+                    <size cx="11" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0011" value="Turn Over this Year  . . :" data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="11"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="CUSTT0" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field">
+                <area>
+                    <position x="30" y="11"/>
+                    <size cx="11" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0122" value="Order Number . . . . . . ." data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="13"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="ORDNR" underline="true" data_type="zoned_decimal" data_length="6" display_length="6" usage="both" lowercase="true" field_type="field">
+                <area>
+                    <position x="30" y="13"/>
+                    <size cx="6" cy="1"/>
+                </area>
+            </field>
+            <field value="Invoice not present" data_length="19" display_length="19" field_type="errmsg_text" conditional="true">
+                <area>
+                    <position x="1" y="24"/>
+                    <size cx="19" cy="1"/>
+                </area>
+                <indicator id="33"/>
+            </field>
+            <field name="KEY0003" value="F3=Exit" data_type="alphanumeric" data_length="7" display_length="7" field_type="msgid_text">
+                <area>
+                    <position x="1" y="22"/>
+                    <size cx="7" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0004" value="F4=Prompt" data_type="alphanumeric" data_length="9" display_length="9" field_type="msgid_text">
+                <area>
+                    <position x="11" y="22"/>
+                    <size cx="9" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0012" value="F12=Cancel" data_type="alphanumeric" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="23" y="22"/>
+                    <size cx="10" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+        </field>
+    </screen>
+</header>

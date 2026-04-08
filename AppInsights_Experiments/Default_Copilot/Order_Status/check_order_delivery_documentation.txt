@@ -1,0 +1,229 @@
+Prompt: write me documentation for this process 
+Below is clear, user‑friendly documentation describing the **end‑to‑end process shown in the host session**, written as operational/business documentation rather than raw technical logs. It explains **what the user did, why, and what happened on each screen**.
+
+***
+
+# LegaSuite DEMO – Delivered Orders Process Documentation
+
+## Overview
+
+This document describes the process of accessing the **Delivered Orders** function within the **LegaSuite DEMO** application on IBM i, selecting an order, reviewing its details, and returning to the main menu before signing off.
+
+The process demonstrates typical user navigation through menus, order selection, order detail review, and application exit.
+
+***
+
+## Preconditions
+
+*   User is signed on to the IBM i system.
+*   The IBM i **Main Menu** is displayed.
+*   The user has access to the **LegaSuite DEMO** application.
+
+***
+
+## Step‑by‑Step Process
+
+### 1. Access the LegaSuite DEMO Application
+
+**Starting Screen:** IBM i Main Menu
+
+**Action:**
+
+*   In the **Selection or command** field, the user enters:
+        LEGADEMO
+*   Presses **Enter**
+
+**Result:**
+
+*   The LegaSuite DEMO introductory screen is displayed.
+
+***
+
+### 2. Review the Introduction Screen
+
+**Screen:** *LegaSuite DEMO – Introduction*
+
+**Purpose:**
+
+*   Provides context that the application is for demonstration only.
+*   Explains that some screens may exist purely for educational/demo purposes.
+
+**Action:**
+
+*   User presses **Enter** to continue.
+
+**Result:**
+
+*   The LegaSuite DEMO main menu appears.
+
+***
+
+### 3. Navigate to the Delivered Orders Function
+
+**Screen:** *LegaSuite DEMO Main Menu*
+
+**Relevant Menu Option:**
+
+*   `7. Delivered Orders`
+
+**Action:**
+
+*   In the command input field, the user enters:
+        7
+*   Presses **Enter**
+
+**Result:**
+
+*   The **Order Delivery** screen is displayed.
+
+***
+
+### 4. Open Order Selection List
+
+**Screen:** *Order Delivery (ORDDELIV-F000)*
+
+**Purpose:**
+
+*   Allows the user to enter or select an order number.
+
+**Action:**
+
+*   The user presses **F4 (Prompt)**.
+
+**Result:**
+
+*   The **Select Order** list screen opens, displaying available orders.
+
+***
+
+### 5. Select an Order from the List
+
+**Screen:** *Select Order (ORDDELIV-F030)*
+
+**Displayed Information:**
+
+*   Order Number
+*   Customer Number
+*   Customer Name
+
+**Action:**
+
+*   The user positions the cursor on an order (Order **10005**) and presses **Enter**.
+
+**Result:**
+
+*   The order selection list closes.
+*   The system returns to the Order Delivery screen.
+
+***
+
+### 6. Reopen the Order Selection List (Optional Navigation)
+
+**Action:**
+
+*   User presses **F4 (Prompt)** again to reopen the order list.
+*   Selects Order **10005** once more.
+
+**Purpose:**
+
+*   Demonstrates repeated access to order selection.
+
+**Result:**
+
+*   The order details screen is displayed.
+
+***
+
+### 7. Review Delivered Order Details
+
+**Screen:** *Order Delivery Details (ORDDELIV-F100)*
+
+**Displayed Information Includes:**
+
+*   Order Number and Order Date
+*   Customer number and name
+*   Customer address and location
+*   Financial information:
+    *   Turnover
+    *   Credit limit
+    *   Open amount
+    *   Order amount
+*   Detailed line items:
+    *   Item number and description
+    *   Stock levels
+    *   Quantities ordered
+    *   Prices, discounts, and amounts
+
+**Action:**
+
+*   User reviews the order.
+*   No data is modified.
+
+***
+
+### 8. Exit Order Delivery
+
+**Action:**
+
+*   User presses **F3 (Exit)**.
+
+**Result:**
+
+*   The system returns to the LegaSuite DEMO main menu.
+
+***
+
+### 9. Sign Off from the Application
+
+**Screen:** *LegaSuite DEMO Main Menu*
+
+**Action:**
+
+*   In the command input field, the user enters:
+        90
+*   Presses **Enter**
+
+**Result:**
+
+*   The sign‑off process is initiated.
+
+***
+
+## Postconditions
+
+*   The user has successfully:
+    *   Navigated to Delivered Orders
+    *   Selected and reviewed an order
+    *   Returned to the main menu
+    *   Signed off from the application
+
+No data changes were made during this process.
+
+***
+
+## Key Function Keys Used
+
+| Key   | Function                     |
+| ----- | ---------------------------- |
+| Enter | Confirm selection / Continue |
+| F3    | Exit current screen          |
+| F4    | Prompt / Select from list    |
+| F12   | Cancel                       |
+
+***
+
+## Notes
+
+*   This process is intended for demonstration and training purposes.
+*   Data shown (customers, orders, amounts) is sample data.
+*   Some navigation steps (such as reopening the order list) illustrate functionality rather than required steps.
+
+***
+
+If you’d like, I can also:
+
+*   Convert this into **formal SOP format**
+*   Add **process flow diagrams**
+*   Write a **short user quick‑reference guide**
+*   Or tailor it for **technical vs. business users**
+

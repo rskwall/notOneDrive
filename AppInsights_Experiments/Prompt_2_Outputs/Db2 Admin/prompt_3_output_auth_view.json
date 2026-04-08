@@ -1,0 +1,55 @@
+{
+  "workflow_name": "View Database Authorizations",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type option 1 to select DB2 system catalog on the DB2 Admin main menu",
+      "text": "1",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the System Catalog Objects screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type",
+      "description": "Type option D to select Databases on the System Catalog Objects screen",
+      "text": "D",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 4,
+      "type": "type_variable",
+      "description": "Type the database name search pattern in the Schema filter field to locate the target database",
+      "placeholder": "[Database Name Filter]",
+      "row": 21,
+      "col": 16
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to submit the filter and display the matching Databases list",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "type",
+      "description": "Type the A line command in the Select field next to the target database to navigate to the Database Authorizations panel",
+      "text": "A",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to open the Database Authorizations panel showing all grants for the selected database",
+      "key": "Enter"
+    }
+  ]
+}

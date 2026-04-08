@@ -1,0 +1,17 @@
+PROMPT:
+Could you give me step-by-step instructions for how to view the customer with ID 1010 instead? Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to View Customer 1010 from the LEGADEMO Main Menu
+
+Assuming you are already on the **LegaSuite DEMO main menu** (the screen showing "Select one of the following:" with options like Maintain Customers, etc.):
+
+1. **Type `1` in the command line (`===>`) and press `Enter`**
+   — This selects "Maintain Customers" and navigates to the Customer Maintenance screen (`CUSMAIN-F000`).
+
+2. **Type `1010` in the "Customer Number" field and press `Enter`**
+   — This directly loads the customer detail screen for customer 1010 (Zachary Taylor).
+
+That's it — just **2 steps**. There's no need to use F4 to browse the customer list since you already know the customer number. The recorded session used F4/prompt and paged through the list, but that's unnecessary when the ID is known in advance.
+
+NOTE: Not as brief as I'd like, but still accurate. Don't like that it knew the user's name beforehand, but it was in the workflow so I guess it makes sense.

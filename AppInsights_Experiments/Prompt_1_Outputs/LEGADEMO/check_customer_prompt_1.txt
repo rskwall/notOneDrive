@@ -1,0 +1,42 @@
+
+**Starting point:** LEGADEMO Main Menu
+**Purpose:** Look up a customer record and view their details.
+
+---
+
+### Steps
+
+| # | Type | Action |
+|---|------|--------|
+| 1 | **Constant** | Type `1`, press **Enter** — selects "Maintain Customers" from the main menu |
+| 2 | **Constant** | Press **F4** — opens the "Select Customer" lookup window (list of customers by number, name, and city) |
+| 3 | **Variable — repeat as needed** | Press **RollUp** — scrolls forward through the customer list to locate **[Customer Name or identifying information]** |
+| 4 | **Constant** | Press **Enter** without typing a selection — dismisses the lookup window and returns to the Customer Number entry field |
+| 5 | **Variable** | Type **[Customer Number]**, press **Enter** — displays the customer detail record |
+| 6 | **Constant** | Press **F3** — exits customer detail and returns to the LEGADEMO Main Menu |
+
+---
+
+### Notes on Variable Steps
+
+| Placeholder | What to Supply |
+|-------------|----------------|
+| `[Customer Name or identifying information]` | The name, partial name, or city you are scrolling the list to find; used to visually locate the correct customer and note their number |
+| `[Customer Number]` | The numeric ID for the customer you want to view, either noted from the browse list in steps 2–4 or known in advance |
+
+---
+
+### Verification
+
+- No specific data values from the recording (customer numbers, names, addresses) appear in any step.
+- Both placeholders are named descriptively enough for a new user to know what to supply.
+- Steps 2–4 (F4 browse + RollUp + Enter to dismiss) represent the *lookup* pattern; step 5 is the *entry* step. If the customer number is already known, steps 2–4 can be skipped and the user proceeds directly to step 5.
+- Following these steps with real values substituted reproduces the recorded workflow outcome.
+
+
+
+Notes:
+- Line 13 lists "RollUp" as teh scroll button, should be "PageUp"/"PageDown"
+- Missing step "put the number 1 next to the customer to display when in lookup window"
+- Missing Notes on variables in customer data (i.e. Customer City)
+- Ignores that user can select from the lookup menu. Assumes that the lookup menu is only to find the customer number before entering it.

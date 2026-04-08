@@ -1,0 +1,50 @@
+PROMPT:
+
+RESPONSE:
+## DB2 Admin – Execute a SQL SELECT Statement and Browse Results
+
+**Starting point:** DB2 Admin main menu
+
+---
+
+### Steps
+
+1. At the **Option ===>** prompt, type `2` and press **Enter** to open the *Execute SQL Statements* menu.
+
+2. At the **Option ===>** prompt, type `1` and press **Enter** to open the *Edit/Run SQL Statement* editor.
+
+3. In the editor, type your SQL statement. For example:
+   - On the first blank line, type:
+     ```
+     SELECT *
+     ```
+   - On the next blank line, type:
+     ```
+     FROM [Schema Name].[Table Name]
+     ```
+   Press **Enter** to confirm the input.
+
+4. At the **Command ===>** prompt, type `EXEC` and press **Enter** to execute the SQL statement.
+
+5. The *Browse Result of SQL Select* panel displays the query results. Use the following keys to navigate the result set:
+   - Press **PF11** to scroll **right** to view additional columns.
+   - Press **PF10** to scroll **left** to return to previous columns.
+
+6. When finished reviewing results, press **PF3** to exit the result browse panel and return to the SQL editor.
+
+7. Press **PF3** again. A confirmation dialog appears asking whether to run the SQL statement or exit.
+
+8. At the **Select a choice** prompt, type `1` (No – do not run the SQL statement) and press **Enter** to exit the editor without re-running the query.
+
+9. Press **PF3** to return to the DB2 Admin main menu.
+
+---
+
+### Placeholders Reference
+
+| Placeholder | Description |
+|---|---|
+| `[Schema Name]` | The DB2 schema or owner qualifier for the target table (e.g., the user's TSO ID or a shared schema name) |
+| `[Table Name]` | The name of the DB2 table to query |
+
+NOTE: Accurate. Also didn't leave Db2 or logoff, which is nice.

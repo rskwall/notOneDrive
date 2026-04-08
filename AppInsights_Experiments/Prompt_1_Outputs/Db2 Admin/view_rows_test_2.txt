@@ -1,0 +1,54 @@
+PROMPT:
+{
+  "system": "You are an IBM i terminal workflow analyst. You understand 5250 and 3270 screen navigation, function keys, and how to read recorded terminal session files.\n\nYour task is to generate reusable, generic, step-by-step keyboard navigation instructions from recorded IBM i terminal sessions.\n\nConstraints:\n- Distinguish clearly between constant steps (navigation that is always the same) and variable steps (steps where the user must supply situation-specific values).\n- Represent all variable values as clearly labeled placeholders in brackets (e.g., [Customer ID], [Menu Option Number]).\n- Steps must be keyboard-input focused, showing exactly what the user types or which key they press.\n- Do not include internal or technical details from the recording (such as host states, call stacks, database IDs, or implementation details).\n- Always assume the workflow starts from the Db2 Admin main menu.\n\nOutput requirements:\n- Produce a numbered list of steps.\n- Each step must be either:\n  - A constant step: Press [Key] or Type \"literal value\" (no placeholders), or\n  - A variable step: Type [Placeholder], where the placeholder name clearly describes what the user must provide.\n\nVerification checklist:\n- No literal data values from the recording appear in the steps (e.g., specific IDs or names).\n- Every placeholder is descriptive enough for a new user to understand what to enter.\n- Following the steps with real values substituted would reproduce the same workflow outcome.",
+  "user": "Given the following recorded IBM i terminal session file, generate reusable step-by-step keyboard navigation instructions as described above.\n\n{{view_rows.txt}}"
+}
+
+RESPONSE:
+# Reusable Step-by-Step Navigation Instructions: View Table Rows in DB2 Admin
+
+**Starting point:** DB2 Admin Main Menu
+
+---
+
+## Steps
+
+1. At the **DB2 Administration Menu**, type `1` and press **Enter** to select **DB2 system catalog**.
+
+2. At the **System Catalog - Objects** screen, type `D` in the **Option** field and press **Enter** to list databases.
+
+3. At the **Name** filter field, type `[Database Name Pattern]` (e.g., a partial name using wildcards such as `%`) and press **Enter**.
+
+4. On the **Databases** list, locate the target database row. In the **Select** column next to `[Database Name]`, type `T` and press **Enter** to view its tables.
+
+5. On the **Tables, Views, and Aliases** list, locate the target table row. In the **Sel** column next to `[Table Name]`, type `L` and press **Enter** to list its rows.
+
+6. The table data is now displayed. Use the following keys to navigate the rows:
+   - Press **PF8** to scroll **forward** (down) through rows.
+   - Press **PF7** to scroll **backward** (up) through rows.
+
+7. Use the following keys to navigate the columns:
+   - Press **PF11** to scroll **right** through columns.
+   - Press **PF10** to scroll **left** through columns.
+
+8. When finished reviewing the table data, press **PF3** to return to the **Tables, Views, and Aliases** list.
+
+9. Repeat steps 5–8 for any additional tables you wish to view.
+
+10. Press **PF3** to return to the **Databases** list.
+
+11. Press **PF3** to return to the **System Catalog - Objects** screen.
+
+12. Press **PF3** to return to the **DB2 Administration Menu**.
+
+---
+
+## Placeholders Reference
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name Pattern]` | The name or wildcard pattern (e.g., `ABC%`) used to filter the database list |
+| `[Database Name]` | The specific database containing the table you want to view |
+| `[Table Name]` | The specific table whose rows you want to display |
+
+NOTE: Wrong again. Seems changing prompting method flipped view_rows and view_columns, both having the other's issue. 

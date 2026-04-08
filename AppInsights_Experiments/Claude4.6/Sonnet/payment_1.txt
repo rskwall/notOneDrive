@@ -1,0 +1,33 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## LegaSuite Demo Session Overview
+
+This is an IBM i (AS/400) 5250 terminal session recording for the **LEGADEMO** application. Here's the workflow:
+
+1. **Login** (Ordinal 3) — User types `legademo` at the IBM i Main Menu command line and presses Enter.
+
+2. **Introduction Screen** (Ordinal 5) — An intro/disclaimer screen appears (`INTRO-F000`). User presses Enter to continue.
+
+3. **LegaSuite Main Menu** (Ordinal 7) — User selects option **2 (Customer Payments)**.
+
+4. **Customer Payments - Enter Customer** (Ordinal 9) — User enters customer number **1024**.
+
+5. **Customer Payments - Enter Order** (Ordinal 11) — Customer info for *Warren G. Harding* is displayed. User enters order number **40005**.
+
+6. **Customer Payments - Enter Amount** (Ordinal 13) — Order details shown (amount: $2,845.01). User enters payment of **$2,000.00**.
+
+7. **Payment Confirmation** (Ordinal 15) — A confirmation window appears. User confirms with Enter.
+
+8. **Return to Main Menu → Order Entry** (Ordinal 21) — User selects option **6**, enters order **40005**, receives error: *"Order already invoiced."*
+
+9. **Return to Main Menu → Delivered Orders** (Ordinal 33) — User selects option **7**, enters order **40005**, same error: *"Order already invoiced."*
+
+10. **Return to Main Menu → View Customer Turnover** (Ordinal 27) — User selects option **9**, enters customer range **1024–1025**, views turnover report (all zeros).
+
+11. **Invalid Menu Selection** (Ordinal 37) — User enters **5** (not a valid option), gets validation error.
+
+12. **Maintain Customers** (Ordinal 39/41) — User selects option **1**, enters customer **1024**, views *Warren G. Harding*'s record showing open amount of **-$2,000.00** (reflecting the payment).
+
+13. **Sign Off** (Ordinal 45) — User selects option **90** to sign off.

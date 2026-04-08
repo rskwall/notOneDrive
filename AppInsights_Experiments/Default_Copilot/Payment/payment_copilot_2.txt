@@ -1,0 +1,1 @@
+I hit the character limit in 365, so I tried to use Claude in VSCode to make new steps. It started just changing the text file with the workflow instead, so I gave up on that one.

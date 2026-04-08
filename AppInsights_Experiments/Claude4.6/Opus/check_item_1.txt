@@ -1,0 +1,72 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display.
+
+RESPONSE:
+## Overview of the File
+
+This file is a **recorded session trace** of a user interacting with an **IBM i (AS/400) 5250 green-screen terminal application** called **LegaSuite DEMO (LEGADEMO)**. It captures each host screen state, the user's keystrokes/field modifications, call stacks, open files, and serialized screen models in a structured diagnostic format.
+
+---
+
+## Step-by-Step Workflow
+
+### Step 1 — IBM i Main Menu (Ordinal 2–3)
+- The user starts at the **IBM i Main Menu** (`QDUI80` / QSYS system display file).
+- The screen shows the standard IBM i menu with options like "User tasks", "Office tasks", "Sign off", etc.
+- **User action:** Types `"legademo"` into the command line (row 20, column 7) and presses **Enter** to launch the LEGADEMO application.
+
+### Step 2 — LegaSuite DEMO Introduction Screen (Ordinal 4–5)
+- The application launches and displays an **introduction/welcome panel** (`INTRO` display file from the `LEGADEMO` library).
+- The screen explains this is a demo application meant to showcase LegaSuite product capabilities.
+- Available keys: F3=Exit, F12=Cancel.
+- **User action:** Presses **Enter** to proceed past the introduction.
+
+### Step 3 — LegaSuite DEMO Main Menu (Ordinal 6–7)
+- The **LEGADEMO main menu** appears (`LEGDEMO1D` / record format `MENUR`), offering options:
+  1. Maintain Customers, 2. Customer Payments, 3. Maintain Items, 4. Incoming Stock, 6. Order Entry, 7. Delivered Orders, 9/10. View Turn over, 80. End of year, 90. Sign off.
+- **User action:** Types `"3"` (Maintain Items) and presses **Enter**.
+
+### Step 4 — Maintain Items: Item Number Entry (Ordinal 8–9)
+- The **Item Maintenance screen** appears (`ITEMD` display file, record format `F000`), prompting for an **Item Number**.
+- Available keys: F3=Exit, F4=Prompt, F6=Add, F12=Cancel, F14=Search description.
+- **User action:** Presses **F4 (Prompt)** to open a selection list instead of entering a number directly.
+
+### Step 5 — Item Selection Window (Ordinal 10–11)
+- A **pop-up window** ("Select Item") appears as a subfile (`*WINDOW` / `*SFL` / `*SFLCTL` record formats), listing items from the `ITEM` physical file via `ITEMLF` logical file.
+- Items displayed include: 1003 (test), 1102 (Beer), 1103–1106 (various Sweaters S), 1185 (test), 1201–1205 (various Sweaters L), with "More..." indicating additional records.
+- **User action:** Presses **F3 (Exit)** to close the selection window without selecting an item.
+
+### Step 6 — Return to LEGADEMO Main Menu (Ordinal 12–13)
+- The user is returned to the **LEGADEMO main menu**.
+- **User action:** Types `"3"` again and presses **Enter** to re-enter Maintain Items.
+
+### Step 7 — Maintain Items: Enter Item Number Directly (Ordinal 14–15)
+- The **Item Maintenance screen** appears again (blank item number field).
+- **User action:** Types item number `"1201"` and presses **Enter**.
+
+### Step 8 — Item Detail View (Ordinal 16–17)
+- The **Item Detail screen** (`F100` record format) displays details for **Item 1201**:
+  - Description: **Black Sweater L - LegaSuite**
+  - Price: **49.95**
+  - Currently in Stock: **45**
+  - Turn Over this Year: **.00**
+- Available keys: F3=Exit, F12=Cancel, F23=Delete.
+- **User action:** Changes the **Item Price from 49.95 to 59.95** and presses **Enter** to save.
+
+### Step 9 — Return to Item Number Entry (Ordinal 18–19)
+- After the update, the user returns to the **blank Item Maintenance entry screen**.
+- **User action:** Types `"1201"` again and presses **Enter** to verify the change.
+
+### Step 10 — Verify Price Change (Ordinal 20–21)
+- The **Item Detail screen** for item 1201 now shows the **updated price: 59.95**, confirming the change was saved successfully.
+- **User action:** Presses **F3 (Exit)** to leave item maintenance.
+
+### Step 11 — Return to Main Menu & Sign Off (Ordinal 22–23)
+- The user returns to the **LEGADEMO main menu**.
+- **User action:** Types `"90"` (Sign off) and presses **Enter** to end the session.
+
+---
+
+## Summary
+
+The workflow demonstrates a complete **item price update scenario**: navigating into the LEGADEMO application → browsing items via prompt → directly looking up item 1201 → changing its price from **$49.95 to $59.95** → verifying the update → signing off. The trace also captures detailed system internals (call stacks, open files, display file record formats, screen serialization) at each step.

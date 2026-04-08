@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo version="1.1.2" buildnumber="1.0" exename="Host Picture Builder" exeversion="2.5.2"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout_version="1.1.2" application="collector" application_version="5.0" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000033" library="LEGADEMO" member_name="ORDENTD" message_line_y="23" originator="PictureBuilderMoaxWriter">
+        <size cx="80" cy="24"/>
+        <action key="f3"/>
+        <action key="f4"/>
+        <action key="f12"/>
+        <action key="f14"/>
+        <action key="print"/>
+        <action key="enter"/>
+        <field name="F010" field_type="screen_part">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="23"/>
+            </area>
+            <field name="ORD0001" value="LegaSuite DEMO - Order Entry" data_type="alphanumeric" data_length="28" display_length="28" field_type="msgid_text">
+                <area>
+                    <position x="26" y="0"/>
+                    <size cx="28" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+            <field value="ORDENTRY-F010" data_length="13" display_length="13" field_type="fixed_text">
+                <area>
+                    <position x="66" y="0"/>
+                    <size cx="13" cy="1"/>
+                </area>
+            </field>
+            <field name="ORD0003" value="Order Number . . . . :" data_type="alphanumeric" data_length="22" display_length="22" field_type="msgid_text">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="22" cy="1"/>
+                </area>
+            </field>
+            <field name="ORDNR" data_type="zoned_decimal" data_length="6" display_length="6" usage="output" field_type="field">
+                <area>
+                    <position x="26" y="2"/>
+                    <size cx="6" cy="1"/>
+                </area>
+            </field>
+            <field name="ORD0004" value="Order Date . . . . :" data_type="alphanumeric" data_length="20" display_length="20" field_type="msgid_text">
+                <area>
+                    <position x="38" y="2"/>
+                    <size cx="20" cy="1"/>
+                </area>
+            </field>
+            <field name="ORDDAT" data_type="zoned_decimal" data_length="8" display_length="8" usage="output" field_type="field">
+                <area>
+                    <position x="61" y="2"/>
+                    <size cx="8" cy="1"/>
+                </area>
+            </field>
+            <field name="ORD0009" value="Customer Number  . . ." data_type="alphanumeric" data_length="22" display_length="22" field_type="msgid_text">
+                <area>
+                    <position x="1" y="3"/>
+                    <size cx="22" cy="1"/>
+                </area>
+            </field>
+            <field name="ORDCUS" underline="true" data_type="zoned_decimal" data_length="6" display_length="6" usage="both" lowercase="true" field_type="field">
+                <area>
+                    <position x="26" y="3"/>
+                    <size cx="6" cy="1"/>
+                </area>
+            </field>
+            <field name="KEY0003" value="F3=Exit" data_type="alphanumeric" data_length="7" display_length="7" field_type="msgid_text">
+                <area>
+                    <position x="1" y="22"/>
+                    <size cx="7" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0004" value="F4=Prompt" data_type="alphanumeric" data_length="9" display_length="9" field_type="msgid_text">
+                <area>
+                    <position x="11" y="22"/>
+                    <size cx="9" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0012" value="F12=Cancel" data_type="alphanumeric" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="23" y="22"/>
+                    <size cx="10" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0014" value="F14=Search Name" data_type="alphanumeric" data_length="15" display_length="15" field_type="msgid_text">
+                <area>
+                    <position x="36" y="22"/>
+                    <size cx="15" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+        </field>
+        <field field_type="screen_part">
+            <field value="No selection found" data_length="78" display_length="78" field_type="errmsgid_text" conditional="true">
+                <area>
+                    <position x="1" y="23"/>
+                    <size cx="78" cy="1"/>
+                </area>
+                <indicator id="30"/>
+            </field>
+            <field value="Customer not found" data_length="78" display_length="78" field_type="errmsgid_text" conditional="true">
+                <area>
+                    <position x="1" y="23"/>
+                    <size cx="78" cy="1"/>
+                </area>
+                <indicator id="32"/>
+            </field>
+        </field>
+    </screen>
+</header>

@@ -1,0 +1,21 @@
+PROMPT: Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+I see a recorded IBM i terminal workflow for updating an item in the LegaSuite demo.
+
+The user starts on the IBM i Main Menu and enters legademo.
+
+An introduction screen appears, and the user presses Enter to continue.
+
+The LegaSuite demo main menu appears, and the user selects 3 for Maintain Items.
+
+The Maintain Items screen opens. The user first opens the item search/list window with F4.
+
+The popup shows item numbers and descriptions, including item 1201. The user exits that list.
+
+Back on the Maintain Items screen, the user manually enters item 1201.
+
+The item detail screen opens for Black Sweater L - LegaSuite, showing price 49.95 and stock 45.
+
+The user changes the price from 49.95 to 59.95, and the refreshed detail screen shows the new value.
+
+The user exits back to the LegaSuite menu and enters 90 to sign off. The file ends right after that input, so the actual sign-off result is not shown.

@@ -1,0 +1,11 @@
+PROMPT:
+Can you give me the steps to check another order? The order ID is 20001. Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to Look Up Order 20001
+
+1. Type `7`, press **Enter**
+2. Press **F4**
+3. Type `1` next to **20001 / Jan Klaassen** (row 12), press **Enter**
+
+NOTE: Perfect.

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo version="1.1.2" buildnumber="1.0" exename="Host Picture Builder" exeversion="2.5.2"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout_version="1.1.2" application="collector" application_version="5.0" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000024" library="LEGADEMO" member_name="LEGDEMO1D" message_line_y="7" originator="PictureBuilderMoaxWriter">
+        <size cx="80" cy="24"/>
+        <action key="f3"/>
+        <action key="f12"/>
+        <action key="print"/>
+        <action key="enter"/>
+        <field field_type="window" window_type="fixed_position_generated_border">
+            <area>
+                <position x="35" y="7"/>
+                <size cx="44" cy="10"/>
+            </area>
+            <window_border border_characters="        " reverse_image="true">
+                <color foreground="blue"/>
+            </window_border>
+            <field field_type="window_border">
+                <field reverse_image="true" value="                                            " data_length="44" display_length="44" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="0"/>
+                        <size cx="44" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="1"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="1"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="2"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="2"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="3"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="3"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="4"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="4"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="5"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="5"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="6"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="6"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="7"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="7"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="8"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="8"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value="                                            " data_length="44" display_length="44" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="9"/>
+                        <size cx="44" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+            </field>
+            <field name="DBWARN" field_type="screen_part">
+                <field value="DBWARN" data_length="6" display_length="6" field_type="fixed_text">
+                    <area>
+                        <position x="36" y="1"/>
+                        <size cx="6" cy="1"/>
+                    </area>
+                </field>
+                <field name="WARN1" value="Are you sure you want to reset" data_type="alphanumeric" data_length="30" display_length="30" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="2"/>
+                        <size cx="30" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+                <field name="WARN2" value="application data?(Y/N)" data_type="alphanumeric" data_length="30" display_length="30" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="3"/>
+                        <size cx="30" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+                <field value="===&gt;" data_length="4" display_length="4" field_type="fixed_text">
+                    <area>
+                        <position x="3" y="5"/>
+                        <size cx="4" cy="1"/>
+                    </area>
+                </field>
+                <field name="RESPONSE" underline="true" data_type="alphanumeric" data_length="1" display_length="1" usage="input" field_type="field">
+                    <area>
+                        <position x="8" y="5"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                </field>
+                <field name="KEY0003" value="F3=Exit" data_type="alphanumeric" data_length="7" display_length="7" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="7"/>
+                        <size cx="7" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field name="KEY0012" value="F12=Cancel" data_type="alphanumeric" data_length="10" display_length="10" field_type="msgid_text">
+                    <area>
+                        <position x="12" y="7"/>
+                        <size cx="10" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+            </field>
+            <field field_type="screen_part">
+                <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="40" display_length="40" usage="output" field_type="field" conditional="true">
+                    <area>
+                        <position x="2" y="8"/>
+                        <size cx="40" cy="1"/>
+                    </area>
+                </field>
+            </field>
+        </field>
+    </screen>
+</header>

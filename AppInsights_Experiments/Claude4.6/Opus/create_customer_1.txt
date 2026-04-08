@@ -1,0 +1,35 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Workflow Description: Create a Customer in LegaSuite DEMO
+
+This file captures a recorded green-screen (5250) terminal session on an IBM i system. Here are the steps:
+
+1. **Launch LEGADEMO** — From the IBM i Main Menu, the user types `LEGADEMO` in the command line and presses Enter.
+
+2. **Dismiss Intro Screen** — An introductory/welcome panel is displayed; the user presses Enter to continue.
+
+3. **Select "Maintain Customers"** — From the LegaSuite DEMO main menu, the user enters option `1`.
+
+4. **Add New Customer (F6)** — On the Maintain Customers screen, the user types customer number `1040` and presses **F6 (Add)** to create a new customer.
+
+5. **Fill in Customer Details** — On the new customer form, the user enters:
+   - **Name:** Abraham Lincoln
+   - **Address:** 2828 W Street St.
+   - **City:** Benton
+   - **Zip:** 72727
+   - **Country:** United States
+   - **Credit Limit:** 10250
+   
+   Then presses Enter to save.
+
+6. **Verify via Customer List (F4)** — Back on the Maintain Customers screen, the user presses **F4 (Prompt)** to open the customer selection list, then pages down (**RollUp** ×3) to confirm customer 1040 "Abraham Lincoln" now appears at the bottom of the list.
+
+7. **Exit the Application** — The user presses **F3 (Exit)** repeatedly through each screen (customer list → maintain customers → LEGADEMO menu → intro screen) back to the IBM i Main Menu.
+
+8. **Sign Off** — The user enters `90` on the Main Menu to sign off.
+
+**In summary:** The workflow creates a new customer record (#1040, Abraham Lincoln), verifies it exists in the customer list, then exits and signs off.
+
+NOTE: Much better.

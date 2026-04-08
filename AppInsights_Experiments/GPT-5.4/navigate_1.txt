@@ -1,0 +1,23 @@
+PROMPT: Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+Start on the IBM i Main Menu, briefly enter User Tasks, then back out.
+
+Type the command legademo to launch the LegaSuite demo, pass the intro screen, and land on the demo main menu.
+
+Open Maintain Customers, search/select customer 1001 Rocket Insurance, view details, and change the city to Bentonville.
+
+Open Customer Payments, select the same customer, and verify the updated city appears there.
+
+Open Maintain Items, search/select item 1102 Beer, and view its item details.
+
+Open Incoming Stock, select item 1102, and view the stock-in screen for that item.
+
+Open Order Entry, select order 10004 for Andrew Jackson, and review its line items, quantities, prices, discounts, and total.
+
+Open Delivered Orders, select order 10002 for Zachary Taylor, and review delivered-order details. An attempt to use F4 on the detail screen is rejected.
+
+Open Customer Turn Over, choose customers 1001 through 1013, and display an overview report; all turnover values shown are .00.
+
+Open Item Turn Over, choose items 1003 through 1205, and display an overview report; all turnover values shown are .00. An F4 attempt on the report is also rejected.
+
+Open End of Year Procedure, confirm with Enter, return to the main menu, then enter 90 to sign off. The resulting sign-off screen is not shown because the file ends there.

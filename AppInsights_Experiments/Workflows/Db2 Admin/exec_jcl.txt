@@ -1,0 +1,1919 @@
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | IKJ56476I ENTER PASSWORD:                                                      |
+  1      |                                                                                |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 10    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+------------+
+    | Row | Column | Modification qualifier | Value      |
+    +-----+--------+------------------------+------------+
+    | 2   | 2      | DIFFERENT              | "********" |
+    +-----+--------+------------------------+------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | ------------------------------- TSO/E LOGON -----------------------------------|
+  1      |                                                                                |
+  2      |                                                                                |
+  3      |    Enter LOGON parameters below:                   RACF LOGON parameters:      |
+  4      |                                                                                |
+  5      |    Userid    ===> USER12                           Seclabel     ===>           |
+  6      |                                                                                |
+  7      |    Password  ===>                                                              |
+  8      |                                                                                |
+  9      |    Procedure ===> ROCKPROC                         Group Ident  ===>           |
+ 10      |                                                                                |
+ 11      |    Acct Nmbr ===> ACCT#                                                        |
+ 12      |                                                                                |
+ 13      |    Size      ===> 400000                                                       |
+ 14      |                                                                                |
+ 15      |    Perform   ===>                                                              |
+ 16      |                                                                                |
+ 17      |    Command   ===> RSISPF                                                       |
+ 18      |                                                                                |
+ 19      |    Enter an 'S' before each option desired below:                              |
+ 20      |    -New Password    -Nomail    -Nonotice  S -Reconnect    -OIDcard             |
+ 21      |                                                                                |
+ 22      | PF1/PF13 ==> Help    PF3/PF15 ==> Logoff    PA1 ==> Attention    PA2 ==> Reshow|
+ 23      | You may request specific help information by entering a '?' in any entry field |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 20    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | ICH70001I USER12   LAST ACCESS AT 11:59:49 ON FRIDAY, APRIL 3, 2026            |
+  1      | USER12 LOGON IN PROGRESS AT 12:01:53 ON APRIL 3, 2026                          |
+  2      | NO BROADCAST MESSAGES                                                          |
+  3      | Existing image specific profile found.                                         |
+  4      | Allocating profile dataset: USER12.HL02.ISPPROF                                |
+  5      | Allocating profile dataset TO ISPTABL: USER12.HL02.ISPPROF                     |
+  6      | Allocating temporary datasets.                                                 |
+  7      | Allocating list and log datasets.                                              |
+  8      | RSISPF                                                                         |
+  9      | ***                                                                            |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 6     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Query Reply:
+    +-----------------------+---------+
+    | Item                  | Value   |
+    +-----------------------+---------+
+    | Default screen        | 80 x 24 |
+    | Alternate screen      | 80 x 24 |
+    | Use 16-bit addressing | true    |
+    | CCSID                 | 37      |
+    +-----------------------+---------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      |                                            More:     +                         |
+  4      | 0  Settings      Terminal and user parameters            User ID . : USER12    |
+  5      | 1  View          Display source data or listings         Time. . . : 12:01     |
+  6      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  7      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  8      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+  9      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 10      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 11      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER12    |
+ 12      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 13      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 14      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 15      |EssssssssssssssssssssssssssssssssssssssssssssssN                                |
+ 16      |e Licensed Materials - Property of IBM         e                                |
+ 17      |e 5650-ZOS     Copyright IBM Corp. 1980, 2021. e                                |
+ 18      |e US Government Users Restricted Rights -      e                                |
+ 19      |e Use, duplication or disclosure restricted    e                                |
+ 20      |e by GSA ADP Schedule Contract with IBM Corp.  e ity                            |
+ 21      |DssssssssssssssssssssssssssssssssssssssssssssssM                                |
+ 22      | Option ===>                                                                    |
+ 23      |   *ISR@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 14    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      |                                            More:     +                         |
+  4      | 0  Settings      Terminal and user parameters            User ID . : USER12    |
+  5      | 1  View          Display source data or listings         Time. . . : 12:01     |
+  6      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  7      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  8      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+  9      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 10      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 11      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER12    |
+ 12      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 13      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 14      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 15      | 11 Workplace     ISPF Object/Action Workplace                                  |
+ 16      | D  DB2           DB2 Products                                                  |
+ 17      | IT IMS Tools     IMS Tools                                                     |
+ 18      | I  IBM           IBM Program Products                                          |
+ 19      | RS Rocket        Products written by Rocket                                    |
+ 20      | S  SDSF          System Display and Search Facility                            |
+ 21      |                                                                                |
+ 22      | Option ===>                                                                    |
+ 23      |   *ISR@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 17    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 23  | 14     | DIFFERENT              | "3.4                                                               " |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  RefList  RefMode  Utilities  Help                                      |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                             Data Set List Utility                              |
+  3      |                                                                    More:     + |
+  4      |    blank Display data set list               P Print data set list             |
+  5      |        V Display VTOC information           PV Print VTOC information          |
+  6      |                                                                                |
+  7      | Enter one or both of the parameters below:                                     |
+  8      |    Dsname Level . . . USER12.CAPS                                              |
+  9      |    Volume serial  . .                                                          |
+ 10      |                                                                                |
+ 11      | Data set list options                                                          |
+ 12      |    Initial View                 Enter "/" to select option                     |
+ 13      |    1  1. Volume                 /  Confirm Data Set Delete                     |
+ 14      |       2. Space                  /  Confirm Member Delete                       |
+ 15      |       3. Attrib                 /  Include Additional Qualifiers               |
+ 16      |       4. Total                  /  Display Catalog Name                        |
+ 17      |                                    Display Total Tracks                        |
+ 18      |                                    Prefix Dsname Level                         |
+ 19      |                                                                                |
+ 20      | When the data set list is displayed, enter either:                             |
+ 21      |   "/" on the data set list command field for the command prompt pop-up,        |
+ 22      | Option ===>                                                                    |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 14    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Options  View  Utilities  Compilers  Help                              |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      | DSLIST - Data Sets Matching USER12.CAPS                             Row 1 of 5 |
+  3      |                                                                                |
+  4      | Command - Enter "/" to select action                  Message           Volume |
+  5      | -------------------------------------------------------------------------------|
+  6      |          USER12.CAPS.DDL                                                SS0001 |
+  7      |          USER12.CAPS.GEN                                                SS0001 |
+  8      |          USER12.CAPS.JCL                                                SS0001 |
+  9      |          USER12.CAPS.TEST                                               SS0001 |
+ 10      |          USER12.CAPS.TEST2                                              SS0001 |
+ 11      | ***************************** End of Data Set list ****************************|
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 7     |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+---------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                   |
+    +-----+--------+------------------------+---------------------------------------------------------+
+    | 7   | 2      | DIFFERENT              | " B       USER12.CAPS.DDL                             " |
+    +-----+--------+------------------------+---------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Functions  Confirm  Utilities  Help                                    |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      | BROWSE            USER12.CAPS.DDL                       Row 0000001 of 0000001 |
+  3      |            Name     Prompt       Size   Created          Changed          ID   |
+  4      | _________ CREATE                  121  2026/04/03  2026/04/03 11:58:36 USER12  |
+  5      |           **End**                                                              |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 5     |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+-------------+
+    | Row | Column | Modification qualifier | Value       |
+    +-----+--------+------------------------+-------------+
+    | 5   | 2      | DIFFERENT              | "_E_______" |
+    +-----+--------+------------------------+-------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | ****** ***************************** Top of Data ******************************|
+  4      | 000001 //USER12A JOB ,CLASS=A,MSGCLASS=X,REGION=0M,                            |
+  5      | 000002 //  NOTIFY=&SYSUID                                                      |
+  6      | 000003 //* *------------------------------------------------------------------*|
+  7      | 000004 //*                                                                     |
+  8      | 000005 //STEP0020 EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+  9      | 000006 //STEPLIB  DD   DISP=SHR,DSN=HL2D.SDSNEXIT                              |
+ 10      | 000007 //         DD   DISP=SHR,DSN=DSN.VD10.SDSNLOAD                          |
+ 11      | 000008 //         DD   DISP=SHR,DSN=DSN.VD10.RUNLIB.LOAD                       |
+ 12      | 000009 //SYSTSPRT DD  SYSOUT=*                                                 |
+ 13      | 000010 //SYSPRINT DD  SYSOUT=*                                                 |
+ 14      | 000011 //SYSUDUMP DD  SYSOUT=*                                                 |
+ 15      | 000012 //SYSTSIN  DD  *                                                        |
+ 16      | 000013   DSN SYSTEM(HL2D)                                                      |
+ 17      | 000014   RUN PROGRAM(DSNTEP2)  PLAN(DSNTEP2) -                                 |
+ 18      | 000015        LIB('DSN.VD10.RUNLIB.LOAD')                                      |
+ 19      | 000016   END                                                                   |
+ 20      | 000017 //SYSIN    DD  *                                                        |
+ 21      | 000018 CREATE DATABASE VILNIUS                                                 |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000003 //* *------------------------------------------------------------------*|
+  4      | 000004 //*                                                                     |
+  5      | 000005 //STEP0020 EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+  6      | 000006 //STEPLIB  DD   DISP=SHR,DSN=HL2D.SDSNEXIT                              |
+  7      | 000007 //         DD   DISP=SHR,DSN=DSN.VD10.SDSNLOAD                          |
+  8      | 000008 //         DD   DISP=SHR,DSN=DSN.VD10.RUNLIB.LOAD                       |
+  9      | 000009 //SYSTSPRT DD  SYSOUT=*                                                 |
+ 10      | 000010 //SYSPRINT DD  SYSOUT=*                                                 |
+ 11      | 000011 //SYSUDUMP DD  SYSOUT=*                                                 |
+ 12      | 000012 //SYSTSIN  DD  *                                                        |
+ 13      | 000013   DSN SYSTEM(HL2D)                                                      |
+ 14      | 000014   RUN PROGRAM(DSNTEP2)  PLAN(DSNTEP2) -                                 |
+ 15      | 000015        LIB('DSN.VD10.RUNLIB.LOAD')                                      |
+ 16      | 000016   END                                                                   |
+ 17      | 000017 //SYSIN    DD  *                                                        |
+ 18      | 000018 CREATE DATABASE VILNIUS                                                 |
+ 19      | 000019     STOGROUP SYSDEFLT                                                   |
+ 20      | 000020     BUFFERPOOL BP0                                                      |
+ 21      | 000021     INDEXBP BP0                                                         |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000006 //STEPLIB  DD   DISP=SHR,DSN=HL2D.SDSNEXIT                              |
+  4      | 000007 //         DD   DISP=SHR,DSN=DSN.VD10.SDSNLOAD                          |
+  5      | 000008 //         DD   DISP=SHR,DSN=DSN.VD10.RUNLIB.LOAD                       |
+  6      | 000009 //SYSTSPRT DD  SYSOUT=*                                                 |
+  7      | 000010 //SYSPRINT DD  SYSOUT=*                                                 |
+  8      | 000011 //SYSUDUMP DD  SYSOUT=*                                                 |
+  9      | 000012 //SYSTSIN  DD  *                                                        |
+ 10      | 000013   DSN SYSTEM(HL2D)                                                      |
+ 11      | 000014   RUN PROGRAM(DSNTEP2)  PLAN(DSNTEP2) -                                 |
+ 12      | 000015        LIB('DSN.VD10.RUNLIB.LOAD')                                      |
+ 13      | 000016   END                                                                   |
+ 14      | 000017 //SYSIN    DD  *                                                        |
+ 15      | 000018 CREATE DATABASE VILNIUS                                                 |
+ 16      | 000019     STOGROUP SYSDEFLT                                                   |
+ 17      | 000020     BUFFERPOOL BP0                                                      |
+ 18      | 000021     INDEXBP BP0                                                         |
+ 19      | 000022     CCSID EBCDIC;                                                       |
+ 20      | 000023                                                                         |
+ 21      | 000024 CREATE TABLE BASEPRICE (                                                |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000009 //SYSTSPRT DD  SYSOUT=*                                                 |
+  4      | 000010 //SYSPRINT DD  SYSOUT=*                                                 |
+  5      | 000011 //SYSUDUMP DD  SYSOUT=*                                                 |
+  6      | 000012 //SYSTSIN  DD  *                                                        |
+  7      | 000013   DSN SYSTEM(HL2D)                                                      |
+  8      | 000014   RUN PROGRAM(DSNTEP2)  PLAN(DSNTEP2) -                                 |
+  9      | 000015        LIB('DSN.VD10.RUNLIB.LOAD')                                      |
+ 10      | 000016   END                                                                   |
+ 11      | 000017 //SYSIN    DD  *                                                        |
+ 12      | 000018 CREATE DATABASE VILNIUS                                                 |
+ 13      | 000019     STOGROUP SYSDEFLT                                                   |
+ 14      | 000020     BUFFERPOOL BP0                                                      |
+ 15      | 000021     INDEXBP BP0                                                         |
+ 16      | 000022     CCSID EBCDIC;                                                       |
+ 17      | 000023                                                                         |
+ 18      | 000024 CREATE TABLE BASEPRICE (                                                |
+ 19      | 000025     PRICEID       INTEGER       NOT NULL,                               |
+ 20      | 000026     NAME          VARCHAR(100),                                         |
+ 21      | 000027     PRICE         DECIMAL(10,2),                                        |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000012 //SYSTSIN  DD  *                                                        |
+  4      | 000013   DSN SYSTEM(HL2D)                                                      |
+  5      | 000014   RUN PROGRAM(DSNTEP2)  PLAN(DSNTEP2) -                                 |
+  6      | 000015        LIB('DSN.VD10.RUNLIB.LOAD')                                      |
+  7      | 000016   END                                                                   |
+  8      | 000017 //SYSIN    DD  *                                                        |
+  9      | 000018 CREATE DATABASE VILNIUS                                                 |
+ 10      | 000019     STOGROUP SYSDEFLT                                                   |
+ 11      | 000020     BUFFERPOOL BP0                                                      |
+ 12      | 000021     INDEXBP BP0                                                         |
+ 13      | 000022     CCSID EBCDIC;                                                       |
+ 14      | 000023                                                                         |
+ 15      | 000024 CREATE TABLE BASEPRICE (                                                |
+ 16      | 000025     PRICEID       INTEGER       NOT NULL,                               |
+ 17      | 000026     NAME          VARCHAR(100),                                         |
+ 18      | 000027     PRICE         DECIMAL(10,2),                                        |
+ 19      | 000028     IMAGELINK     VARCHAR(255),                                         |
+ 20      | 000029     PRIMARY KEY (PRICEID)                                               |
+ 21      | 000030 )                                                                       |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000015        LIB('DSN.VD10.RUNLIB.LOAD')                                      |
+  4      | 000016   END                                                                   |
+  5      | 000017 //SYSIN    DD  *                                                        |
+  6      | 000018 CREATE DATABASE VILNIUS                                                 |
+  7      | 000019     STOGROUP SYSDEFLT                                                   |
+  8      | 000020     BUFFERPOOL BP0                                                      |
+  9      | 000021     INDEXBP BP0                                                         |
+ 10      | 000022     CCSID EBCDIC;                                                       |
+ 11      | 000023                                                                         |
+ 12      | 000024 CREATE TABLE BASEPRICE (                                                |
+ 13      | 000025     PRICEID       INTEGER       NOT NULL,                               |
+ 14      | 000026     NAME          VARCHAR(100),                                         |
+ 15      | 000027     PRICE         DECIMAL(10,2),                                        |
+ 16      | 000028     IMAGELINK     VARCHAR(255),                                         |
+ 17      | 000029     PRIMARY KEY (PRICEID)                                               |
+ 18      | 000030 )                                                                       |
+ 19      | 000031 IN DATABASE VILNIUS;                                                    |
+ 20      | 000032                                                                         |
+ 21      | 000033 CREATE TABLE INVENTORY (                                                |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000018 CREATE DATABASE VILNIUS                                                 |
+  4      | 000019     STOGROUP SYSDEFLT                                                   |
+  5      | 000020     BUFFERPOOL BP0                                                      |
+  6      | 000021     INDEXBP BP0                                                         |
+  7      | 000022     CCSID EBCDIC;                                                       |
+  8      | 000023                                                                         |
+  9      | 000024 CREATE TABLE BASEPRICE (                                                |
+ 10      | 000025     PRICEID       INTEGER       NOT NULL,                               |
+ 11      | 000026     NAME          VARCHAR(100),                                         |
+ 12      | 000027     PRICE         DECIMAL(10,2),                                        |
+ 13      | 000028     IMAGELINK     VARCHAR(255),                                         |
+ 14      | 000029     PRIMARY KEY (PRICEID)                                               |
+ 15      | 000030 )                                                                       |
+ 16      | 000031 IN DATABASE VILNIUS;                                                    |
+ 17      | 000032                                                                         |
+ 18      | 000033 CREATE TABLE INVENTORY (                                                |
+ 19      | 000034     ITEMID        INTEGER       NOT NULL,                               |
+ 20      | 000035     NAME          VARCHAR(100),                                         |
+ 21      | 000036     DESCRIPTION   VARCHAR(255),                                         |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000021     INDEXBP BP0                                                         |
+  4      | 000022     CCSID EBCDIC;                                                       |
+  5      | 000023                                                                         |
+  6      | 000024 CREATE TABLE BASEPRICE (                                                |
+  7      | 000025     PRICEID       INTEGER       NOT NULL,                               |
+  8      | 000026     NAME          VARCHAR(100),                                         |
+  9      | 000027     PRICE         DECIMAL(10,2),                                        |
+ 10      | 000028     IMAGELINK     VARCHAR(255),                                         |
+ 11      | 000029     PRIMARY KEY (PRICEID)                                               |
+ 12      | 000030 )                                                                       |
+ 13      | 000031 IN DATABASE VILNIUS;                                                    |
+ 14      | 000032                                                                         |
+ 15      | 000033 CREATE TABLE INVENTORY (                                                |
+ 16      | 000034     ITEMID        INTEGER       NOT NULL,                               |
+ 17      | 000035     NAME          VARCHAR(100),                                         |
+ 18      | 000036     DESCRIPTION   VARCHAR(255),                                         |
+ 19      | 000037     FORMAT        VARCHAR(50),                                          |
+ 20      | 000038     POTENCY       INTEGER,                                              |
+ 21      | 000039     REUSABLE      CHAR(1),                                              |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000024 CREATE TABLE BASEPRICE (                                                |
+  4      | 000025     PRICEID       INTEGER       NOT NULL,                               |
+  5      | 000026     NAME          VARCHAR(100),                                         |
+  6      | 000027     PRICE         DECIMAL(10,2),                                        |
+  7      | 000028     IMAGELINK     VARCHAR(255),                                         |
+  8      | 000029     PRIMARY KEY (PRICEID)                                               |
+  9      | 000030 )                                                                       |
+ 10      | 000031 IN DATABASE VILNIUS;                                                    |
+ 11      | 000032                                                                         |
+ 12      | 000033 CREATE TABLE INVENTORY (                                                |
+ 13      | 000034     ITEMID        INTEGER       NOT NULL,                               |
+ 14      | 000035     NAME          VARCHAR(100),                                         |
+ 15      | 000036     DESCRIPTION   VARCHAR(255),                                         |
+ 16      | 000037     FORMAT        VARCHAR(50),                                          |
+ 17      | 000038     POTENCY       INTEGER,                                              |
+ 18      | 000039     REUSABLE      CHAR(1),                                              |
+ 19      | 000040     CATEGORY      VARCHAR(50),                                          |
+ 20      | 000041     PRICE         DECIMAL(10,2),                                        |
+ 21      | 000042     AMOUNT        INTEGER,                                              |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000027     PRICE         DECIMAL(10,2),                                        |
+  4      | 000028     IMAGELINK     VARCHAR(255),                                         |
+  5      | 000029     PRIMARY KEY (PRICEID)                                               |
+  6      | 000030 )                                                                       |
+  7      | 000031 IN DATABASE VILNIUS;                                                    |
+  8      | 000032                                                                         |
+  9      | 000033 CREATE TABLE INVENTORY (                                                |
+ 10      | 000034     ITEMID        INTEGER       NOT NULL,                               |
+ 11      | 000035     NAME          VARCHAR(100),                                         |
+ 12      | 000036     DESCRIPTION   VARCHAR(255),                                         |
+ 13      | 000037     FORMAT        VARCHAR(50),                                          |
+ 14      | 000038     POTENCY       INTEGER,                                              |
+ 15      | 000039     REUSABLE      CHAR(1),                                              |
+ 16      | 000040     CATEGORY      VARCHAR(50),                                          |
+ 17      | 000041     PRICE         DECIMAL(10,2),                                        |
+ 18      | 000042     AMOUNT        INTEGER,                                              |
+ 19      | 000043     BASEINFO      INTEGER,                                              |
+ 20      | 000044     PRIMARY KEY (ITEMID),                                               |
+ 21      | 000045     FOREIGN KEY (BASEINFO)                                              |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000030 )                                                                       |
+  4      | 000031 IN DATABASE VILNIUS;                                                    |
+  5      | 000032                                                                         |
+  6      | 000033 CREATE TABLE INVENTORY (                                                |
+  7      | 000034     ITEMID        INTEGER       NOT NULL,                               |
+  8      | 000035     NAME          VARCHAR(100),                                         |
+  9      | 000036     DESCRIPTION   VARCHAR(255),                                         |
+ 10      | 000037     FORMAT        VARCHAR(50),                                          |
+ 11      | 000038     POTENCY       INTEGER,                                              |
+ 12      | 000039     REUSABLE      CHAR(1),                                              |
+ 13      | 000040     CATEGORY      VARCHAR(50),                                          |
+ 14      | 000041     PRICE         DECIMAL(10,2),                                        |
+ 15      | 000042     AMOUNT        INTEGER,                                              |
+ 16      | 000043     BASEINFO      INTEGER,                                              |
+ 17      | 000044     PRIMARY KEY (ITEMID),                                               |
+ 18      | 000045     FOREIGN KEY (BASEINFO)                                              |
+ 19      | 000046         REFERENCES BASEPRICE (PRICEID)                                  |
+ 20      | 000047 )                                                                       |
+ 21      | 000048 IN DATABASE VILNIUS;                                                    |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000033 CREATE TABLE INVENTORY (                                                |
+  4      | 000034     ITEMID        INTEGER       NOT NULL,                               |
+  5      | 000035     NAME          VARCHAR(100),                                         |
+  6      | 000036     DESCRIPTION   VARCHAR(255),                                         |
+  7      | 000037     FORMAT        VARCHAR(50),                                          |
+  8      | 000038     POTENCY       INTEGER,                                              |
+  9      | 000039     REUSABLE      CHAR(1),                                              |
+ 10      | 000040     CATEGORY      VARCHAR(50),                                          |
+ 11      | 000041     PRICE         DECIMAL(10,2),                                        |
+ 12      | 000042     AMOUNT        INTEGER,                                              |
+ 13      | 000043     BASEINFO      INTEGER,                                              |
+ 14      | 000044     PRIMARY KEY (ITEMID),                                               |
+ 15      | 000045     FOREIGN KEY (BASEINFO)                                              |
+ 16      | 000046         REFERENCES BASEPRICE (PRICEID)                                  |
+ 17      | 000047 )                                                                       |
+ 18      | 000048 IN DATABASE VILNIUS;                                                    |
+ 19      | 000049                                                                         |
+ 20      | 000050 CREATE TABLE CUSTOMER (                                                 |
+ 21      | 000051     CUSTOMERID    INTEGER       NOT NULL,                               |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000036     DESCRIPTION   VARCHAR(255),                                         |
+  4      | 000037     FORMAT        VARCHAR(50),                                          |
+  5      | 000038     POTENCY       INTEGER,                                              |
+  6      | 000039     REUSABLE      CHAR(1),                                              |
+  7      | 000040     CATEGORY      VARCHAR(50),                                          |
+  8      | 000041     PRICE         DECIMAL(10,2),                                        |
+  9      | 000042     AMOUNT        INTEGER,                                              |
+ 10      | 000043     BASEINFO      INTEGER,                                              |
+ 11      | 000044     PRIMARY KEY (ITEMID),                                               |
+ 12      | 000045     FOREIGN KEY (BASEINFO)                                              |
+ 13      | 000046         REFERENCES BASEPRICE (PRICEID)                                  |
+ 14      | 000047 )                                                                       |
+ 15      | 000048 IN DATABASE VILNIUS;                                                    |
+ 16      | 000049                                                                         |
+ 17      | 000050 CREATE TABLE CUSTOMER (                                                 |
+ 18      | 000051     CUSTOMERID    INTEGER       NOT NULL,                               |
+ 19      | 000052     FIRST_NAME    VARCHAR(100),                                         |
+ 20      | 000053     LAST_NAME     VARCHAR(100),                                         |
+ 21      | 000054     EMAIL         VARCHAR(150),                                         |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000039     REUSABLE      CHAR(1),                                              |
+  4      | 000040     CATEGORY      VARCHAR(50),                                          |
+  5      | 000041     PRICE         DECIMAL(10,2),                                        |
+  6      | 000042     AMOUNT        INTEGER,                                              |
+  7      | 000043     BASEINFO      INTEGER,                                              |
+  8      | 000044     PRIMARY KEY (ITEMID),                                               |
+  9      | 000045     FOREIGN KEY (BASEINFO)                                              |
+ 10      | 000046         REFERENCES BASEPRICE (PRICEID)                                  |
+ 11      | 000047 )                                                                       |
+ 12      | 000048 IN DATABASE VILNIUS;                                                    |
+ 13      | 000049                                                                         |
+ 14      | 000050 CREATE TABLE CUSTOMER (                                                 |
+ 15      | 000051     CUSTOMERID    INTEGER       NOT NULL,                               |
+ 16      | 000052     FIRST_NAME    VARCHAR(100),                                         |
+ 17      | 000053     LAST_NAME     VARCHAR(100),                                         |
+ 18      | 000054     EMAIL         VARCHAR(150),                                         |
+ 19      | 000055     PASSWORD      VARCHAR(200),                                         |
+ 20      | 000056     PRIMARY KEY (CUSTOMERID)                                            |
+ 21      | 000057 )                                                                       |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000042     AMOUNT        INTEGER,                                              |
+  4      | 000043     BASEINFO      INTEGER,                                              |
+  5      | 000044     PRIMARY KEY (ITEMID),                                               |
+  6      | 000045     FOREIGN KEY (BASEINFO)                                              |
+  7      | 000046         REFERENCES BASEPRICE (PRICEID)                                  |
+  8      | 000047 )                                                                       |
+  9      | 000048 IN DATABASE VILNIUS;                                                    |
+ 10      | 000049                                                                         |
+ 11      | 000050 CREATE TABLE CUSTOMER (                                                 |
+ 12      | 000051     CUSTOMERID    INTEGER       NOT NULL,                               |
+ 13      | 000052     FIRST_NAME    VARCHAR(100),                                         |
+ 14      | 000053     LAST_NAME     VARCHAR(100),                                         |
+ 15      | 000054     EMAIL         VARCHAR(150),                                         |
+ 16      | 000055     PASSWORD      VARCHAR(200),                                         |
+ 17      | 000056     PRIMARY KEY (CUSTOMERID)                                            |
+ 18      | 000057 )                                                                       |
+ 19      | 000058 IN DATABASE VILNIUS;                                                    |
+ 20      | 000059                                                                         |
+ 21      | 000060 CREATE TABLE CCI (                                                      |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000045     FOREIGN KEY (BASEINFO)                                              |
+  4      | 000046         REFERENCES BASEPRICE (PRICEID)                                  |
+  5      | 000047 )                                                                       |
+  6      | 000048 IN DATABASE VILNIUS;                                                    |
+  7      | 000049                                                                         |
+  8      | 000050 CREATE TABLE CUSTOMER (                                                 |
+  9      | 000051     CUSTOMERID    INTEGER       NOT NULL,                               |
+ 10      | 000052     FIRST_NAME    VARCHAR(100),                                         |
+ 11      | 000053     LAST_NAME     VARCHAR(100),                                         |
+ 12      | 000054     EMAIL         VARCHAR(150),                                         |
+ 13      | 000055     PASSWORD      VARCHAR(200),                                         |
+ 14      | 000056     PRIMARY KEY (CUSTOMERID)                                            |
+ 15      | 000057 )                                                                       |
+ 16      | 000058 IN DATABASE VILNIUS;                                                    |
+ 17      | 000059                                                                         |
+ 18      | 000060 CREATE TABLE CCI (                                                      |
+ 19      | 000061     CCID           INTEGER       NOT NULL,                              |
+ 20      | 000062     NUMBER         BIGINT,                                              |
+ 21      | 000063     SECURITY_CODE  SMALLINT,                                            |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000048 IN DATABASE VILNIUS;                                                    |
+  4      | 000049                                                                         |
+  5      | 000050 CREATE TABLE CUSTOMER (                                                 |
+  6      | 000051     CUSTOMERID    INTEGER       NOT NULL,                               |
+  7      | 000052     FIRST_NAME    VARCHAR(100),                                         |
+  8      | 000053     LAST_NAME     VARCHAR(100),                                         |
+  9      | 000054     EMAIL         VARCHAR(150),                                         |
+ 10      | 000055     PASSWORD      VARCHAR(200),                                         |
+ 11      | 000056     PRIMARY KEY (CUSTOMERID)                                            |
+ 12      | 000057 )                                                                       |
+ 13      | 000058 IN DATABASE VILNIUS;                                                    |
+ 14      | 000059                                                                         |
+ 15      | 000060 CREATE TABLE CCI (                                                      |
+ 16      | 000061     CCID           INTEGER       NOT NULL,                              |
+ 17      | 000062     NUMBER         BIGINT,                                              |
+ 18      | 000063     SECURITY_CODE  SMALLINT,                                            |
+ 19      | 000064     EXPIRATION     VARCHAR(5),                                          |
+ 20      | 000065     PROCESSOR      VARCHAR(20),                                         |
+ 21      | 000066     FIRST_NAME    VARCHAR(100),                                         |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000051     CUSTOMERID    INTEGER       NOT NULL,                               |
+  4      | 000052     FIRST_NAME    VARCHAR(100),                                         |
+  5      | 000053     LAST_NAME     VARCHAR(100),                                         |
+  6      | 000054     EMAIL         VARCHAR(150),                                         |
+  7      | 000055     PASSWORD      VARCHAR(200),                                         |
+  8      | 000056     PRIMARY KEY (CUSTOMERID)                                            |
+  9      | 000057 )                                                                       |
+ 10      | 000058 IN DATABASE VILNIUS;                                                    |
+ 11      | 000059                                                                         |
+ 12      | 000060 CREATE TABLE CCI (                                                      |
+ 13      | 000061     CCID           INTEGER       NOT NULL,                              |
+ 14      | 000062     NUMBER         BIGINT,                                              |
+ 15      | 000063     SECURITY_CODE  SMALLINT,                                            |
+ 16      | 000064     EXPIRATION     VARCHAR(5),                                          |
+ 17      | 000065     PROCESSOR      VARCHAR(20),                                         |
+ 18      | 000066     FIRST_NAME    VARCHAR(100),                                         |
+ 19      | 000067     LAST_NAME     VARCHAR(100),                                         |
+ 20      | 000068     ADDRESS       VARCHAR(150),                                         |
+ 21      | 000069     ADDR_2        VARCHAR(150),                                         |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000054     EMAIL         VARCHAR(150),                                         |
+  4      | 000055     PASSWORD      VARCHAR(200),                                         |
+  5      | 000056     PRIMARY KEY (CUSTOMERID)                                            |
+  6      | 000057 )                                                                       |
+  7      | 000058 IN DATABASE VILNIUS;                                                    |
+  8      | 000059                                                                         |
+  9      | 000060 CREATE TABLE CCI (                                                      |
+ 10      | 000061     CCID           INTEGER       NOT NULL,                              |
+ 11      | 000062     NUMBER         BIGINT,                                              |
+ 12      | 000063     SECURITY_CODE  SMALLINT,                                            |
+ 13      | 000064     EXPIRATION     VARCHAR(5),                                          |
+ 14      | 000065     PROCESSOR      VARCHAR(20),                                         |
+ 15      | 000066     FIRST_NAME    VARCHAR(100),                                         |
+ 16      | 000067     LAST_NAME     VARCHAR(100),                                         |
+ 17      | 000068     ADDRESS       VARCHAR(150),                                         |
+ 18      | 000069     ADDR_2        VARCHAR(150),                                         |
+ 19      | 000070     CITY          VARCHAR(100),                                         |
+ 20      | 000071     STATE         CHAR(2),                                              |
+ 21      | 000072     COUNTRY       VARCHAR(100),                                         |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000057 )                                                                       |
+  4      | 000058 IN DATABASE VILNIUS;                                                    |
+  5      | 000059                                                                         |
+  6      | 000060 CREATE TABLE CCI (                                                      |
+  7      | 000061     CCID           INTEGER       NOT NULL,                              |
+  8      | 000062     NUMBER         BIGINT,                                              |
+  9      | 000063     SECURITY_CODE  SMALLINT,                                            |
+ 10      | 000064     EXPIRATION     VARCHAR(5),                                          |
+ 11      | 000065     PROCESSOR      VARCHAR(20),                                         |
+ 12      | 000066     FIRST_NAME    VARCHAR(100),                                         |
+ 13      | 000067     LAST_NAME     VARCHAR(100),                                         |
+ 14      | 000068     ADDRESS       VARCHAR(150),                                         |
+ 15      | 000069     ADDR_2        VARCHAR(150),                                         |
+ 16      | 000070     CITY          VARCHAR(100),                                         |
+ 17      | 000071     STATE         CHAR(2),                                              |
+ 18      | 000072     COUNTRY       VARCHAR(100),                                         |
+ 19      | 000073     ZIP           VARCHAR(20),                                          |
+ 20      | 000074     CUSTOMERID    INTEGER,                                              |
+ 21      | 000075     PRIMARY KEY (CCID),                                                 |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 18    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                              |
+    +-----+--------+------------------------+----------------------------------------------------+
+    | 23  | 15     | DIFFERENT              | "SUB                                             " |
+    +-----+--------+------------------------+----------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | JOB USER12A(JOB00457) SUBMITTED                                                |
+  1      | ***                                                                            |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 6     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER12.CAPS.DDL(CREATE) - 01.01                 Columns 00001 00072 |
+  3      | 000057 )                                                                       |
+  4      | 000058 IN DATABASE VILNIUS;                                                    |
+  5      | 000059                                                                         |
+  6      | 000060 CREATE TABLE CCI (                                                      |
+  7      | 000061     CCID           INTEGER       NOT NULL,                              |
+  8      | 000062     NUMBER         BIGINT,                                              |
+  9      | 000063     SECURITY_CODE  SMALLINT,                                            |
+ 10      | 000064     EXPIRATION     VARCHAR(5),                                          |
+ 11      | 000065     PROCESSOR      VARCHAR(20),                                         |
+ 12      | 000066     FIRST_NAME    VARCHAR(100),                                         |
+ 13      | 000067     LAST_NAME     VARCHAR(100),                                         |
+ 14      | 000068     ADDRESS       VARCHAR(150),                                         |
+ 15      | 000069     ADDR_2        VARCHAR(150),                                         |
+ 16      | 000070     CITY          VARCHAR(100),                                         |
+ 17      | 000071     STATE         CHAR(2),                                              |
+ 18      | 000072     COUNTRY       VARCHAR(100),                                         |
+ 19      | 000073     ZIP           VARCHAR(20),                                          |
+ 20      | 000074     CUSTOMERID    INTEGER,                                              |
+ 21      | 000075     PRIMARY KEY (CCID),                                                 |
+ 22      | Command ===>                                                  Scroll ===> 0003 |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | 12.02.17 JOB00457 $HASP165 USER12A  ENDED AT N1 MAXCC=0000 CN(INTERNAL)        |
+  1      | ***                                                                            |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 6     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Functions  Confirm  Utilities  Help                                    |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      | BROWSE            USER12.CAPS.DDL                       Row 0000001 of 0000001 |
+  3      |            Name     Prompt       Size   Created          Changed          ID   |
+  4      | _________ CREATE   *Edited        121  2026/04/03  2026/04/03 11:58:36 USER12  |
+  5      |           **End**                                                              |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Options  View  Utilities  Compilers  Help                              |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      | DSLIST - Data Sets Matching USER12.CAPS                     1 Member processed |
+  3      |                                                                                |
+  4      | Command - Enter "/" to select action                  Message           Volume |
+  5      | -------------------------------------------------------------------------------|
+  6      |          USER12.CAPS.DDL                              Browsed           SS0001 |
+  7      |          USER12.CAPS.GEN                                                SS0001 |
+  8      |          USER12.CAPS.JCL                                                SS0001 |
+  9      |          USER12.CAPS.TEST                                               SS0001 |
+ 10      |          USER12.CAPS.TEST2                                              SS0001 |
+ 11      | ***************************** End of Data Set list ****************************|
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 7     |
+    | Column | 2     |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  RefList  RefMode  Utilities  Help                                      |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                             Data Set List Utility                              |
+  3      |                                                                    More:     + |
+  4      |    blank Display data set list               P Print data set list             |
+  5      |        V Display VTOC information           PV Print VTOC information          |
+  6      |                                                                                |
+  7      | Enter one or both of the parameters below:                                     |
+  8      |    Dsname Level . . . USER12.CAPS                                              |
+  9      |    Volume serial  . .                                                          |
+ 10      |                                                                                |
+ 11      | Data set list options                                                          |
+ 12      |    Initial View                 Enter "/" to select option                     |
+ 13      |    1  1. Volume                 /  Confirm Data Set Delete                     |
+ 14      |       2. Space                  /  Confirm Member Delete                       |
+ 15      |       3. Attrib                 /  Include Additional Qualifiers               |
+ 16      |       4. Total                  /  Display Catalog Name                        |
+ 17      |                                    Display Total Tracks                        |
+ 18      |                                    Prefix Dsname Level                         |
+ 19      |                                                                                |
+ 20      | When the data set list is displayed, enter either:                             |
+ 21      |   "/" on the data set list command field for the command prompt pop-up,        |
+ 22      | Option ===>                                                                    |
+ 23      |   *DSLIST                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 14    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      |                                            More:     +                         |
+  4      | 0  Settings      Terminal and user parameters            User ID . : USER12    |
+  5      | 1  View          Display source data or listings         Time. . . : 12:02     |
+  6      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  7      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  8      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+  9      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 10      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 11      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER12    |
+ 12      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 13      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 14      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 15      | 11 Workplace     ISPF Object/Action Workplace                                  |
+ 16      | D  DB2           DB2 Products                                                  |
+ 17      | IT IMS Tools     IMS Tools                                                     |
+ 18      | I  IBM           IBM Program Products                                          |
+ 19      | RS Rocket        Products written by Rocket                                    |
+ 20      | S  SDSF          System Display and Search Facility                            |
+ 21      |                                                                                |
+ 22      | Option ===>                                                                    |
+ 23      |   *ISR@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 19    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 23  | 14     | DIFFERENT              | "D.AOC                                                             " |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 ADMIN  --------------- AOC Invocation Panel ----------- 2026/04/03 AT 12:02|
+  1      | Command ===>                                                                   |
+  2      |                                                                    More:     + |
+  3      | DB2 Admin/OC Concatenation:                               User ID : USER12     |
+  4      |      HLQ.QUALIFIER            PREFIX                      Prefix  : USER12     |
+  5      | CUST USER12.QATEMP              SADB                      SYSNAME : HL02       |
+  6      | AOC1 HOLRTE.AOC.ADBD10          SADB                      PLEXNAME: RSPLEXRS   |
+  7      | AOC2 HOLRTE.AOC.GOCD10          SGOC                                           |
+  8      | AOC3                                                      Valid Commands:      |
+  9      | AOC4                                                      ADMIN    LTB         |
+ 10      | AOC5                                                      BIND     RBE         |
+ 11      | AOC6                                                      GETDB2   WLM         |
+ 12      | AOC7                                                      GETIDAA  GBP         |
+ 13      | AOC8                                                      TCZ                  |
+ 14      |                                                                                |
+ 15      | BIND Command Options:                                                          |
+ 16      | SSID HL2D  VERSION 13 MODE NFM                                                 |
+ 17      |   USER12P (ABC)   USER COLLECTION    PLAN NAME  USER12P                        |
+ 18      | V13R1M505 (Value) APPLCOMPAT         COLLECTION AS SCHEMA (Y/N)  N             |
+ 19      |         Y (Y/N)   BIND MESSAGES                                                |
+ 20      |         Y (Y/N)   ENABLE OC/CM                                                 |
+ 21      |         Y (Y/N)   ENABLE GRANT MANAGEMENT                                      |
+ 22      |         Y (Y/N)   ENABLE HEALTH REPORT                                         |
+ 23      |   *AOC@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 20    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+---------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                               |
+    +-----+--------+------------------------+---------------------------------------------------------------------+
+    | 2   | 15     | DIFFERENT              | "ADMIN                                                            " |
+    +-----+--------+------------------------+---------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin -------------- DB2 Administration Menu 13.1.0 ----------------- 12:02|
+  1      | Option ===>                                                                    |
+  2      |                                                                                |
+  3      |    1 - DB2 system catalog                                DB2 System: HL2D      |
+  4      |    2 - Execute SQL statements                            DB2 SQL ID: USER12    |
+  5      |    3 - DB2 performance queries                           Userid    : USER12    |
+  6      |    4 - Change current SQL ID                             DB2 Schema: USER12    |
+  7      |    5 - Utility generation using LISTDEFs and TEMPLATEs   DB2 Rel   : 1315      |
+  8      |    P - Change DB2 Admin parameters                       DB2 F.Lvl : V13R1M505 |
+  9      |   DD - Distributed DB2 systems                           Max ApplC : V13R1M505 |
+ 10      |    E - Explain                                           ApplCompat: V13R1M505 |
+ 11      |    Z - DB2 system administration                         Cat Level : V13R1M505 |
+ 12      |   SM - Space management functions                                              |
+ 13      |EssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssN      |
+ 14      |e 5698-AT3 IBM Db2 Administration Tool                                   e      |
+ 15      |e Copyright 2016 - 2022. Rocket Software, Inc. or its affiliates.        e      |
+ 16      |e All Rights Reserved. Rocket Software, Inc.                             e      |
+ 17      |e Copyright IBM Corporation 1995, 2016.                                  e    + |
+ 18      |e All rights reserved.  Licensed materials - property of IBM.            e      |
+ 19      |e US Government Users Restricted Rights - Use, duplication or disclosure e      |
+ 20      |e restricted by GSA ADP schedule contract with IBM Corp.                 e      |
+ 21      |DssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssM      |
+ 22      |                                                                                |
+ 23      |   *ADB2                                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 14    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin -------------- DB2 Administration Menu 13.1.0 ----------------- 12:02|
+  1      | Option ===>                                                                    |
+  2      |                                                                                |
+  3      |    1 - DB2 system catalog                                DB2 System: HL2D      |
+  4      |    2 - Execute SQL statements                            DB2 SQL ID: USER12    |
+  5      |    3 - DB2 performance queries                           Userid    : USER12    |
+  6      |    4 - Change current SQL ID                             DB2 Schema: USER12    |
+  7      |    5 - Utility generation using LISTDEFs and TEMPLATEs   DB2 Rel   : 1315      |
+  8      |    P - Change DB2 Admin parameters                       DB2 F.Lvl : V13R1M505 |
+  9      |   DD - Distributed DB2 systems                           Max ApplC : V13R1M505 |
+ 10      |    E - Explain                                           ApplCompat: V13R1M505 |
+ 11      |    Z - DB2 system administration                         Cat Level : V13R1M505 |
+ 12      |   SM - Space management functions                                              |
+ 13      |    W - Manage work statement lists                                             |
+ 14      |    X - Exit DB2 Admin                                          HL02HL2D        |
+ 15      |   CC - DB2 catalog copy version maintenance                                    |
+ 16      |   CM - Change management                                                       |
+ 17      |                                                                    More:     + |
+ 18      | Interface to other DB2 products and offerings:                                 |
+ 19      |    I  DB2I                                                                     |
+ 20      |    C  DB2 OBJECT COMPARISON TOOL                                               |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |   *ADB2                                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 15    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                 |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | 2   | 14     | DIFFERENT              | "1                                                                  " |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin ---------- HL2D System Catalog - Objects ---------------------- 12:02|
+  1      | Option ===>                                                                    |
+  2      |                                                           DB2 System: HL2D     |
+  3      |  AO - Display Authorization options                       DB2 SQL ID: USER12   |
+  4      |                                                                    More:     + |
+  5      | Object options:                                                                |
+  6      |   G - Storage groups                   P - Plans                               |
+  7      |   D - Databases                        L - Collections                         |
+  8      |   S - Table spaces                     K - Packages                            |
+  9      |   T - Tables, views, and aliases     JAR - JAR files                           |
+ 10      |   V - Views                            H - Schemas                             |
+ 11      |   A - Aliases for tables and views     E - User defined data types             |
+ 12      |   Y - Synonyms                         F - Functions                           |
+ 13      |   X - Indexes                          O - Stored procedures                   |
+ 14      |   C - Columns                          J - Triggers                            |
+ 15      |   N - Constraints                      Q - Sequences and aliases               |
+ 16      |  DS - Database structures            DSP - DS with plans and packages          |
+ 17      | PDC - DB2 pending definition changes  GV - Global variables                    |
+ 18      | XCU - Index cleanup                   RS - REST services                       |
+ 19      | Enter standard selection criteria: Settings: LIKE operator; Criteria not saved.|
+ 20      | Name  . . . .                            > Grantor . . .           >           |
+ 21      | Schema  . . .                            > Grantee . . .           >           |
+ 22      | Owner . . . .                            >                                     |
+ 23      |   *ADB21                                                                       |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 21    |
+    | Column | 19    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 2
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                 |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | 21  | 16     | DIFFERENT              | "VIL                      "                                           |
+    | 2   | 14     | DIFFERENT              | "D                                                                  " |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin                     HL2D Databases                   Row 1 to 1 of 1 |
+  1      |                                                                      More:    >|
+  2      | Commands: GRANT  MIG  DIS  STA  STO  UTIL  CT   MOVETB LAT                     |
+  3      | Line commands:                                                                 |
+  4      |  T - Tables  S - Table spaces  X - Indexes  G - Storage group  ICS - IC status |
+  5      |  DIS - Display database  STA - Start database  STO - Stop database  A - Auth   |
+  6      |  ? - Show all line commands                                                    |
+  7      |                          Storage  Buffer          Created      Index           |
+  8      | Select Name     Owner    Group    Pool       DBID By       T E BPool    I      |
+  9      |        *        *        *        *             * *        * * *        *      |
+ 10      | ------ -------- -------- -------- -------- ------ -------- - - -------- -      |
+ 11      |        VILNIUS  USER12   SYSDEFLT BP0         945 USER12     E BP0      N      |
+ 12      | ******************************* END OF DB2 DATA *******************************|
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB21D                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 12    |
+    | Column | 5     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------+
+    | Row | Column | Modification qualifier | Value    |
+    +-----+--------+------------------------+----------+
+    | 12  | 2      | DIFFERENT              | "  T   " |
+    +-----+--------+------------------------+----------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin                  HL2D Tables, Views, and Aliases     Row 1 to 6 of 6 |
+  1      |                                                                      More:    >|
+  2      | Commands: GRANT  MIG  ALL  CT  LAT                                             |
+  3      | Line commands:                                                                 |
+  4      |  C - Columns  A - Auth  L - List  X - Indexes  S - Table space  D - Database   |
+  5      |  V - Views  T - Tables  K - Packages  Y - Synonyms  SEL - Select prototyping   |
+  6      |  ? - Show all line commands                                                    |
+  7      |                                                                                |
+  8      | Sel   Name               Schema   T DB Name  TS Name    Cols        Rows Chks C|
+  9      |       *                  *        * *        *             *           *    * *|
+ 10      | ----- ------------------ -------- - -------- -------- ------ ----------- ---- -|
+ 11      |       SHIPPINGADDRESS    USER12   T VILNIUS  SHIPPING     10          -1    0  |
+ 12      |       INVENTORY          USER12   T VILNIUS  INVENTOR     10          -1    0  |
+ 13      |       INVORDER           USER12   T VILNIUS  INVORDER      9          -1    0  |
+ 14      |       BASEPRICE          USER12   T VILNIUS  BASEPRIC      4          -1    0  |
+ 15      |       CUSTOMER           USER12   T VILNIUS  CUSTOMER      5          -1    0  |
+ 16      |       CCI                USER12   T VILNIUS  CCI          14          -1    0  |
+ 17      | ******************************* END OF DB2 DATA *******************************|
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB21T                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 21    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                              |
+    +-----+--------+------------------------+----------------------------------------------------+
+    | 23  | 15     | DIFFERENT              | "=X.ALL                                          " |
+    +-----+--------+------------------------+----------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |  USER12.USER12.TSU00456.D0000103.? was preallocated (no free was done).        |
+  1      | READY                                                                          |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 1     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |  USER12.USER12.TSU00456.D0000103.? was preallocated (no free was done).        |
+  1      | READY                                                                          |
+  2      |                                                                                |
+  3      | READY                                                                          |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 5     |
+    | Column | 7     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------+
+    | Row | Column | Modification qualifier | Value    |
+    +-----+--------+------------------------+----------+
+    | 4   | 9      | DIFFERENT              | "LOGOFF" |
+    +-----+--------+------------------------+----------+

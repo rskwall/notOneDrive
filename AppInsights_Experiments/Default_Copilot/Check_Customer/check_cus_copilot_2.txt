@@ -1,0 +1,103 @@
+PROMPT:
+Can you give me the steps to look at the customer with ID 1012 instead?
+
+
+RESPONSE:
+Yes — here are the **exact, minimal steps** to view **customer ID 1012** in the LegaSuite DEMO, based on the flow shown in your trace.
+
+I’ll describe this **from the LegaSuite main menu onward**, since everything before that is unchanged.
+
+***
+
+## Steps to View Customer **1012**
+
+### 1. Start at the **LegaSuite DEMO main menu**
+
+You should see this screen:
+
+    1. Maintain Customers
+    2. Customer Payments
+    3. Maintain Items
+    ...
+    90. Sign off
+
+***
+
+### 2. Select **Maintain Customers**
+
+*   Type: `1`
+*   Press **Enter**
+
+➡️ You are taken to **Maintain Customers (CUSMAIN-F000)**.
+
+***
+
+### 3. Open the customer search prompt
+
+On the “Maintain Customers” screen:
+
+    Customer Number  . . . . .
+
+*   Press **F4 = Prompt**
+
+➡️ This opens the **Select Customer** window with a scrollable list.
+
+***
+
+### 4. Locate customer **1012**
+
+In the customer list, customer **1012** appears on the **first page**:
+
+    1012   Roger van Valen   New York
+
+If you do not see it immediately:
+
+*   Use **Page Down (RollUp)** or **Page Up (RollDown)** until customer **1012** is visible
+
+***
+
+### 5. Select customer **1012**
+
+With customer **1012** visible:
+
+*   Position the cursor on the row for **1012**
+*   Press **Enter**
+
+➡️ The system processes the selection.
+
+***
+
+### 6. View customer details
+
+You are now on the **Customer Detail screen (CUSMAIN-F100)** showing customer **1012**’s information.
+
+From here you can:
+
+*   View details
+*   Press **F3 = Exit** to return
+*   Press **F12 = Cancel** to back out
+
+***
+
+## Quick alternative (no browsing)
+
+If you already know the customer number:
+
+1.  On **Maintain Customers**
+2.  Type `1012` directly in **Customer Number**
+3.  Press **Enter**
+
+➡️ You will go **straight to the customer detail screen** for customer 1012 (no prompt window needed).
+
+***
+
+If you want, I can also show:
+
+*   The **fastest keystroke sequence** (power-user style)
+*   How this flow maps to **CUSMAIN RPG logic**
+*   How to automate or script this navigation
+
+Just say the word.
+
+
+NOTE: These instructions are completely wrong. This will not work, you cannot press enter in the F4 menu, it simply closes the menu.

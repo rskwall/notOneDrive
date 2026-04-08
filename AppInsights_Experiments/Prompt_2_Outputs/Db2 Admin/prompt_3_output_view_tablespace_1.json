@@ -1,0 +1,75 @@
+{
+  "workflow_name": "View Table Spaces for a Database and Display Table Space Status via DB2 System Catalog",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type option 1 to select DB2 system catalog on the DB2 Admin main menu",
+      "text": "1",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the System Catalog Objects screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type",
+      "description": "Type option D to select Databases on the System Catalog Objects screen",
+      "text": "D",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 4,
+      "type": "type_variable",
+      "description": "Type a database name or name pattern in the Schema filter field to narrow the Databases list",
+      "placeholder": "[Database Name Filter]",
+      "row": 21,
+      "col": 16
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to submit the filter and display the matching Databases list",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "type",
+      "description": "Type line command S in the Select field next to the target database to view its table spaces",
+      "text": "S",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to navigate to the Table Spaces list for the selected database",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "type": "type",
+      "description": "Type line command DIS in the Select field next to the target table space to display its status",
+      "text": "DIS",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 9,
+      "type": "key",
+      "description": "Press Enter to display the DB2 command output showing the table space status",
+      "key": "Enter"
+    },
+    {
+      "step": 10,
+      "type": "key",
+      "description": "Press PF3 to return to the Table Spaces list",
+      "key": "PF3"
+    }
+  ]
+}

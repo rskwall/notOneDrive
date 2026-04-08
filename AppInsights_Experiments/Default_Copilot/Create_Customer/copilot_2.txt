@@ -1,0 +1,63 @@
+PROMPT:
+Can you give me the steps to add another customer? The customer is Tad Williams, who lives at 2323 W North St., Seattle with the zip code 75777 in the United States. Order the steps cleanly, simply giving each keyboard input needed.
+
+RESPONSE:
+Below are **clean, ordered steps** showing **only the keyboard inputs** needed to add another customer in the LegaSuite DEMO application, following the same flow you just used.
+
+> **Assumption:** You are starting at the **LegaSuite DEMO main menu**  
+> (the menu with “1. Maintain Customers”).  
+> Use the **next available customer number** (example used below: **1041**).
+
+***
+
+## Steps to Add Customer: *Tad Williams*
+
+1.  **Type** `1` → **Enter**  
+    *(Select “Maintain Customers”)*
+
+2.  **Press** `F6`  
+    *(Add customer)*
+
+3.  **Type** `1041` → **Enter**  
+    *(Customer Number)*
+
+4.  **Type** `Tad Williams` → **Enter**  
+    *(Customer Name)*
+
+5.  **Type** `2323 W North St.` → **Enter**  
+    *(Customer Address)*
+
+6.  **Type** `Seattle` → **Enter**  
+    *(Customer City)*
+
+7.  **Type** `75777` → **Enter**  
+    *(Zip Code)*
+
+8.  **Type** `United States` → **Enter**  
+    *(Customer Country)*
+
+9.  *(Optional – if required)* **Type credit limit** → **Enter**  
+    *(Leave blank if not required)*
+
+10. **Press** `Enter`  
+    *(Save the customer)*
+
+***
+
+### Exit (Optional)
+
+*   **Press** `F3` to return to the LegaSuite menu
+
+***
+
+If you want, I can also:
+
+*   Adjust this for **automation scripting**
+*   Add **exact row/column input positions**
+*   Turn this into a **test case or checklist**
+*   Verify how the customer appears in the **selection list**
+
+Just say the word.
+
+
+NOTE: Instructions were wrong. Step 2 (hit F6) should be after Step 3. Following the instructions as written leads to an error.

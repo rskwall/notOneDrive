@@ -1,0 +1,771 @@
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      | Option ===>                                                                    |
+  4      |                                            More:     +                         |
+  5      | 0  Settings      Terminal and user parameters            User ID . : USER25    |
+  6      | 1  View          Display source data or listings         Time. . . : 14:41     |
+  7      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  8      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  9      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+ 10      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 11      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 12      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER25    |
+ 13      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 14      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 15      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 16      |EssssssssssssssssssssssssssssssssssssssssssssssN                                |
+ 17      |e Licensed Materials - Property of IBM         e                                |
+ 18      |e 5650-ZOS     Copyright IBM Corp. 1980, 2021. e                                |
+ 19      |e US Government Users Restricted Rights -      e                                |
+ 20      |e Use, duplication or disclosure restricted    e                                |
+ 21      |e by GSA ADP Schedule Contract with IBM Corp.  e ity                            |
+ 22      |DssssssssssssssssssssssssssssssssssssssssssssssM ard  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 4   | 14     | DIFFERENT              | "2                                                                 " |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  RefList  RefMode  Utilities  Help                                      |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                                Edit Entry Panel                                |
+  3      | Command ===>                                                                   |
+  4      |                                                                    More:     + |
+  5      | ISPF Library:                                                                  |
+  6      |    Project . . . USER25                                                        |
+  7      |    Group . . . . NXG      . . .          . . .          . . .                  |
+  8      |    Type  . . . . JCL                                                           |
+  9      |    Member  . . .                 (Blank or pattern for member selection list)  |
+ 10      |                                                                                |
+ 11      | Other Partitioned, Sequential or VSAM Data Set, or z/OS UNIX file:             |
+ 12      |    Name . . . . .                                                            + |
+ 13      |    Volume Serial . .           (If not cataloged)                              |
+ 14      |                                                                                |
+ 15      |                                         Options                                |
+ 16      | Initial Macro  . . . .                     Confirm Cancel/Move/Replace         |
+ 17      | Profile Name . . . . .                     Mixed Mode                          |
+ 18      | Format Name  . . . . .                     Preserve VB record length           |
+ 19      | Data Set Password  . .                                                         |
+ 20      | Record Length  . . . .                  Data Encoding                          |
+ 21      | Line Command Table . .                     1. ASCII                            |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 19    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Functions  Utilities  Help                                             |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      | EDIT     USER25.NXG.JCL                                 Row 0000001 of 0000009 |
+  3      | Command ===>                                                  Scroll ===> PAGE |
+  4      |    Name     Prompt          Size    Created           Changed            ID    |
+  5      | . SUBMIT                       8   2026/01/22   2026/01/22 18:40:50    CSKUMA  |
+  6      | . TST001                      56   2026/01/22   2026/02/19 16:13:01    USER25  |
+  7      | . TST002                      48   2026/01/22   2026/02/19 12:17:30    USER25  |
+  8      | . TST002A                     36   2026/01/22   2026/02/19 14:04:34    USER25  |
+  9      | . TST003                      37   2026/01/22   2026/02/19 14:07:00    USER25  |
+ 10      | . TST004                      19   2026/01/22   2026/02/19 12:08:38    USER25  |
+ 11      | . TST005                      36   2026/01/22   2026/02/19 14:37:01    USER25  |
+ 12      | . TST006                     170   2026/01/22   2026/02/19 15:13:46    USER25  |
+ 13      | . TST007                     128   2026/01/22   2026/02/19 15:31:36    USER25  |
+ 14      |   **End**                                                                      |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help    F2=Split   F3=Exit    F5=Rfind   F7=Up      F8=Down    F9=Swap     |
+ 23      | F10=Left   F11=Right  F12=Cancel                                               |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 7     |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+-------+
+    | Row | Column | Modification qualifier | Value |
+    +-----+--------+------------------------+-------+
+    | 7   | 2      | DIFFERENT              | "/"   |
+    +-----+--------+------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | ****** ***************************** Top of Data ******************************|
+  5      | ==MSG> -CAUTION- Profile changed to NUMBER ON STD (from NUMBER OFF).           |
+  6      | ==MSG>           Data has valid standard numbers.                              |
+  7      | 000100 //TST001   JOB ,'TST001',CLASS=A,MSGCLASS=X,                            |
+  8      | 000200 //             REGION=0M,NOTIFY=&SYSUID                                 |
+  9      | 000300 //*                                                                     |
+ 10      | 000400 //CRETOBJ  EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+ 11      | 000500 //STEPLIB  DD DISP=SHR,DSN=HL2D.SDSNEXIT                                |
+ 12      | 000600 //         DD DISP=SHR,DSN=DSN.VD10.SDSNLOAD                            |
+ 13      | 000700 //         DD DISP=SHR,DSN=DSN.VD10.RUNLIB.LOAD                         |
+ 14      | 000800 //*                                                                     |
+ 15      | 000900 //SYSPRINT DD SYSOUT=*                                                  |
+ 16      | 001000 //SYSUDUMP DD SYSOUT=*                                                  |
+ 17      | 001100 //SYSTSPRT DD SYSOUT=*                                                  |
+ 18      | 001200 //SYSTSIN  DD *                                                         |
+ 19      | 001300   DSN SYSTEM(HL2D)                                                      |
+ 20      | 001400    RUN  PROGRAM(DSNTEP2) -                                              |
+ 21      | 001500           PLAN(DSNTEP2) -                                               |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 000800 //*                                                                     |
+  5      | 000900 //SYSPRINT DD SYSOUT=*                                                  |
+  6      | 001000 //SYSUDUMP DD SYSOUT=*                                                  |
+  7      | 001100 //SYSTSPRT DD SYSOUT=*                                                  |
+  8      | 001200 //SYSTSIN  DD *                                                         |
+  9      | 001300   DSN SYSTEM(HL2D)                                                      |
+ 10      | 001400    RUN  PROGRAM(DSNTEP2) -                                              |
+ 11      | 001500           PLAN(DSNTEP2) -                                               |
+ 12      | 001600          PARMS('/ALIGN(MID)')                                           |
+ 13      | 001700   END                                                                   |
+ 14      | 001800 //SYSIN    DD *                                                         |
+ 15      | 001900 --                                                                      |
+ 16      | 002000     SET CURRENT SQLID = 'USER25';                                       |
+ 17      | 002100 --                                                                      |
+ 18      | 002200 DROP DATABASE NXGCPHDB;                                                 |
+ 19      | 002300 COMMIT;                                                                 |
+ 20      | 002400                                                                         |
+ 21      | 002500 CREATE DATABASE   NXGCPHDB;                                             |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 001800 //SYSIN    DD *                                                         |
+  5      | 001900 --                                                                      |
+  6      | 002000     SET CURRENT SQLID = 'USER25';                                       |
+  7      | 002100 --                                                                      |
+  8      | 002200 DROP DATABASE NXGCPHDB;                                                 |
+  9      | 002300 COMMIT;                                                                 |
+ 10      | 002400                                                                         |
+ 11      | 002500 CREATE DATABASE   NXGCPHDB;                                             |
+ 12      | 002600 COMMIT;                                                                 |
+ 13      | 002700                                                                         |
+ 14      | 002800 CREATE TABLESPACE     NXGCPHTS                                          |
+ 15      | 002900        IN             NXGCPHDB                                          |
+ 16      | 003000        LOCKSIZE       ANY                                               |
+ 17      | 003100        SEGSIZE        16                                                |
+ 18      | 003200        CLOSE          YES                                               |
+ 19      | 003300        COMPRESS       NO;                                               |
+ 20      | 003400 COMMIT;                                                                 |
+ 21      | 003500                                                                         |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 002800 CREATE TABLESPACE     NXGCPHTS                                          |
+  5      | 002900        IN             NXGCPHDB                                          |
+  6      | 003000        LOCKSIZE       ANY                                               |
+  7      | 003100        SEGSIZE        16                                                |
+  8      | 003200        CLOSE          YES                                               |
+  9      | 003300        COMPRESS       NO;                                               |
+ 10      | 003400 COMMIT;                                                                 |
+ 11      | 003500                                                                         |
+ 12      | 003600 CREATE TABLE                                                            |
+ 13      | 003700         USER25.NXGCPHTB1                                                |
+ 14      | 003800         (                                                               |
+ 15      | 003900          C1     INTEGER                                                 |
+ 16      | 004000         ,C2     CHAR(5)                                                 |
+ 17      | 004100         ,C3     CHAR(5)                                                 |
+ 18      | 004200         ,C4     CHAR(5)                                                 |
+ 19      | 004300        )                                                                |
+ 20      | 004400        IN NXGCPHDB.NXGCPHTS;                                            |
+ 21      | 004500                                                                         |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 003800         (                                                               |
+  5      | 003900          C1     INTEGER                                                 |
+  6      | 004000         ,C2     CHAR(5)                                                 |
+  7      | 004100         ,C3     CHAR(5)                                                 |
+  8      | 004200         ,C4     CHAR(5)                                                 |
+  9      | 004300        )                                                                |
+ 10      | 004400        IN NXGCPHDB.NXGCPHTS;                                            |
+ 11      | 004500                                                                         |
+ 12      | 004600 COMMIT;                                                                 |
+ 13      | 004610                                 00461007                                |
+ 14      | 004620 //SUBMIT   EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+ 15      | 004630 //SYSTSPRT DD  SYSOUT=*                                                 |
+ 16      | 004640 //SYSPRINT DD  SYSOUT=*                                                 |
+ 17      | 004650 //*        DD  SYSOUT=*                                                 |
+ 18      | 004660 //SYSTSIN  DD  *                                                        |
+ 19      | 004670   SUBMIT 'USER25.NXG.JCL(TST002)'                                       |
+ 20      | 004680   END                                                                   |
+ 21      | 004690 //SYSIN DD  *                                                           |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 004620 //SUBMIT   EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+  5      | 004630 //SYSTSPRT DD  SYSOUT=*                                                 |
+  6      | 004640 //SYSPRINT DD  SYSOUT=*                                                 |
+  7      | 004650 //*        DD  SYSOUT=*                                                 |
+  8      | 004660 //SYSTSIN  DD  *                                                        |
+  9      | 004670   SUBMIT 'USER25.NXG.JCL(TST002)'                                       |
+ 10      | 004680   END                                                                   |
+ 11      | 004690 //SYSIN DD  *                                                           |
+ 12      | 004700 /*                                               00470007               |
+ 13      | ****** **************************** Bottom of Data ****************************|
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | ****** **************************** Bottom of Data ****************************|
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | ****** **************************** Bottom of Data ****************************|
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 004610                                 00461007                                |
+  5      | 004620 //SUBMIT   EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+  6      | 004630 //SYSTSPRT DD  SYSOUT=*                                                 |
+  7      | 004640 //SYSPRINT DD  SYSOUT=*                                                 |
+  8      | 004650 //*        DD  SYSOUT=*                                                 |
+  9      | 004660 //SYSTSIN  DD  *                                                        |
+ 10      | 004670   SUBMIT 'USER25.NXG.JCL(TST002)'                                       |
+ 11      | 004680   END                                                                   |
+ 12      | 004690 //SYSIN DD  *                                                           |
+ 13      | 004700 /*                                               00470007               |
+ 14      | ****** **************************** Bottom of Data ****************************|
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 003700         USER25.NXGCPHTB1                                                |
+  5      | 003800         (                                                               |
+  6      | 003900          C1     INTEGER                                                 |
+  7      | 004000         ,C2     CHAR(5)                                                 |
+  8      | 004100         ,C3     CHAR(5)                                                 |
+  9      | 004200         ,C4     CHAR(5)                                                 |
+ 10      | 004300        )                                                                |
+ 11      | 004400        IN NXGCPHDB.NXGCPHTS;                                            |
+ 12      | 004500                                                                         |
+ 13      | 004600 COMMIT;                                                                 |
+ 14      | 004610                                 00461007                                |
+ 15      | 004620 //SUBMIT   EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+ 16      | 004630 //SYSTSPRT DD  SYSOUT=*                                                 |
+ 17      | 004640 //SYSPRINT DD  SYSOUT=*                                                 |
+ 18      | 004650 //*        DD  SYSOUT=*                                                 |
+ 19      | 004660 //SYSTSIN  DD  *                                                        |
+ 20      | 004670   SUBMIT 'USER25.NXG.JCL(TST002)'                                       |
+ 21      | 004680   END                                                                   |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 002700                                                                         |
+  5      | 002800 CREATE TABLESPACE     NXGCPHTS                                          |
+  6      | 002900        IN             NXGCPHDB                                          |
+  7      | 003000        LOCKSIZE       ANY                                               |
+  8      | 003100        SEGSIZE        16                                                |
+  9      | 003200        CLOSE          YES                                               |
+ 10      | 003300        COMPRESS       NO;                                               |
+ 11      | 003400 COMMIT;                                                                 |
+ 12      | 003500                                                                         |
+ 13      | 003600 CREATE TABLE                                                            |
+ 14      | 003700         USER25.NXGCPHTB1                                                |
+ 15      | 003800         (                                                               |
+ 16      | 003900          C1     INTEGER                                                 |
+ 17      | 004000         ,C2     CHAR(5)                                                 |
+ 18      | 004100         ,C3     CHAR(5)                                                 |
+ 19      | 004200         ,C4     CHAR(5)                                                 |
+ 20      | 004300        )                                                                |
+ 21      | 004400        IN NXGCPHDB.NXGCPHTS;                                            |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 001700   END                                                                   |
+  5      | 001800 //SYSIN    DD *                                                         |
+  6      | 001900 --                                                                      |
+  7      | 002000     SET CURRENT SQLID = 'USER25';                                       |
+  8      | 002100 --                                                                      |
+  9      | 002200 DROP DATABASE NXGCPHDB;                                                 |
+ 10      | 002300 COMMIT;                                                                 |
+ 11      | 002400                                                                         |
+ 12      | 002500 CREATE DATABASE   NXGCPHDB;                                             |
+ 13      | 002600 COMMIT;                                                                 |
+ 14      | 002700                                                                         |
+ 15      | 002800 CREATE TABLESPACE     NXGCPHTS                                          |
+ 16      | 002900        IN             NXGCPHDB                                          |
+ 17      | 003000        LOCKSIZE       ANY                                               |
+ 18      | 003100        SEGSIZE        16                                                |
+ 19      | 003200        CLOSE          YES                                               |
+ 20      | 003300        COMPRESS       NO;                                               |
+ 21      | 003400 COMMIT;                                                                 |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | 000700 //         DD DISP=SHR,DSN=DSN.VD10.RUNLIB.LOAD                         |
+  5      | 000800 //*                                                                     |
+  6      | 000900 //SYSPRINT DD SYSOUT=*                                                  |
+  7      | 001000 //SYSUDUMP DD SYSOUT=*                                                  |
+  8      | 001100 //SYSTSPRT DD SYSOUT=*                                                  |
+  9      | 001200 //SYSTSIN  DD *                                                         |
+ 10      | 001300   DSN SYSTEM(HL2D)                                                      |
+ 11      | 001400    RUN  PROGRAM(DSNTEP2) -                                              |
+ 12      | 001500           PLAN(DSNTEP2) -                                               |
+ 13      | 001600          PARMS('/ALIGN(MID)')                                           |
+ 14      | 001700   END                                                                   |
+ 15      | 001800 //SYSIN    DD *                                                         |
+ 16      | 001900 --                                                                      |
+ 17      | 002000     SET CURRENT SQLID = 'USER25';                                       |
+ 18      | 002100 --                                                                      |
+ 19      | 002200 DROP DATABASE NXGCPHDB;                                                 |
+ 20      | 002300 COMMIT;                                                                 |
+ 21      | 002400                                                                         |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | ****** ***************************** Top of Data ******************************|
+  5      | ==MSG> -CAUTION- Profile changed to NUMBER ON STD (from NUMBER OFF).           |
+  6      | ==MSG>           Data has valid standard numbers.                              |
+  7      | 000100 //TST001   JOB ,'TST001',CLASS=A,MSGCLASS=X,                            |
+  8      | 000200 //             REGION=0M,NOTIFY=&SYSUID                                 |
+  9      | 000300 //*                                                                     |
+ 10      | 000400 //CRETOBJ  EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+ 11      | 000500 //STEPLIB  DD DISP=SHR,DSN=HL2D.SDSNEXIT                                |
+ 12      | 000600 //         DD DISP=SHR,DSN=DSN.VD10.SDSNLOAD                            |
+ 13      | 000700 //         DD DISP=SHR,DSN=DSN.VD10.RUNLIB.LOAD                         |
+ 14      | 000800 //*                                                                     |
+ 15      | 000900 //SYSPRINT DD SYSOUT=*                                                  |
+ 16      | 001000 //SYSUDUMP DD SYSOUT=*                                                  |
+ 17      | 001100 //SYSTSPRT DD SYSOUT=*                                                  |
+ 18      | 001200 //SYSTSIN  DD *                                                         |
+ 19      | 001300   DSN SYSTEM(HL2D)                                                      |
+ 20      | 001400    RUN  PROGRAM(DSNTEP2) -                                              |
+ 21      | 001500           PLAN(DSNTEP2) -                                               |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   File  Edit  Edit_Settings  Menu  Utilities  Compilers  Test  Help            |
+  1      | sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss|
+  2      | EDIT       USER25.NXG.JCL(TST001) - 01.07                  Columns 00001 00072 |
+  3      | Command ===>                                                  Scroll ===> 10   |
+  4      | ****** ***************************** Top of Data ******************************|
+  5      | ==MSG> -CAUTION- Profile changed to NUMBER ON STD (from NUMBER OFF).           |
+  6      | ==MSG>           Data has valid standard numbers.                              |
+  7      | 000100 //TST001   JOB ,'TST001',CLASS=A,MSGCLASS=X,                            |
+  8      | 000200 //             REGION=0M,NOTIFY=&SYSUID                                 |
+  9      | 000300 //*                                                                     |
+ 10      | 000400 //CRETOBJ  EXEC PGM=IKJEFT01,DYNAMNBR=20                                |
+ 11      | 000500 //STEPLIB  DD DISP=SHR,DSN=HL2D.SDSNEXIT                                |
+ 12      | 000600 //         DD DISP=SHR,DSN=DSN.VD10.SDSNLOAD                            |
+ 13      | 000700 //         DD DISP=SHR,DSN=DSN.VD10.RUNLIB.LOAD                         |
+ 14      | 000800 //*                                                                     |
+ 15      | 000900 //SYSPRINT DD SYSOUT=*                                                  |
+ 16      | 001000 //SYSUDUMP DD SYSOUT=*                                                  |
+ 17      | 001100 //SYSTSPRT DD SYSOUT=*                                                  |
+ 18      | 001200 //SYSTSIN  DD *                                                         |
+ 19      | 001300   DSN SYSTEM(HL2D)                                                      |
+ 20      | 001400    RUN  PROGRAM(DSNTEP2) -                                              |
+ 21      | 001500           PLAN(DSNTEP2) -                                               |
+ 22      |  F1=Help      F2=Split     F3=Exit      F4=Expand    F5=Rfind     F6=Rchange   |
+ 23      |  F7=Up        F8=Down      F9=Swap     F10=Left     F11=Right    F12=Cancel    |
+         +--------------------------------------------------------------------------------+

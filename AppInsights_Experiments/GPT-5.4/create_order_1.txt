@@ -1,0 +1,27 @@
+PROMPT: Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+The user starts at the IBM i main menu, enters LEGADEMO, and opens the demo application.
+
+A short introduction screen appears, and the user continues past it.
+
+On the LegaSuite main menu, the user selects option 6 for Order Entry.
+
+In Order Entry, the user adds a new order, using order number 40006.
+
+The user enters customer 1010, which resolves to Zachary Taylor.
+
+On the order detail screen, the user adds three items:
+
+1104, quantity 150, 10% discount
+
+1102, quantity 1, 50% discount
+
+1205, quantity 10, no discount
+
+The running order total updates to 7267.73.
+
+After saving or exiting the detail screen, the user returns to the order list, pages down, and confirms that order 40006 now appears in the list.
+
+The session ends by backing out to the LegaSuite menu and entering 90 to sign off.
+
+So at a high level, this file shows: launch demo, enter Order Entry, create order 40006 for customer 1010, add items, verify the order exists, then exit.

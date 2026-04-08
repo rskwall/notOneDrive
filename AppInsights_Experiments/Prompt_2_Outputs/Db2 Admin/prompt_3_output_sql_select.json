@@ -1,0 +1,113 @@
+{
+  "workflow_name": "Execute a SQL SELECT Statement via DB2 Admin Edit/Run SQL",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type option 2 to select Execute SQL Statements on the DB2 Admin main menu",
+      "text": "2",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the Execute SQL Statements menu",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type",
+      "description": "Type option 1 to select Edit/run SQL statements",
+      "text": "1",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 4,
+      "type": "key",
+      "description": "Press Enter to open the Edit/Run SQL Statement editor",
+      "key": "Enter"
+    },
+    {
+      "step": 5,
+      "type": "type_variable",
+      "description": "Type the SELECT clause of the SQL statement on the first blank input line in the editor",
+      "placeholder": "[SELECT Clause, e.g. SELECT * or SELECT column1, column2]",
+      "row": 5,
+      "col": 9
+    },
+    {
+      "step": 6,
+      "type": "type_variable",
+      "description": "Type the FROM clause with the schema-qualified table name on the second blank input line",
+      "placeholder": "[FROM Clause, e.g. FROM Schema.TableName]",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to submit the SQL text and render line numbers in the editor",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "type": "type",
+      "description": "Type EXEC in the Command field to execute the SQL statement",
+      "text": "EXEC",
+      "row": 22,
+      "col": 15
+    },
+    {
+      "step": 9,
+      "type": "key",
+      "description": "Press Enter to run the SQL statement and display the Browse Result",
+      "key": "Enter"
+    },
+    {
+      "step": 10,
+      "type": "key",
+      "description": "Press PF11 to scroll right and view additional columns in the result set",
+      "key": "PF11"
+    },
+    {
+      "step": 11,
+      "type": "key",
+      "description": "Press PF10 to scroll left and return to the first set of columns",
+      "key": "PF10"
+    },
+    {
+      "step": 12,
+      "type": "key",
+      "description": "Press PF3 to exit the result browser and return to the SQL editor",
+      "key": "PF3"
+    },
+    {
+      "step": 13,
+      "type": "key",
+      "description": "Press PF3 again to exit the SQL editor; a confirmation dialog will appear asking whether to run the statement",
+      "key": "PF3"
+    },
+    {
+      "step": 14,
+      "type": "type",
+      "description": "Type 1 in the confirmation dialog to select No (do not run the SQL statement) and exit the editor",
+      "text": "1",
+      "row": 11,
+      "col": 6
+    },
+    {
+      "step": 15,
+      "type": "key",
+      "description": "Press Enter to confirm the choice and return to the Execute SQL Statements menu",
+      "key": "Enter"
+    },
+    {
+      "step": 16,
+      "type": "key",
+      "description": "Press PF3 to return to the DB2 Admin main menu",
+      "key": "PF3"
+    }
+  ]
+}

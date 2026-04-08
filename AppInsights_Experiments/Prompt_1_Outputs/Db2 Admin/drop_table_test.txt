@@ -1,0 +1,32 @@
+Based on the prompt.json system/user instructions and the drop_table.txt workflow recording, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## Drop Database Workflow — IBM z/OS DB2 Admin
+
+> **Starting point:** DB2 Admin main menu
+
+---
+
+1. Type `1` in the **Option ===>** field and press **Enter** to navigate to the DB2 System Catalog - Objects panel.
+2. Type `[Database Name Prefix]` in the **Name** field (e.g., using a wildcard pattern like `ABC%`) and type `D` in the **Option ===>** field, then press **Enter** to search for databases.
+3. In the **HL2D Databases** list, locate the target database row. Type `DROP` in the **Select** field next to the database entry and press **Enter**.
+4. On the **Drop Database** panel, confirm the database name shown in the **Name** field is `[Database Name]`.
+5. In the **Display Drop Impact Report** field, type `NO` (or `YES` or `BATCH` as appropriate) and press **Enter**.
+6. On the **Change Management Prompt** popup, type `NO` in the **Do you wish to use Change Management** field and press **Enter** to execute the DROP statement.
+7. Confirm the message `DROP stmt executed` appears on the panel, indicating success.
+8. Press **PF3** to return to the DB2 System Catalog - Objects panel.
+9. Verify the database no longer appears by re-querying with `[Database Name Prefix]` in the **Name** field and typing `D` in the **Option ===>** field, then pressing **Enter**. Confirm `No rows returned` is displayed.
+10. Type `=X.ALL` in the **Option ===>** field and press **Enter** to exit all panels and return to TSO READY.
+11. Type `LOGOFF` at the **READY** prompt and press **Enter** to log off the system.
+
+---
+
+**Variable steps summary:**
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name Prefix]` | The name or wildcard pattern used to search for the target database (e.g., `VIL%`) |
+| `[Database Name]` | The exact name of the database to be dropped |
+
+NOTE: The user is told to hit enter too early again, but otherwise the instructions are correct.

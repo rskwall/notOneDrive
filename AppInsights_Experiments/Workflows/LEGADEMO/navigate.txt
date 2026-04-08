@@ -1,0 +1,2312 @@
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | MAIN                           IBM i Main Menu                                 |
+  1      |                                                             System:   LSDEV72A |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. User tasks                                                             |
+  5      |      2. Office tasks                                                           |
+  6      |      3. General system tasks                                                   |
+  7      |      4. Files, libraries, and folders                                          |
+  8      |                                                                                |
+  9      |      6. Communications                                                         |
+ 10      |      7. Define or change the system                                            |
+ 11      |      8. Problem handling                                                       |
+ 12      |      9. Display a menu                                                         |
+ 13      |     10. Information Assistant options                                          |
+ 14      |     11. IBM i Access tasks                                                     |
+ 15      |                                                                                |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | Selection or command                                                           |
+ 19      | ===>                                                                           |
+ 20      |                                                                                |
+ 21      | F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant     |
+ 22      | F23=Set initial menu                                                           |
+ 23      | (C) COPYRIGHT IBM CORP. 1980, 2013.                                            |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 20    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 20  | 7      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | USER                              User Tasks                                   |
+  1      |                                                             System:   LSDEV72A |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Display or change your job                                             |
+  5      |      2. Display messages                                                       |
+  6      |      3. Send a message                                                         |
+  7      |      4. Submit a job                                                           |
+  8      |      5. Work with your spooled output files                                    |
+  9      |      6. Work with your batch jobs                                              |
+ 10      |      7. Display or change your library list                                    |
+ 11      |      8. Change your password                                                   |
+ 12      |      9. Change your user profile                                               |
+ 13      |                                                                                |
+ 14      |     60. More user task options                                                 |
+ 15      |                                                                                |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | Selection or command                                                           |
+ 19      | ===>                                                                           |
+ 20      |                                                                                |
+ 21      | F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant     |
+ 22      | F16=System Main menu                                                           |
+ 23      | (C) COPYRIGHT IBM CORP. 1980, 2013.                                            |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 20    |
+    | Column | 7     |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | MAIN                           IBM i Main Menu                                 |
+  1      |                                                             System:   LSDEV72A |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. User tasks                                                             |
+  5      |      2. Office tasks                                                           |
+  6      |      3. General system tasks                                                   |
+  7      |      4. Files, libraries, and folders                                          |
+  8      |                                                                                |
+  9      |      6. Communications                                                         |
+ 10      |      7. Define or change the system                                            |
+ 11      |      8. Problem handling                                                       |
+ 12      |      9. Display a menu                                                         |
+ 13      |     10. Information Assistant options                                          |
+ 14      |     11. IBM i Access tasks                                                     |
+ 15      |                                                                                |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | Selection or command                                                           |
+ 19      | ===>                                                                           |
+ 20      |                                                                                |
+ 21      | F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant     |
+ 22      | F23=Set initial menu                                                           |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 20    |
+    | Column | 15    |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+------------+
+    | Row | Column | Modification quantifier | Value      |
+    +-----+--------+-------------------------+------------+
+    | 20  | 7      | DIFFERENT               | "legademo" |
+    +-----+--------+-------------------------+------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                                                                                |
+  1      |                                                                                |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                     LegaSuite DEMO - Introduction            INTRO-F000        |
+  5      |                                                                                |
+  6      |       Welcome to the LegaSuite DEMO application.                               |
+  7      |                                                                                |
+  8      |       Please be aware this application is only meant to show you               |
+  9      |       the various possibilities of the LegaSuite products.                     |
+ 10      |                                                                                |
+ 11      |       It is not meant to serve as a "real-time" application.                   |
+ 12      |                                                                                |
+ 13      |       Every now and then you may encounter something (like this panel),        |
+ 14      |       that you would not normally expect within an application.                |
+ 15      |                                                                                |
+ 16      |       In such cases, the intent is to give you a better understanding          |
+ 17      |       of what you can do with the LegaSuite products.                          |
+ 18      |                                                                                |
+ 19      |       F3=Exit   F12=Cancel                                                     |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 1     |
+    | Column | 1     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Maintain Customers           CUSMAIN-F000 |
+  1      |                                                                                |
+  2      | Customer Number  . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F6=Add   F12=Cancel   F14=Search Name                    |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Maintain Customers           CUSMAIN-F000 |
+  1      |                                                                                |
+  2      | Customer Number  . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |   Select Customer                                                CUSMAIN-F030  |
+  6      |                                                                                |
+  7      |      Number   Name                             City                            |
+  8      |        1001   Rocket Insurance                 Rogers                          |
+  9      |        1002   Vee                              Dordrecht                       |
+ 10      |        1003   Rensink                          Dordrecht                       |
+ 11      |        1004   John Quincy Adams                Falls Church                    |
+ 12      |        1005   Andrew Jackson                   Washington DC                   |
+ 13      |        1006   Martin Van Buren                 Bethesda                        |
+ 14      |        1007   William Henry Harrison           Washington DC                   |
+ 15      |        1008   John Tyler                       Washington DC                   |
+ 16      |        1009   James K. Polk                    Washington DC                   |
+ 17      |        1010   Zachary Taylor                   Washington DC                   |
+ 18      |        1012   Roger van Valen                  New York                        |
+ 19      |        1013   James Buchanan                   Upper Marlboro                  |
+ 20      |                                                                       More...  |
+ 21      |   F3=Exit   F7=Fold/Unfold   F12=Cancel                                        |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 9   | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Maintain Customers           CUSMAIN-F100 |
+  1      |                                                                                |
+  2      | Customer Number  . . . . :     1001                                            |
+  3      |                                                                                |
+  4      | Customer Name  . . . . . .   Rocket Insurance                                  |
+  5      | Customer Address . . . . .   3380 Fort Meade Rd 198                            |
+  6      | Customer City  . . . . . .   Rogers                                            |
+  7      | Customer Zip Code  . . . .   22031                                             |
+  8      | Customer Country . . . . .   United States                                     |
+  9      | Credit Limit . . . . . . .      4000                                           |
+ 10      | Open Amount  . . . . . . :   1000000.00-                                       |
+ 11      | Turn Over this Year  . . :          .00                                        |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F12=Cancel   F23=Delete                                              |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 7     |
+    | Column | 42    |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+---------------+
+    | Row | Column | Modification quantifier | Value         |
+    +-----+--------+-------------------------+---------------+
+    | 7   | 31     | DIFFERENT               | "Bentonville" |
+    +-----+--------+-------------------------+---------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Maintain Customers           CUSMAIN-F000 |
+  1      |                                                                                |
+  2      | Customer Number  . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F6=Add   F12=Cancel   F14=Search Name                    |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "2"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Customers Payments           CUSTPAY-F000 |
+  1      |                                                                                |
+  2      | Customer Number  . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search Name                             |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Customers Payments           CUSTPAY-F000 |
+  1      |                                                                                |
+  2      | Customer Number  . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |   Select Customer                                                CUSTPAY-F030  |
+  6      |                                                                                |
+  7      |      Number   Name                             City                            |
+  8      |        1001   Rocket Insurance                 Bentonville                     |
+  9      |        1002   Vee                              Dordrecht                       |
+ 10      |        1003   Rensink                          Dordrecht                       |
+ 11      |        1004   John Quincy Adams                Falls Church                    |
+ 12      |        1005   Andrew Jackson                   Washington DC                   |
+ 13      |        1006   Martin Van Buren                 Bethesda                        |
+ 14      |        1007   William Henry Harrison           Washington DC                   |
+ 15      |        1008   John Tyler                       Washington DC                   |
+ 16      |        1009   James K. Polk                    Washington DC                   |
+ 17      |        1010   Zachary Taylor                   Washington DC                   |
+ 18      |        1012   Roger van Valen                  New York                        |
+ 19      |        1013   James Buchanan                   Upper Marlboro                  |
+ 20      |                                                                       More...  |
+ 21      |   F3=Exit   F7=Fold/Unfold   F12=Cancel                                        |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 9   | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Customers Payments           CUSTPAY-F100 |
+  1      |                                                                                |
+  2      | Customer Number  . . . . :     1001                                            |
+  3      |                                                                                |
+  4      | Customer Name  . . . . . :   Rocket Insurance                                  |
+  5      | Customer Address . . . . :   3380 Fort Meade Rd 198                            |
+  6      | Customer City  . . . . . :   Bentonville                                       |
+  7      | Customer Zip Code  . . . :   22031                                             |
+  8      | Customer Country . . . . :   United States                                     |
+  9      | Credit Limit . . . . . . :      4000                                           |
+ 10      | Open Amount  . . . . . . :          .00                                        |
+ 11      | Turn Over this Year  . . :          .00                                        |
+ 12      |                                                                                |
+ 13      | Order Number . . . . . . .                                                     |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel                                               |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 14    |
+    | Column | 31    |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "3"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                         LegaSuite DEMO - Maintain Items           ITMMAIN-F000 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F6=Add   F12=Cancel   F14=Search description             |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                         LegaSuite DEMO - Maintain Items           ITMMAIN-F000 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |   Select Item                   ITMMAIN-F030                                   |
+  6      |                                                                                |
+  7      |       Number  Description                                                      |
+  8      |        1003   test                                                             |
+  9      |        1102   Beer                                                             |
+ 10      |        1103   Green  Sweater S   - LegaSuite                                   |
+ 11      |        1104   Red    Sweater S   - LegaSuite                                   |
+ 12      |        1105   White  Sweater S   - LegaSuite                                   |
+ 13      |        1106   Yellow Sweater S   - LegaSuite                                   |
+ 14      |        1185   test                                                             |
+ 15      |        1201   Black  Sweater L   - LegaSuite                                   |
+ 16      |        1202   Blue   Sweater L   - LegaSuite                                   |
+ 17      |        1203   Green  Sweater L   - LegaSuite                                   |
+ 18      |        1204   Red    Sweater L   - LegaSuite                                   |
+ 19      |        1205   White  Sweater L   - LegaSuite                                   |
+ 20      |                                      More...                                   |
+ 21      |   F3=Exit   F12=Cancel                                                         |
+ 22      |                                                =Search description             |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 11    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 10  | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                         LegaSuite DEMO - Maintain Items           ITMMAIN-F100 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . :     1102                                            |
+  3      |                                                                                |
+  4      | Item Description . . . . .   Beer                                              |
+  5      | Item Price . . . . . . . .     49.95                                           |
+  6      | Currently in Stock . . . :     1149                                            |
+  7      | Turn Over this Year  . . :          .00                                        |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F12=Cancel   F23=Delete                                              |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 5     |
+    | Column | 31    |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                         LegaSuite DEMO - Maintain Items           ITMMAIN-F000 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F6=Add   F12=Cancel   F14=Search description             |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "4"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                       LegaSuite DEMO - Incoming Stock            ITMSTOCK-F000 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search description                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "4"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                       LegaSuite DEMO - Incoming Stock            ITMSTOCK-F000 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search description                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                       LegaSuite DEMO - Incoming Stock            ITMSTOCK-F000 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . .                                                     |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |   Select Item                                        ITMSTOCK-F030             |
+  6      |                                                                                |
+  7      |       Number  Description                        Price   In Stock              |
+  8      |        1003   test                            1020.00         8                |
+  9      |        1102   Beer                              49.95      1149                |
+ 10      |        1103   Green  Sweater S   - LegaSuite    49.95       211                |
+ 11      |        1104   Red    Sweater S   - LegaSuite    49.95       258                |
+ 12      |        1105   White  Sweater S   - LegaSuite    49.95        30                |
+ 13      |        1106   Yellow Sweater S   - LegaSuite    49.95         0                |
+ 14      |        1185   test                                .00         0                |
+ 15      |        1201   Black  Sweater L   - LegaSuite    49.95        45                |
+ 16      |        1202   Blue   Sweater L   - LegaSuite    49.95        10                |
+ 17      |        1203   Green  Sweater L   - LegaSuite    49.95        59                |
+ 18      |        1204   Red    Sweater L   - LegaSuite    49.95       100                |
+ 19      |        1205   White  Sweater L   - LegaSuite    49.95        62                |
+ 20      |                                                            More...             |
+ 21      |   F3=Exit   F12=Cancel                                                         |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 11    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 10  | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                       LegaSuite DEMO - Incoming Stock            ITMSTOCK-F100 |
+  1      |                                                                                |
+  2      | Item Number  . . . . . . :     1102                                            |
+  3      |                                                                                |
+  4      | Item Description . . . . :   Beer                                              |
+  5      | Item Price . . . . . . . :     49.95                                           |
+  6      | Currently in Stock . . . :     1149                                            |
+  7      |                                                                                |
+  8      | Incoming Stock . . . . . .                                                     |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F12=Cancel                                                           |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 9     |
+    | Column | 31    |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "6"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                          LegaSuite DEMO - Order Entry            ORDENTRY-F000 |
+  1      |                                                                                |
+  2      | Order Number . . . . .                                                         |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F6=Add   F12=Cancel                                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 27    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                          LegaSuite DEMO - Order Entry            ORDENTRY-F000 |
+  1      |                                                                                |
+  2      | Order Number . . . . .                                                         |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |   Select Order                          ORDENTRY-F030                          |
+  6      |                                                                                |
+  7      |       Order    Cust                                                            |
+  8      |      Number   Number   Name                                                    |
+  9      |       10002     1010   Zachary Taylor                                          |
+ 10      |       10004     1005   Andrew Jackson                                          |
+ 11      |       10005     1001   Rocket Insurance                                        |
+ 12      |       20001     1030   Jan Klaassen                                            |
+ 13      |       20002     1036   Bill Clinton                                            |
+ 14      |       20003     1026   Herbert Hoover                                          |
+ 15      |       20004     1021   William McKinley                                        |
+ 16      |       20005     1023   Woodrow Wilson                                          |
+ 17      |       30001     1001   Rocket Insurance                                        |
+ 18      |       30002     1002   Vee                                                     |
+ 19      |       30003     1015   Ulysses S. Grant                                        |
+ 20      |                                               More...                          |
+ 21      |   F3=Exit   F12=Cancel                                                         |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 12    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 11  | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                          LegaSuite DEMO - Order Entry            ORDENTRY-F100 |
+  1      |                                                                                |
+  2      | Order Number . . . . :    10004      Order Date . . . . :    4/06/23           |
+  3      | Customer Number/Name :     1005      Andrew Jackson                            |
+  4      | Turn Over this Year  :          .00  3380 Fort Knox Rd 198                     |
+  5      | Credit Limit . . . . :      1500     22031      Washington DC                  |
+  6      | Open Amount  . . . . :          .00  United States                             |
+  7      | Amount this Order  . :      1478.56                                            |
+  8      |  Item                                         Ordered          %               |
+  9      | Number Description                     Stock   Quant    Price Dis     Amount   |
+ 10      |                                            0              .00            .00   |
+ 11      |   1102 Beer                             1149      10    49.95  5      474.53   |
+ 12      |   1103 Green  Sweater S   - LegaSuite    211      10    49.95  5      474.53   |
+ 13      |   1403 Green  Sweater XXL - LegaSuite     21       5    52.95         264.75   |
+ 14      |   1405 White  Sweater XXL - LegaSuite     27       5    52.95         264.75   |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                         Bottom |
+ 21      | F3=Exit      F4=Prompt                F5=Refresh                               |
+ 22      | F12=Cancel   F14=Search description   F23=Delete                               |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 11    |
+    | Column | 2     |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "7"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                          LegaSuite DEMO - Order Delivery         ORDDELIV-F000 |
+  1      |                                                                                |
+  2      | Order Number . . . . .                                                         |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel                                               |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 27    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                          LegaSuite DEMO - Order Delivery         ORDDELIV-F000 |
+  1      |                                                                                |
+  2      | Order Number . . . . .                                                         |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |   Select Order                          ORDDELIV-F030                          |
+  6      |                                                                                |
+  7      |       Order    Cust                                                            |
+  8      |      Number   Number   Name                                                    |
+  9      |       10002     1010   Zachary Taylor                                          |
+ 10      |       10004     1005   Andrew Jackson                                          |
+ 11      |       10005     1001   Rocket Insurance                                        |
+ 12      |       20001     1030   Jan Klaassen                                            |
+ 13      |       20002     1036   Bill Clinton                                            |
+ 14      |       20003     1026   Herbert Hoover                                          |
+ 15      |       20004     1021   William McKinley                                        |
+ 16      |       20005     1023   Woodrow Wilson                                          |
+ 17      |       30001     1001   Rocket Insurance                                        |
+ 18      |       30002     1002   Vee                                                     |
+ 19      |       30003     1015   Ulysses S. Grant                                        |
+ 20      |                                               More...                          |
+ 21      |   F3=Exit   F12=Cancel                                                         |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 11    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 10  | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                          LegaSuite DEMO - Order Delivery         ORDDELIV-F100 |
+  1      |                                                                                |
+  2      | Order Number . . . . :    10002      Order Date . . . . :    4/06/23           |
+  3      | Customer Number/Name :     1010      Zachary Taylor                            |
+  4      | Turn Over this Year  :          .00  2391 Sandberg Street                      |
+  5      | Credit Limit . . . . :      8500     22030      Washington DC                  |
+  6      | Open Amount  . . . . :          .00  United States                             |
+  7      | Amount this Order  . :      4133.94                                            |
+  8      |  Item                                         Ordered          %               |
+  9      | Number Description                     Stock   Quant    Price Dis     Amount   |
+ 10      |   1204 Red    Sweater L   - LegaSuite    100      20    49.95 12      879.12   |
+ 11      |   1205 White  Sweater L   - LegaSuite     62       5    49.95         249.75   |
+ 12      |   2201 Black  Sweater L   - GRAVINA      330      10    64.95  5      617.03   |
+ 13      |   2202 Blue   Sweater L   - GRAVINA      211      15    64.95  5      925.54   |
+ 14      |   2302 Blue   Sweater XL  - GRAVINA      188      25    65.00 10     1462.50   |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                         Bottom |
+ 22      | F3=Exit   F12=Cancel   F23=Delete                                              |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 11    |
+    | Column | 2     |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                          LegaSuite DEMO - Order Delivery         ORDDELIV-F100 |
+  1      |                                                                                |
+  2      | Order Number . . . . :    10002      Order Date . . . . :    4/06/23           |
+  3      | Customer Number/Name :     1010      Zachary Taylor                            |
+  4      | Turn Over this Year  :          .00  2391 Sandberg Street                      |
+  5      | Credit Limit . . . . :      8500     22030      Washington DC                  |
+  6      | Open Amount  . . . . :          .00  United States                             |
+  7      | Amount this Order  . :      4133.94                                            |
+  8      |  Item                                         Ordered          %               |
+  9      | Number Description                     Stock   Quant    Price Dis     Amount   |
+ 10      |   1204 Red    Sweater L   - LegaSuite    100      20    49.95 12      879.12   |
+ 11      |   1205 White  Sweater L   - LegaSuite     62       5    49.95         249.75   |
+ 12      |   2201 Black  Sweater L   - GRAVINA      330      10    64.95  5      617.03   |
+ 13      |   2202 Blue   Sweater L   - GRAVINA      211      15    64.95  5      925.54   |
+ 14      |   2302 Blue   Sweater XL  - GRAVINA      188      25    65.00 10     1462.50   |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                         Bottom |
+ 22      | F3=Exit   F12=Cancel   F23=Delete                                              |
+ 23      | Function key not allowed.                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 11    |
+    | Column | 2     |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 8     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "9"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                   LegaSuite DEMO - Turn Over per Customer         TRNCUST-F000 |
+  1      |                                                                                |
+  2      | From Customer number . . .                                                     |
+  3      | To   Customer number . . .                                                     |
+  4      |                                                                                |
+  5      | Display or Print . . . . .   D        D = Display, P = Print                   |
+  6      |                                                                                |
+  7      | Select year  . . . . . . .   0        0 = This year                            |
+  8      |                                       1 = Last year                            |
+  9      |                                       2 = Two years ago                        |
+ 10      |                                       3 = Three years ago                      |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search Name                             |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                   LegaSuite DEMO - Turn Over per Customer         TRNCUST-F000 |
+  1      |                                                                                |
+  2      | From Customer number . . .                                                     |
+  3      | To   Customer number . . .                                                     |
+  4      |                                                                                |
+  5      |   Select Customer                                                TRNCUST-F030  |
+  6      |                                                                                |
+  7      |      Number   Name                             City                            |
+  8      |        1001   Rocket Insurance                 Bentonville                     |
+  9      |        1002   Vee                              Dordrecht                       |
+ 10      |        1003   Rensink                          Dordrecht                       |
+ 11      |        1004   John Quincy Adams                Falls Church                    |
+ 12      |        1005   Andrew Jackson                   Washington DC                   |
+ 13      |        1006   Martin Van Buren                 Bethesda                        |
+ 14      |        1007   William Henry Harrison           Washington DC                   |
+ 15      |        1008   John Tyler                       Washington DC                   |
+ 16      |        1009   James K. Polk                    Washington DC                   |
+ 17      |        1010   Zachary Taylor                   Washington DC                   |
+ 18      |        1012   Roger van Valen                  New York                        |
+ 19      |        1013   James Buchanan                   Upper Marlboro                  |
+ 20      |                                                                       More...  |
+ 21      |   F3=Exit   F7=Fold/Unfold   F12=Cancel                                        |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 9   | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                   LegaSuite DEMO - Turn Over per Customer         TRNCUST-F000 |
+  1      |                                                                                |
+  2      | From Customer number . . .     1001   Rocket Insurance                         |
+  3      | To   Customer number . . .                                                     |
+  4      |                                                                                |
+  5      | Display or Print . . . . .   D        D = Display, P = Print                   |
+  6      |                                                                                |
+  7      | Select year  . . . . . . .   0        0 = This year                            |
+  8      |                                       1 = Last year                            |
+  9      |                                       2 = Two years ago                        |
+ 10      |                                       3 = Three years ago                      |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search Name                             |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                   LegaSuite DEMO - Turn Over per Customer         TRNCUST-F000 |
+  1      |                                                                                |
+  2      | From Customer number . . .     1001   Rocket Insurance                         |
+  3      | To   Customer number . . .                                                     |
+  4      |                                                                                |
+  5      |   Select Customer                                                TRNCUST-F030  |
+  6      |                                                                                |
+  7      |      Number   Name                             City                            |
+  8      |        1001   Rocket Insurance                 Bentonville                     |
+  9      |        1002   Vee                              Dordrecht                       |
+ 10      |        1003   Rensink                          Dordrecht                       |
+ 11      |        1004   John Quincy Adams                Falls Church                    |
+ 12      |        1005   Andrew Jackson                   Washington DC                   |
+ 13      |        1006   Martin Van Buren                 Bethesda                        |
+ 14      |        1007   William Henry Harrison           Washington DC                   |
+ 15      |        1008   John Tyler                       Washington DC                   |
+ 16      |        1009   James K. Polk                    Washington DC                   |
+ 17      |        1010   Zachary Taylor                   Washington DC                   |
+ 18      |        1012   Roger van Valen                  New York                        |
+ 19      |        1013   James Buchanan                   Upper Marlboro                  |
+ 20      |                                                                       More...  |
+ 21      |   F3=Exit   F7=Fold/Unfold   F12=Cancel                                        |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 9     |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 20  | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                   LegaSuite DEMO - Turn Over per Customer         TRNCUST-F000 |
+  1      |                                                                                |
+  2      | From Customer number . . .     1001   Rocket Insurance                         |
+  3      | To   Customer number . . .     1013   James Buchanan                           |
+  4      |                                                                                |
+  5      | Display or Print . . . . .   D        D = Display, P = Print                   |
+  6      |                                                                                |
+  7      | Select year  . . . . . . .   0        0 = This year                            |
+  8      |                                       1 = Last year                            |
+  9      |                                       2 = Two years ago                        |
+ 10      |                                       3 = Three years ago                      |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search Name                             |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                 LegaSuite DEMO - Overview Customer Turn over      TRNCUST-F130 |
+  1      |                                                                                |
+  2      | Number Name                     This year   Last year   2 yrs ago   3 yrs ago  |
+  3      |   1001 Rocket Insurance               .00         .00         .00         .00  |
+  4      |   1002 Vee                            .00         .00         .00         .00  |
+  5      |   1003 Rensink                        .00         .00         .00         .00  |
+  6      |   1004 John Quincy Adams              .00         .00         .00         .00  |
+  7      |   1005 Andrew Jackson                 .00         .00         .00         .00  |
+  8      |   1006 Martin Van Buren               .00         .00         .00         .00  |
+  9      |   1007 William Henry Harrison         .00         .00         .00         .00  |
+ 10      |   1008 John Tyler                     .00         .00         .00         .00  |
+ 11      |   1009 James K. Polk                  .00         .00         .00         .00  |
+ 12      |   1010 Zachary Taylor                 .00         .00         .00         .00  |
+ 13      |   1012 Roger van Valen                .00         .00         .00         .00  |
+ 14      |   1013 James Buchanan                 .00         .00         .00         .00  |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                         Bottom |
+ 22      | F3=Exit   F12=Cancel                                                           |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 2     |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 7     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "10"  |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Turn Over per Item           TRNITEM-F000 |
+  1      |                                                                                |
+  2      | From Item number . . . . .                                                     |
+  3      | To   Item number . . . . .                                                     |
+  4      |                                                                                |
+  5      | Display or Print . . . . .   D        D = Display, P = Print                   |
+  6      |                                                                                |
+  7      | Select year  . . . . . . .   0        0 = This year                            |
+  8      |                                       1 = Last year                            |
+  9      |                                       2 = Two years ago                        |
+ 10      |                                       3 = Three years ago                      |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search description                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Turn Over per Item           TRNITEM-F000 |
+  1      |                                                                                |
+  2      | From Item number . . . . .                                                     |
+  3      | To   Item number . . . . .                                                     |
+  4      |                                                                                |
+  5      |   Select Item                   TRNITEM-F030   ay, P = Print                   |
+  6      |                                                                                |
+  7      |       Number  Description                      year                            |
+  8      |        1003   test                             year                            |
+  9      |        1102   Beer                             ears ago                        |
+ 10      |        1103   Green  Sweater S   - LegaSuite    years ago                      |
+ 11      |        1104   Red    Sweater S   - LegaSuite                                   |
+ 12      |        1105   White  Sweater S   - LegaSuite                                   |
+ 13      |        1106   Yellow Sweater S   - LegaSuite                                   |
+ 14      |        1185   test                                                             |
+ 15      |        1201   Black  Sweater L   - LegaSuite                                   |
+ 16      |        1202   Blue   Sweater L   - LegaSuite                                   |
+ 17      |        1203   Green  Sweater L   - LegaSuite                                   |
+ 18      |        1204   Red    Sweater L   - LegaSuite                                   |
+ 19      |        1205   White  Sweater L   - LegaSuite                                   |
+ 20      |                                      More...                                   |
+ 21      |   F3=Exit   F12=Cancel                                                         |
+ 22      |                                                escription                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 9   | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Turn Over per Item           TRNITEM-F000 |
+  1      |                                                                                |
+  2      | From Item number . . . . .     1003   test                                     |
+  3      | To   Item number . . . . .                                                     |
+  4      |                                                                                |
+  5      | Display or Print . . . . .   D        D = Display, P = Print                   |
+  6      |                                                                                |
+  7      | Select year  . . . . . . .   0        0 = This year                            |
+  8      |                                       1 = Last year                            |
+  9      |                                       2 = Two years ago                        |
+ 10      |                                       3 = Three years ago                      |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search description                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 31    |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Turn Over per Item           TRNITEM-F000 |
+  1      |                                                                                |
+  2      | From Item number . . . . .     1003   test                                     |
+  3      | To   Item number . . . . .                                                     |
+  4      |                                                                                |
+  5      |   Select Item                   TRNITEM-F030   ay, P = Print                   |
+  6      |                                                                                |
+  7      |       Number  Description                      year                            |
+  8      |        1003   test                             year                            |
+  9      |        1102   Beer                             ears ago                        |
+ 10      |        1103   Green  Sweater S   - LegaSuite    years ago                      |
+ 11      |        1104   Red    Sweater S   - LegaSuite                                   |
+ 12      |        1105   White  Sweater S   - LegaSuite                                   |
+ 13      |        1106   Yellow Sweater S   - LegaSuite                                   |
+ 14      |        1185   test                                                             |
+ 15      |        1201   Black  Sweater L   - LegaSuite                                   |
+ 16      |        1202   Blue   Sweater L   - LegaSuite                                   |
+ 17      |        1203   Green  Sweater L   - LegaSuite                                   |
+ 18      |        1204   Red    Sweater L   - LegaSuite                                   |
+ 19      |        1205   White  Sweater L   - LegaSuite                                   |
+ 20      |                                      More...                                   |
+ 21      |   F3=Exit   F12=Cancel                                                         |
+ 22      |                                                escription                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 9     |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 20  | 4      | DIFFERENT               | "1"   |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Turn Over per Item           TRNITEM-F000 |
+  1      |                                                                                |
+  2      | From Item number . . . . .     1003   test                                     |
+  3      | To   Item number . . . . .     1205   White  Sweater L   - LegaSuite           |
+  4      |                                                                                |
+  5      | Display or Print . . . . .   D        D = Display, P = Print                   |
+  6      |                                                                                |
+  7      | Select year  . . . . . . .   0        0 = This year                            |
+  8      |                                       1 = Last year                            |
+  9      |                                       2 = Two years ago                        |
+ 10      |                                       3 = Three years ago                      |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F4=Prompt   F12=Cancel   F14=Search description                      |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 31    |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Overview Item Turn over      TRNITEM-F130 |
+  1      |                                                                                |
+  2      | Number Description              This year   Last year   2 yrs ago   3 yrs ago  |
+  3      |   1003 test                           .00         .00         .00         .00  |
+  4      |   1102 Beer                           .00         .00         .00         .00  |
+  5      |   1103 Green  Sweater S   - Le        .00         .00         .00         .00  |
+  6      |   1104 Red    Sweater S   - Le        .00         .00         .00         .00  |
+  7      |   1105 White  Sweater S   - Le        .00         .00         .00         .00  |
+  8      |   1106 Yellow Sweater S   - Le        .00         .00         .00         .00  |
+  9      |   1185 test                           .00         .00         .00         .00  |
+ 10      |   1201 Black  Sweater L   - Le        .00         .00         .00         .00  |
+ 11      |   1202 Blue   Sweater L   - Le        .00         .00         .00         .00  |
+ 12      |   1203 Green  Sweater L   - Le        .00         .00         .00         .00  |
+ 13      |   1204 Red    Sweater L   - Le        .00         .00         .00         .00  |
+ 14      |   1205 White  Sweater L   - Le        .00         .00         .00         .00  |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                         Bottom |
+ 22      | F3=Exit   F12=Cancel                                                           |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 2     |
+    | Key    | Cmd04 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                     LegaSuite DEMO - Overview Item Turn over      TRNITEM-F130 |
+  1      |                                                                                |
+  2      | Number Description              This year   Last year   2 yrs ago   3 yrs ago  |
+  3      |   1003 test                           .00         .00         .00         .00  |
+  4      |   1102 Beer                           .00         .00         .00         .00  |
+  5      |   1103 Green  Sweater S   - Le        .00         .00         .00         .00  |
+  6      |   1104 Red    Sweater S   - Le        .00         .00         .00         .00  |
+  7      |   1105 White  Sweater S   - Le        .00         .00         .00         .00  |
+  8      |   1106 Yellow Sweater S   - Le        .00         .00         .00         .00  |
+  9      |   1185 test                           .00         .00         .00         .00  |
+ 10      |   1201 Black  Sweater L   - Le        .00         .00         .00         .00  |
+ 11      |   1202 Blue   Sweater L   - Le        .00         .00         .00         .00  |
+ 12      |   1203 Green  Sweater L   - Le        .00         .00         .00         .00  |
+ 13      |   1204 Red    Sweater L   - Le        .00         .00         .00         .00  |
+ 14      |   1205 White  Sweater L   - Le        .00         .00         .00         .00  |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                         Bottom |
+ 22      | F3=Exit   F12=Cancel                                                           |
+ 23      | Function key not allowed.                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 2     |
+    | Key    | Cmd03 |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 7     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "80"  |
+    +-----+--------+-------------------------+-------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      |                        LegaSuite DEMO - End of Year Procedure     YEAREND-F000 |
+  1      |                                                                                |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                          Press Enter to confirm                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | F3=Exit   F12=Cancel                                                           |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 1     |
+    | Column | 1     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 500
+         +--------------------------------------------------------------------------------+
+  0      | LEGADEMO                       LegaSuite DEMO                                  |
+  1      |                                                                                |
+  2      | Select one of the following:                                                   |
+  3      |                                                                                |
+  4      |      1. Maintain Customers                                                     |
+  5      |      2. Customer Payments                                                      |
+  6      |      3. Maintain Items                                                         |
+  7      |      4. Incoming Stock                                                         |
+  8      |                                                                                |
+  9      |      6. Order Entry                                                            |
+ 10      |      7. Delivered Orders                                                       |
+ 11      |                                                                                |
+ 12      |      9. View Customer Turn over                                                |
+ 13      |     10. View Item Turn over                                                    |
+ 14      |                                                                                |
+ 15      |     80. End of year procedure                                                  |
+ 16      |     90. Sign off                                                               |
+ 17      |                                                                                |
+ 18      | ===>                                                                           |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 19    |
+    | Column | 7     |
+    | Key    | Enter |
+    | CCSID  | 500   |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+-------------------------+-------+
+    | Row | Column | Modification quantifier | Value |
+    +-----+--------+-------------------------+-------+
+    | 19  | 7      | DIFFERENT               | "90"  |
+    +-----+--------+-------------------------+-------+

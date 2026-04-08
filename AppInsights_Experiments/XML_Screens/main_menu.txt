@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo version="1.1.2" buildnumber="1.0" exename="Host Picture Builder" exeversion="2.5.2"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout_version="1.1.2" application="collector" application_version="5.0" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000025" library="LEGADEMO" member_name="LEGDEMO1D" message_line_y="24" originator="PictureBuilderMoaxWriter">
+        <size cx="80" cy="24"/>
+        <action key="f1"/>
+        <action key="f3"/>
+        <action key="f12"/>
+        <action key="f22"/>
+        <action key="f23"/>
+        <action key="print"/>
+        <action key="enter"/>
+        <field name="MENUR" field_type="screen_part">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="23"/>
+            </area>
+            <field value="LEGADEMO" data_length="8" display_length="8" field_type="fixed_text">
+                <area>
+                    <position x="1" y="0"/>
+                    <size cx="8" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field high_intensity="true" value="LegaSuite DEMO" data_length="14" display_length="14" field_type="fixed_text">
+                <area>
+                    <position x="32" y="0"/>
+                    <size cx="14" cy="1"/>
+                </area>
+            </field>
+            <field value="Select one of the following:" data_length="28" display_length="28" field_type="fixed_text">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="28" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field value=" 1. Maintain Customers" data_length="22" display_length="22" field_type="fixed_text">
+                <area>
+                    <position x="5" y="4"/>
+                    <size cx="22" cy="1"/>
+                </area>
+            </field>
+            <field value=" 2. Customer Payments" data_length="21" display_length="21" field_type="fixed_text">
+                <area>
+                    <position x="5" y="5"/>
+                    <size cx="21" cy="1"/>
+                </area>
+            </field>
+            <field value=" 3. Maintain Items" data_length="18" display_length="18" field_type="fixed_text">
+                <area>
+                    <position x="5" y="6"/>
+                    <size cx="18" cy="1"/>
+                </area>
+            </field>
+            <field value=" 4. Incoming Stock" data_length="18" display_length="18" field_type="fixed_text">
+                <area>
+                    <position x="5" y="7"/>
+                    <size cx="18" cy="1"/>
+                </area>
+            </field>
+            <field value=" 6. Order Entry" data_length="15" display_length="15" field_type="fixed_text">
+                <area>
+                    <position x="5" y="9"/>
+                    <size cx="15" cy="1"/>
+                </area>
+            </field>
+            <field value=" 7. Delivered Orders" data_length="20" display_length="20" field_type="fixed_text">
+                <area>
+                    <position x="5" y="10"/>
+                    <size cx="20" cy="1"/>
+                </area>
+            </field>
+            <field value=" 9. View Customer Turn over" data_length="27" display_length="27" field_type="fixed_text">
+                <area>
+                    <position x="5" y="12"/>
+                    <size cx="27" cy="1"/>
+                </area>
+            </field>
+            <field value="10. View Item Turn over" data_length="23" display_length="23" field_type="fixed_text">
+                <area>
+                    <position x="5" y="13"/>
+                    <size cx="23" cy="1"/>
+                </area>
+            </field>
+            <field value="80. End of year procedure" data_length="25" display_length="25" field_type="fixed_text">
+                <area>
+                    <position x="5" y="15"/>
+                    <size cx="25" cy="1"/>
+                </area>
+            </field>
+            <field value="90. Sign off" data_length="12" display_length="12" field_type="fixed_text">
+                <area>
+                    <position x="5" y="16"/>
+                    <size cx="12" cy="1"/>
+                </area>
+            </field>
+            <field value="===&gt;" data_length="4" display_length="4" field_type="fixed_text">
+                <area>
+                    <position x="1" y="18"/>
+                    <size cx="4" cy="1"/>
+                </area>
+            </field>
+            <field name="SEL" underline="true" data_type="zoned_decimal" data_length="2" display_length="2" usage="input" lowercase="true" field_type="field">
+                <area>
+                    <position x="6" y="18"/>
+                    <size cx="2" cy="1"/>
+                </area>
+            </field>
+            <field name="DIAGMSG" data_type="alphanumeric" data_length="45" display_length="45" usage="output" field_type="field">
+                <area>
+                    <position x="1" y="22"/>
+                    <size cx="45" cy="1"/>
+                </area>
+                <color foreground="red"/>
+            </field>
+        </field>
+    </screen>
+</header>

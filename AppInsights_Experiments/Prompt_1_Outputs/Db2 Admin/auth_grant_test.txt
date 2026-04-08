@@ -1,0 +1,47 @@
+Based on the prompt.json system/user instructions and the auth_grant.txt workflow recording, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## DB2 Admin: Grant Database Privileges Workflow
+
+> **Starting point:** DB2 Admin Main Menu (Option 1 – DB2 system catalog)
+
+---
+
+### Steps
+
+1. At the **DB2 Administration Menu**, type `1` and press **Enter** to open the DB2 system catalog.
+2. At the **System Catalog - Objects** screen, type `d` in the **Option** field and press **Enter** to navigate to Databases.
+3. In the **Schema** filter field, type `[Database Name Prefix or Filter]` and press **Enter** to search for the target database.
+4. In the **Select** column next to `[Target Database Name]`, type `a` and press **Enter** to open Database Authorizations.
+5. At the **DB2 Database Authorizations** screen, in the **Select** column next to the last row (after the end of data marker), type `gr` and press **Enter** to initiate a Grant.
+6. At the **Grant Database Privileges** screen, verify or set the privilege indicators for each privilege (`Y` for grant, `G` for grant with grant option, or space for none) for the following privileges:
+   - `DBADM`, `DBCTRL`, `DBMAINT`, `CREATETAB`, `CREATETS`, `DISPLAYDB`, `DROP`, `IMAGCOPY`, `LOAD`, `RECOVERDB`, `REORG`, `REPAIR`, `STARTDB`, `STATS`, `STOPDB`
+7. Confirm the **Database** field shows `[Target Database Name]`.
+8. In the **TO** field, type `[Grantee User ID]` and press **Enter**.
+9. At the **Change Management Prompt**, in the `(Yes/No)` field, type `no` and press **Enter** to skip change management and execute the GRANT statement immediately.
+10. Verify the message `GRANT stmt executed` appears at the top of the screen.
+11. Press **PF3** to return to the **DB2 Database Authorizations** screen.
+12. Confirm the new row appears for `[Grantee User ID]` with the expected privileges on `[Target Database Name]`.
+13. Press **PF3** to return to the **Databases** list.
+14. To exit, type `=x.all` in the command field and press **Enter**, then type `logoff` at the TSO READY prompt and press **Enter**.
+
+---
+
+### Variable Placeholders
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name Prefix or Filter]` | The name or partial name used to filter the database list |
+| `[Target Database Name]` | The specific DB2 database to which privileges will be granted |
+| `[Grantee User ID]` | The TSO/DB2 user ID that will receive the database privileges |
+
+---
+
+### Notes
+
+- In **Step 6**, set privilege indicators before pressing **Enter**. All privileges are set to `G` (with grant option) by default in this workflow — adjust as needed.
+- In **Step 9**, answer `yes` instead of `no` if your site requires Change Management tracking.
+- Steps 14 (exit/logoff) are optional if continuing with other work.
+
+NOTE: Had user press enter too early again. Rest of the steps look right.

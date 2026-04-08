@@ -1,0 +1,10 @@
+PROMPT: Can you give me the steps to pay another order? The customer ID is 1010 and the order ID is 40007. Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+Assuming the order is eligible for payment, the keyboard sequence is:
+
+Type 2, then press Enter
+Type 1010, then press Enter
+Type 40007, then press Enter
+Type the payment amount, then press Enter
+Press Enter again to confirm the payment
+If you want, I can format that as a one-line script exactly like: 2 → Enter, 1010 → Enter, and so on.

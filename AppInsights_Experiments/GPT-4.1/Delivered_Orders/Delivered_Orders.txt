@@ -1,0 +1,63 @@
+ Role: You are an Information Developer tasked with creating Documentation for this output. | Goal: Explain the output and what the application does. Provide instructions on how to navigate the menu as well. | Constraints: Use clear and concise wording and avoid verbose language. Avoid emojis. | Input: Use the output provided above | Output: Create a Markdown file for the docs | Verification: Ensure all menu navigation steps have been listed as well as what the application does.  
+
+# LegaSuite DEMO Application Documentation
+
+## Overview
+
+The LegaSuite DEMO application is a demonstration tool designed to showcase the features and capabilities of LegaSuite products. It is not intended for real-time business use but provides a guided experience through various menu-driven tasks typical of IBM i environments.
+
+## Main Menu Navigation
+
+Upon logging in, users are presented with the IBM i Main Menu. To access the LegaSuite DEMO, enter `legademo` at the command prompt and press **Enter**.
+
+### LegaSuite DEMO Main Menu Options
+
+After launching the demo, the following options are available:
+
+| Option | Description                    |
+|--------|--------------------------------|
+| 1      | Maintain Customers             |
+| 2      | Customer Payments              |
+| 3      | Maintain Items                 |
+| 4      | Incoming Stock                 |
+| 6      | Order Entry                    |
+| 7      | Delivered Orders               |
+| 9      | View Customer Turn over        |
+| 10     | View Item Turn over            |
+| 80     | End of year procedure          |
+| 90     | Sign off                       |
+
+To select an option, type the corresponding number at the `===>` prompt and press **Enter**.
+
+## Example Navigation: Viewing Delivered Orders
+
+1. At the main menu, type `7` and press **Enter** to access the Delivered Orders screen.
+2. The application will prompt for an Order Number. Press **F4** to prompt a list of available orders.
+3. Use the arrow keys to navigate the list. Press **Enter** on the desired order to view its details.
+4. The order details screen displays information such as order number, date, customer, credit limit, open amount, and itemized order lines.
+5. To return to the main menu, press **F3** (Exit).
+
+## Function Keys
+
+- **F3**: Exit to the previous menu or main menu.
+- **F4**: Prompt (displays a list of selectable items).
+- **F12**: Cancel current operation.
+- **F23**: Set initial menu or delete (context-dependent).
+
+## Signing Off
+
+To sign off from the application, enter `90` at the main menu prompt and press **Enter**.
+
+## Application Purpose
+
+This demo application allows users to explore:
+
+- Customer and item maintenance
+- Order entry and delivery processes
+- Viewing customer and item turnover
+- Simulated end-of-year procedures
+
+It is intended to demonstrate the flexibility and features of LegaSuite products in a controlled, non-production environment.
+
+---
+(C) COPYRIGHT IBM CORP. 1980, 2013.

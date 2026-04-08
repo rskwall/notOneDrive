@@ -1,0 +1,1345 @@
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | IKJ56476I ENTER PASSWORD:                                                      |
+  1      |                                                                                |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 10    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+------------+
+    | Row | Column | Modification qualifier | Value      |
+    +-----+--------+------------------------+------------+
+    | 2   | 2      | DIFFERENT              | "********" |
+    +-----+--------+------------------------+------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | ------------------------------- TSO/E LOGON -----------------------------------|
+  1      |                                                                                |
+  2      |                                                                                |
+  3      |    Enter LOGON parameters below:                   RACF LOGON parameters:      |
+  4      |                                                                                |
+  5      |    Userid    ===> USER12                           Seclabel     ===>           |
+  6      |                                                                                |
+  7      |    Password  ===>                                                              |
+  8      |                                                                                |
+  9      |    Procedure ===> ROCKPROC                         Group Ident  ===>           |
+ 10      |                                                                                |
+ 11      |    Acct Nmbr ===> ACCT#                                                        |
+ 12      |                                                                                |
+ 13      |    Size      ===> 400000                                                       |
+ 14      |                                                                                |
+ 15      |    Perform   ===>                                                              |
+ 16      |                                                                                |
+ 17      |    Command   ===> RSISPF                                                       |
+ 18      |                                                                                |
+ 19      |    Enter an 'S' before each option desired below:                              |
+ 20      |    -New Password    -Nomail    -Nonotice  S -Reconnect    -OIDcard             |
+ 21      |                                                                                |
+ 22      | PF1/PF13 ==> Help    PF3/PF15 ==> Logoff    PA1 ==> Attention    PA2 ==> Reshow|
+ 23      | You may request specific help information by entering a '?' in any entry field |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 20    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | ICH70001I USER12   LAST ACCESS AT 14:23:52 ON THURSDAY, APRIL 2, 2026          |
+  1      | USER12 LOGON IN PROGRESS AT 15:03:06 ON APRIL 2, 2026                          |
+  2      | NO BROADCAST MESSAGES                                                          |
+  3      | Existing image specific profile found.                                         |
+  4      | Allocating profile dataset: USER12.HL02.ISPPROF                                |
+  5      | Allocating profile dataset TO ISPTABL: USER12.HL02.ISPPROF                     |
+  6      | Allocating temporary datasets.                                                 |
+  7      | Allocating list and log datasets.                                              |
+  8      | RSISPF                                                                         |
+  9      | ***                                                                            |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 10    |
+    | Column | 6     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Query Reply:
+    +-----------------------+---------+
+    | Item                  | Value   |
+    +-----------------------+---------+
+    | Default screen        | 80 x 24 |
+    | Alternate screen      | 80 x 24 |
+    | Use 16-bit addressing | true    |
+    | CCSID                 | 37      |
+    +-----------------------+---------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      |                                            More:     +                         |
+  4      | 0  Settings      Terminal and user parameters            User ID . : USER12    |
+  5      | 1  View          Display source data or listings         Time. . . : 15:03     |
+  6      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  7      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  8      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+  9      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 10      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 11      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER12    |
+ 12      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 13      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 14      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 15      |EssssssssssssssssssssssssssssssssssssssssssssssN                                |
+ 16      |e Licensed Materials - Property of IBM         e                                |
+ 17      |e 5650-ZOS     Copyright IBM Corp. 1980, 2021. e                                |
+ 18      |e US Government Users Restricted Rights -      e                                |
+ 19      |e Use, duplication or disclosure restricted    e                                |
+ 20      |e by GSA ADP Schedule Contract with IBM Corp.  e ity                            |
+ 21      |DssssssssssssssssssssssssssssssssssssssssssssssM                                |
+ 22      | Option ===>                                                                    |
+ 23      |   *ISR@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 14    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      |                                            More:     +                         |
+  4      | 0  Settings      Terminal and user parameters            User ID . : USER12    |
+  5      | 1  View          Display source data or listings         Time. . . : 15:05     |
+  6      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  7      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  8      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+  9      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 10      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 11      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER12    |
+ 12      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 13      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 14      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 15      | 11 Workplace     ISPF Object/Action Workplace                                  |
+ 16      | D  DB2           DB2 Products                                                  |
+ 17      | IT IMS Tools     IMS Tools                                                     |
+ 18      | I  IBM           IBM Program Products                                          |
+ 19      | RS Rocket        Products written by Rocket                                    |
+ 20      | S  SDSF          System Display and Search Facility                            |
+ 21      |                                                                                |
+ 22      | Option ===>                                                                    |
+ 23      |   *ISR@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 19    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 23  | 14     | DIFFERENT              | "d.aoc                                                             " |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 ADMIN  --------------- AOC Invocation Panel ----------- 2026/04/02 AT 15:05|
+  1      | Command ===>                                                                   |
+  2      |                                                                    More:     + |
+  3      | DB2 Admin/OC Concatenation:                               User ID : USER12     |
+  4      |      HLQ.QUALIFIER            PREFIX                      Prefix  : USER12     |
+  5      | CUST USER12.QATEMP              SADB                      SYSNAME : HL02       |
+  6      | AOC1 HOLRTE.AOC.ADBD10          SADB                      PLEXNAME: RSPLEXRS   |
+  7      | AOC2 HOLRTE.AOC.GOCD10          SGOC                                           |
+  8      | AOC3                                                      Valid Commands:      |
+  9      | AOC4                                                      ADMIN    LTB         |
+ 10      | AOC5                                                      BIND     RBE         |
+ 11      | AOC6                                                      GETDB2   WLM         |
+ 12      | AOC7                                                      GETIDAA  GBP         |
+ 13      | AOC8                                                      TCZ                  |
+ 14      |                                                                                |
+ 15      | BIND Command Options:                                                          |
+ 16      | SSID HL2D  VERSION 13 MODE NFM                                                 |
+ 17      |   USER12P (ABC)   USER COLLECTION    PLAN NAME  USER12P                        |
+ 18      | V13R1M505 (Value) APPLCOMPAT         COLLECTION AS SCHEMA (Y/N)  N             |
+ 19      |         Y (Y/N)   BIND MESSAGES                                                |
+ 20      |         Y (Y/N)   ENABLE OC/CM                                                 |
+ 21      |         Y (Y/N)   ENABLE GRANT MANAGEMENT                                      |
+ 22      |         Y (Y/N)   ENABLE HEALTH REPORT                                         |
+ 23      |   *AOC@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 20    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+---------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                               |
+    +-----+--------+------------------------+---------------------------------------------------------------------+
+    | 2   | 15     | DIFFERENT              | "ADMIN                                                            " |
+    +-----+--------+------------------------+---------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin -------------- DB2 Administration Menu 13.1.0 ----------------- 15:05|
+  1      | Option ===>                                                                    |
+  2      |                                                                                |
+  3      |    1 - DB2 system catalog                                DB2 System: HL2D      |
+  4      |    2 - Execute SQL statements                            DB2 SQL ID: USER12    |
+  5      |    3 - DB2 performance queries                           Userid    : USER12    |
+  6      |    4 - Change current SQL ID                             DB2 Schema: USER12    |
+  7      |    5 - Utility generation using LISTDEFs and TEMPLATEs   DB2 Rel   : 1315      |
+  8      |    P - Change DB2 Admin parameters                       DB2 F.Lvl : V13R1M505 |
+  9      |   DD - Distributed DB2 systems                           Max ApplC : V13R1M505 |
+ 10      |    E - Explain                                           ApplCompat: V13R1M505 |
+ 11      |    Z - DB2 system administration                         Cat Level : V13R1M505 |
+ 12      |   SM - Space management functions                                              |
+ 13      |EssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssN      |
+ 14      |e 5698-AT3 IBM Db2 Administration Tool                                   e      |
+ 15      |e Copyright 2016 - 2022. Rocket Software, Inc. or its affiliates.        e      |
+ 16      |e All Rights Reserved. Rocket Software, Inc.                             e      |
+ 17      |e Copyright IBM Corporation 1995, 2016.                                  e    + |
+ 18      |e All rights reserved.  Licensed materials - property of IBM.            e      |
+ 19      |e US Government Users Restricted Rights - Use, duplication or disclosure e      |
+ 20      |e restricted by GSA ADP schedule contract with IBM Corp.                 e      |
+ 21      |DssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssM      |
+ 22      |                                                                                |
+ 23      |   *ADB2                                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 15    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                 |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | 2   | 14     | DIFFERENT              | "1                                                                  " |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin ---------- HL2D System Catalog - Objects ---------------------- 15:05|
+  1      | Option ===>                                                                    |
+  2      |                                                           DB2 System: HL2D     |
+  3      |  AO - Display Authorization options                       DB2 SQL ID: USER12   |
+  4      |                                                                    More:     + |
+  5      | Object options:                                                                |
+  6      |   G - Storage groups                   P - Plans                               |
+  7      |   D - Databases                        L - Collections                         |
+  8      |   S - Table spaces                     K - Packages                            |
+  9      |   T - Tables, views, and aliases     JAR - JAR files                           |
+ 10      |   V - Views                            H - Schemas                             |
+ 11      |   A - Aliases for tables and views     E - User defined data types             |
+ 12      |   Y - Synonyms                         F - Functions                           |
+ 13      |   X - Indexes                          O - Stored procedures                   |
+ 14      |   C - Columns                          J - Triggers                            |
+ 15      |   N - Constraints                      Q - Sequences and aliases               |
+ 16      |  DS - Database structures            DSP - DS with plans and packages          |
+ 17      | PDC - DB2 pending definition changes  GV - Global variables                    |
+ 18      | XCU - Index cleanup                   RS - REST services                       |
+ 19      | Enter standard selection criteria: Settings: LIKE operator; Criteria not saved.|
+ 20      | Name  . . . .                            > Grantor . . .           >           |
+ 21      | Schema  . . .                            > Grantee . . .           >           |
+ 22      | Owner . . . .                            >                                     |
+ 23      |   *ADB21                                                                       |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 21    |
+    | Column | 19    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 2
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                 |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+    | 21  | 16     | DIFFERENT              | "VIL                      "                                           |
+    | 2   | 14     | DIFFERENT              | "D                                                                  " |
+    +-----+--------+------------------------+-----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin                     HL2D Databases                   Row 1 to 1 of 1 |
+  1      |                                                                      More:    >|
+  2      | Commands: GRANT  MIG  DIS  STA  STO  UTIL  CT   MOVETB LAT                     |
+  3      | Line commands:                                                                 |
+  4      |  T - Tables  S - Table spaces  X - Indexes  G - Storage group  ICS - IC status |
+  5      |  DIS - Display database  STA - Start database  STO - Stop database  A - Auth   |
+  6      |  ? - Show all line commands                                                    |
+  7      |                          Storage  Buffer          Created      Index           |
+  8      | Select Name     Owner    Group    Pool       DBID By       T E BPool    I      |
+  9      |        *        *        *        *             * *        * * *        *      |
+ 10      | ------ -------- -------- -------- -------- ------ -------- - - -------- -      |
+ 11      |        VILNIUS  USER12   SYSDEFLT BP0         945 USER12     E BP0      N      |
+ 12      | ******************************* END OF DB2 DATA *******************************|
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB21D                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 12    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------+
+    | Row | Column | Modification qualifier | Value    |
+    +-----+--------+------------------------+----------+
+    | 12  | 2      | DIFFERENT              | " T    " |
+    +-----+--------+------------------------+----------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin                  HL2D Tables, Views, and Aliases     Row 1 to 6 of 6 |
+  1      |                                                                      More:    >|
+  2      | Commands: GRANT  MIG  ALL  CT  LAT                                             |
+  3      | Line commands:                                                                 |
+  4      |  C - Columns  A - Auth  L - List  X - Indexes  S - Table space  D - Database   |
+  5      |  V - Views  T - Tables  K - Packages  Y - Synonyms  SEL - Select prototyping   |
+  6      |  ? - Show all line commands                                                    |
+  7      |                                                                                |
+  8      | Sel   Name               Schema   T DB Name  TS Name    Cols        Rows Chks C|
+  9      |       *                  *        * *        *             *           *    * *|
+ 10      | ----- ------------------ -------- - -------- -------- ------ ----------- ---- -|
+ 11      |       SHIPPINGADDRESS    USER12   T VILNIUS  SHIPPING     10          -1    0  |
+ 12      |       INVENTORY          USER12   T VILNIUS  INVENTOR     10          -1    0  |
+ 13      |       INVORDER           USER12   T VILNIUS  INVORDER      9          -1    0  |
+ 14      |       BASEPRICE          USER12   T VILNIUS  BASEPRIC      4          -1    0  |
+ 15      |       CUSTOMER           USER12   T VILNIUS  CUSTOMER      5          -1    0  |
+ 16      |       CCI                USER12   T VILNIUS  CCI          14          -1    0  |
+ 17      | ******************************* END OF DB2 DATA *******************************|
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB21T                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 15    |
+    | Column | 4     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+---------+
+    | Row | Column | Modification qualifier | Value   |
+    +-----+--------+------------------------+---------+
+    | 15  | 2      | DIFFERENT              | " L   " |
+    +-----+--------+------------------------+---------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.BASEPRICE                      Row 1 to 12 of 12 |
+  1      |                                                                                |
+  2      | L     PRICEID NAME                       PRICE IMAGELINK                       |
+  3      |             * *                              * *                               |
+  4      | - ----------- ------------------- ------------ --------------------------------|
+  5      |             1 Firewall Spell            114.99 /assets/base/firewall-spell.png |
+  6      |             2 Encryption Hex            149.99 /assets/base/encryption-hex.png |
+  7      |             3 Bug Banish                 59.99 /assets/base/bug-banish.png     |
+  8      |             4 Deploy Surge              199.99 /assets/base/deploy-surge.png   |
+  9      |             5 Cache Conjure              99.50 /assets/base/cache-conjure.png  |
+ 10      |             6 Recursive Loop            130.75 /assets/base/recursive-loop.png |
+ 11      |             7 Patch Ward                 89.99 /assets/base/patch-ward.png     |
+ 12      |             8 Quantum Compile            29.99 /assets/base/quantum-compile.png|
+ 13      |             9 Cloud Summon              224.50 /assets/base/cloud-summon.png   |
+ 14      |            10 Binary Barrier            113.25 /assets/base/binary-barrier.png |
+ 15      |            11 Null Pointer Curse         89.00 /assets/base/null-pointer-curse.|
+ 16      |            12 Merge Conflict Doom       139.99 /assets/base/merge-conflict-doom|
+ 17      | ******************************* END OF DB2 DATA *******************************|
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF11  |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.BASEPRICE                      Row 1 to 12 of 12 |
+  1      | "RIGHT   " is not active                                                       |
+  2      | L     PRICEID NAME                       PRICE IMAGELINK                       |
+  3      |             * *                              * *                               |
+  4      | - ----------- ------------------- ------------ --------------------------------|
+  5      |             1 Firewall Spell            114.99 /assets/base/firewall-spell.png |
+  6      |             2 Encryption Hex            149.99 /assets/base/encryption-hex.png |
+  7      |             3 Bug Banish                 59.99 /assets/base/bug-banish.png     |
+  8      |             4 Deploy Surge              199.99 /assets/base/deploy-surge.png   |
+  9      |             5 Cache Conjure              99.50 /assets/base/cache-conjure.png  |
+ 10      |             6 Recursive Loop            130.75 /assets/base/recursive-loop.png |
+ 11      |             7 Patch Ward                 89.99 /assets/base/patch-ward.png     |
+ 12      |             8 Quantum Compile            29.99 /assets/base/quantum-compile.png|
+ 13      |             9 Cloud Summon              224.50 /assets/base/cloud-summon.png   |
+ 14      |            10 Binary Barrier            113.25 /assets/base/binary-barrier.png |
+ 15      |            11 Null Pointer Curse         89.00 /assets/base/null-pointer-curse.|
+ 16      |            12 Merge Conflict Doom       139.99 /assets/base/merge-conflict-doom|
+ 17      | ******************************* END OF DB2 DATA *******************************|
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin                  HL2D Tables, Views, and Aliases     Row 1 to 6 of 6 |
+  1      |                                                                      More:    >|
+  2      | Commands: GRANT  MIG  ALL  CT  LAT                                             |
+  3      | Line commands:                                                                 |
+  4      |  C - Columns  A - Auth  L - List  X - Indexes  S - Table space  D - Database   |
+  5      |  V - Views  T - Tables  K - Packages  Y - Synonyms  SEL - Select prototyping   |
+  6      |  ? - Show all line commands                                                    |
+  7      |                                                                                |
+  8      | Sel   Name               Schema   T DB Name  TS Name    Cols        Rows Chks C|
+  9      |       *                  *        * *        *             *           *    * *|
+ 10      | ----- ------------------ -------- - -------- -------- ------ ----------- ---- -|
+ 11      |       SHIPPINGADDRESS    USER12   T VILNIUS  SHIPPING     10          -1    0  |
+ 12      |       INVENTORY          USER12   T VILNIUS  INVENTOR     10          -1    0  |
+ 13      |       INVORDER           USER12   T VILNIUS  INVORDER      9          -1    0  |
+ 14      | *     BASEPRICE          USER12   T VILNIUS  BASEPRIC      4          -1    0  |
+ 15      |       CUSTOMER           USER12   T VILNIUS  CUSTOMER      5          -1    0  |
+ 16      |       CCI                USER12   T VILNIUS  CCI          14          -1    0  |
+ 17      | ******************************* END OF DB2 DATA *******************************|
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB21T                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 12    |
+    | Column | 3     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+---------+
+    | Row | Column | Modification qualifier | Value   |
+    +-----+--------+------------------------+---------+
+    | 12  | 2      | DIFFERENT              | "L    " |
+    +-----+--------+------------------------+---------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS                Row 1 to 17 of 51 |
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      |             1 John        Smith     123 Main Street        Apt 4B    New York  |
+  6      |             2 Jane        Doe       456 Oak Avenue                   Los Angele|
+  7      |             3 Michael     Johnson   789 Pine Road          Suite 100 Chicago   |
+  8      |             4 Emily       Williams  321 Elm Street                   Houston   |
+  9      |             5 David       Brown     654 Maple Drive        Unit 12   Phoenix   |
+ 10      |             6 Sarah       Jones     987 Cedar Lane                   Philadelph|
+ 11      |             7 Christopher Garcia    147 Birch Court        Apt 7     San Antoni|
+ 12      |             8 Jessica     Miller    258 Walnut Way                   San Diego |
+ 13      |             9 Matthew     Davis     369 Cherry Boulevard   Floor 3   Dallas    |
+ 14      |            10 Ashley      Rodriguez 741 Spruce Avenue                San Jose  |
+ 15      |            11 Daniel      Martinez  852 Willow Street      Apt 22    Austin    |
+ 16      |            12 Amanda      Anderson  963 Hickory Lane                 Jacksonvil|
+ 17      |            13 Joshua      Taylor    159 Ash Drive          Suite 45  Fort Worth|
+ 18      |            14 Stephanie   Thomas    267 Poplar Road                  Columbus  |
+ 19      |            15 Andrew      Hernandez 378 Magnolia Court     Unit 8    Charlotte |
+ 20      |            16 Nicole      Moore     489 Sycamore Way                 San Franci|
+ 21      |            17 Ryan        Martin    591 Redwood Boulevard  Apt 15    Indianapol|
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF11  |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS                Row 1 to 17 of 51 |
+  1      |                                                                      More: <   |
+  2      | L STATE COUNTRY       ZIP    CUSTOMERID                                        |
+  3      |   *     *             *               *                                        |
+  4      | - ----- ------------- ----- -----------                                        |
+  5      |   NY    United States 10001           1                                        |
+  6      |   CA    United States 90001           2                                        |
+  7      |   IL    United States 60601           3                                        |
+  8      |   TX    United States 77001           4                                        |
+  9      |   AZ    United States 85001           5                                        |
+ 10      |   PA    United States 19101           6                                        |
+ 11      |   TX    United States 78201           7                                        |
+ 12      |   CA    United States 92101           8                                        |
+ 13      |   TX    United States 75201           9                                        |
+ 14      |   CA    United States 95101          10                                        |
+ 15      |   TX    United States 78701          11                                        |
+ 16      |   FL    United States 32201          12                                        |
+ 17      |   TX    United States 76101          13                                        |
+ 18      |   OH    United States 43201          14                                        |
+ 19      |   NC    United States 28201          15                                        |
+ 20      |   CA    United States 94101          16                                        |
+ 21      |   IN    United States 46201          17                                        |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF10  |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS                Row 1 to 17 of 51 |
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      |             1 John        Smith     123 Main Street        Apt 4B    New York  |
+  6      |             2 Jane        Doe       456 Oak Avenue                   Los Angele|
+  7      |             3 Michael     Johnson   789 Pine Road          Suite 100 Chicago   |
+  8      |             4 Emily       Williams  321 Elm Street                   Houston   |
+  9      |             5 David       Brown     654 Maple Drive        Unit 12   Phoenix   |
+ 10      |             6 Sarah       Jones     987 Cedar Lane                   Philadelph|
+ 11      |             7 Christopher Garcia    147 Birch Court        Apt 7     San Antoni|
+ 12      |             8 Jessica     Miller    258 Walnut Way                   San Diego |
+ 13      |             9 Matthew     Davis     369 Cherry Boulevard   Floor 3   Dallas    |
+ 14      |            10 Ashley      Rodriguez 741 Spruce Avenue                San Jose  |
+ 15      |            11 Daniel      Martinez  852 Willow Street      Apt 22    Austin    |
+ 16      |            12 Amanda      Anderson  963 Hickory Lane                 Jacksonvil|
+ 17      |            13 Joshua      Taylor    159 Ash Drive          Suite 45  Fort Worth|
+ 18      |            14 Stephanie   Thomas    267 Poplar Road                  Columbus  |
+ 19      |            15 Andrew      Hernandez 378 Magnolia Court     Unit 8    Charlotte |
+ 20      |            16 Nicole      Moore     489 Sycamore Way                 San Franci|
+ 21      |            17 Ryan        Martin    591 Redwood Boulevard  Apt 15    Indianapol|
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF9   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS                Row 1 to 17 of 51 |
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      |             1 John        Smith     123 Main Street        Apt 4B    New York  |
+  6      |             2 Jane        Doe       456 Oak Avenue                   Los Angele|
+  7      |             3 Michael     Johnson   789 Pine Road          Suite 100 Chicago   |
+  8      |             4 Emily       Williams  321 Elm Street                   Houston   |
+  9      |             5 David       Brown     654 Maple Drive        Unit 12   Phoenix   |
+ 10      |             6 Sarah       Jones     987 Cedar Lane                   Philadelph|
+ 11      |             7 Christopher Garcia    147 Birch Court        Apt 7     San Antoni|
+ 12      |             8 Jessica     Miller    258 Walnut Way                   San Diego |
+ 13      |             9 Matthew     Davis     369 Cherry Boulevard   Floor 3   Dallas    |
+ 14      |            10 Ashley      Rodriguez 741 Spruce Avenue                San Jose  |
+ 15      |            11 Daniel      Martinez  852 Willow Street      Apt 22    Austin    |
+ 16      |            12 Amanda      Anderson  963 Hickory Lane                 Jacksonvil|
+ 17      |            13 Joshua      Taylor    159 Ash Drive          Suite 45  Fort Worth|
+ 18      |            14 Stephanie   Thomas    267 Poplar Road                  Columbus  |
+ 19      |            15 Andrew      Hernandez 378 Magnolia Court     Unit 8    Charlotte |
+ 20      |            16 Nicole      Moore     489 Sycamore Way                 San Franci|
+ 21      |            17 Ryan        Martin    591 Redwood Boulevard  Apt 15    Indianapol|
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS               Row 18 to 34 of 51 |
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      |            18 Elizabeth   Jackson   612 Cypress Street               Seattle   |
+  6      |            19 Brandon     Thompson  723 Palm Avenue        Floor 2   Denver    |
+  7      |            20 Megan       White     834 Olive Drive                  Washington|
+  8      |            21 Justin      Lopez     945 Juniper Lane       Suite 30  Boston    |
+  9      |            22 Rachel      Lee       156 Dogwood Road                 El Paso   |
+ 10      |            23 Kevin       Gonzalez  267 Cottonwood Court   Apt 9     Nashville |
+ 11      |            24 Lauren      Harris    378 Beech Way                    Detroit   |
+ 12      |            25 Tyler       Clark     489 Locust Boulevard   Unit 5    Oklahoma C|
+ 13      |            26 Amber       Lewis     591 Chestnut Street              Portland  |
+ 14      |            27 Jason       Robinson  612 Alder Avenue       Floor 4   Las Vegas |
+ 15      |            28 Brittany    Walker    723 Fir Drive                    Memphis   |
+ 16      |            29 Aaron       Perez     834 Hemlock Lane       Apt 18    Louisville|
+ 17      |            30 Samantha    Hall      945 Sequoia Road                 Baltimore |
+ 18      |            31 Nathan      Young     156 Aspen Court        Suite 12  Milwaukee |
+ 19      |            32 Kayla       Allen     267 Buckeye Way                  Albuquerqu|
+ 20      |            33 Patrick     Sanchez   378 Catalpa Boulevard  Unit 20   Tucson    |
+ 21      |            34 Victoria    King      489 Ginkgo Street                Fresno    |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS               Row 35 to 51 of 51 |
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      |            35 Sean        Wright    591 Hawthorn Avenue    Apt 6     Sacramento|
+  6      |            36 Rebecca     Scott     612 Larch Drive                  Kansas Cit|
+  7      |            37 Eric        Torres    723 Mulberry Lane      Floor 5   Mesa      |
+  8      |            38 Christina   Nguyen    834 Pecan Road                   Atlanta   |
+  9      |            39 Brian       Hill      945 Sassafras Court    Suite 8   Colorado S|
+ 10      |            40 Michelle    Flores    156 Sweetgum Way                 Omaha     |
+ 11      |            41 Steven      Green     267 Tamarack Boulevard Unit 14   Raleigh   |
+ 12      |            42 Heather     Adams     378 Tupelo Street                Miami     |
+ 13      |            43 Timothy     Nelson    489 Yew Avenue         Apt 25    Long Beach|
+ 14      |            44 Kimberly    Baker     591 Zelkova Drive                Virginia B|
+ 15      |            45 Mark        Rivera    612 Acacia Lane        Floor 6   Oakland   |
+ 16      |            46 Jennifer    Campbell  723 Banyan Road                  Minneapoli|
+ 17      |            47 Paul        Mitchell  834 Camphor Court      Suite 17  Tulsa     |
+ 18      |            48 Melissa     Carter    945 Date Way                     Tampa     |
+ 19      |            49 Gregory     Roberts   156 Elder Boulevard    Unit 3    Arlington |
+ 20      |            50 Angela      Phillips  267 Fig Street                   New Orlean|
+ 21      |            51 Liz         Jackson   123 st Ave                       Rogers    |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS                             15:05|
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      | ******************************* END OF DB2 DATA *******************************|
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF7   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS               Row 35 to 51 of 51 |
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      |            35 Sean        Wright    591 Hawthorn Avenue    Apt 6     Sacramento|
+  6      |            36 Rebecca     Scott     612 Larch Drive                  Kansas Cit|
+  7      |            37 Eric        Torres    723 Mulberry Lane      Floor 5   Mesa      |
+  8      |            38 Christina   Nguyen    834 Pecan Road                   Atlanta   |
+  9      |            39 Brian       Hill      945 Sassafras Court    Suite 8   Colorado S|
+ 10      |            40 Michelle    Flores    156 Sweetgum Way                 Omaha     |
+ 11      |            41 Steven      Green     267 Tamarack Boulevard Unit 14   Raleigh   |
+ 12      |            42 Heather     Adams     378 Tupelo Street                Miami     |
+ 13      |            43 Timothy     Nelson    489 Yew Avenue         Apt 25    Long Beach|
+ 14      |            44 Kimberly    Baker     591 Zelkova Drive                Virginia B|
+ 15      |            45 Mark        Rivera    612 Acacia Lane        Floor 6   Oakland   |
+ 16      |            46 Jennifer    Campbell  723 Banyan Road                  Minneapoli|
+ 17      |            47 Paul        Mitchell  834 Camphor Court      Suite 17  Tulsa     |
+ 18      |            48 Melissa     Carter    945 Date Way                     Tampa     |
+ 19      |            49 Gregory     Roberts   156 Elder Boulevard    Unit 3    Arlington |
+ 20      |            50 Angela      Phillips  267 Fig Street                   New Orlean|
+ 21      |            51 Liz         Jackson   123 st Ave                       Rogers    |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF11  |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS               Row 35 to 51 of 51 |
+  1      |                                                                      More: <   |
+  2      | L STATE COUNTRY       ZIP    CUSTOMERID                                        |
+  3      |   *     *             *               *                                        |
+  4      | - ----- ------------- ----- -----------                                        |
+  5      |   CA    United States 95801          35                                        |
+  6      |   MO    United States 64101          36                                        |
+  7      |   AZ    United States 85201          37                                        |
+  8      |   GA    United States 30301          38                                        |
+  9      |   CO    United States 80901          39                                        |
+ 10      |   NE    United States 68101          40                                        |
+ 11      |   NC    United States 27601          41                                        |
+ 12      |   FL    United States 33101          42                                        |
+ 13      |   CA    United States 90801          43                                        |
+ 14      |   VA    United States 23451          44                                        |
+ 15      |   CA    United States 94601          45                                        |
+ 16      |   MN    United States 55401          46                                        |
+ 17      |   OK    United States 74101          47                                        |
+ 18      |   FL    United States 33601          48                                        |
+ 19      |   TX    United States 76001          49                                        |
+ 20      |   LA    United States 70112          50                                        |
+ 21      |   AR    USA           72758          18                                        |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF10  |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin    HL2D LIST USER12.SHIPPINGADDRESS               Row 35 to 51 of 51 |
+  1      |                                                                      More:    >|
+  2      | L   ADDRESSID FIRST_NAME  LAST_NAME ADDRESS                ADDR_2    CITY      |
+  3      |             * *           *         *                      *         *         |
+  4      | - ----------- ----------- --------- ---------------------- --------- ----------|
+  5      |            35 Sean        Wright    591 Hawthorn Avenue    Apt 6     Sacramento|
+  6      |            36 Rebecca     Scott     612 Larch Drive                  Kansas Cit|
+  7      |            37 Eric        Torres    723 Mulberry Lane      Floor 5   Mesa      |
+  8      |            38 Christina   Nguyen    834 Pecan Road                   Atlanta   |
+  9      |            39 Brian       Hill      945 Sassafras Court    Suite 8   Colorado S|
+ 10      |            40 Michelle    Flores    156 Sweetgum Way                 Omaha     |
+ 11      |            41 Steven      Green     267 Tamarack Boulevard Unit 14   Raleigh   |
+ 12      |            42 Heather     Adams     378 Tupelo Street                Miami     |
+ 13      |            43 Timothy     Nelson    489 Yew Avenue         Apt 25    Long Beach|
+ 14      |            44 Kimberly    Baker     591 Zelkova Drive                Virginia B|
+ 15      |            45 Mark        Rivera    612 Acacia Lane        Floor 6   Oakland   |
+ 16      |            46 Jennifer    Campbell  723 Banyan Road                  Minneapoli|
+ 17      |            47 Paul        Mitchell  834 Camphor Court      Suite 17  Tulsa     |
+ 18      |            48 Melissa     Carter    945 Date Way                     Tampa     |
+ 19      |            49 Gregory     Roberts   156 Elder Boulevard    Unit 3    Arlington |
+ 20      |            50 Angela      Phillips  267 Fig Street                   New Orlean|
+ 21      |            51 Liz         Jackson   123 st Ave                       Rogers    |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB2DF                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 15    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin                  HL2D Tables, Views, and Aliases     Row 1 to 6 of 6 |
+  1      |                                                                      More:    >|
+  2      | Commands: GRANT  MIG  ALL  CT  LAT                                             |
+  3      | Line commands:                                                                 |
+  4      |  C - Columns  A - Auth  L - List  X - Indexes  S - Table space  D - Database   |
+  5      |  V - Views  T - Tables  K - Packages  Y - Synonyms  SEL - Select prototyping   |
+  6      |  ? - Show all line commands                                                    |
+  7      |                                                                                |
+  8      | Sel   Name               Schema   T DB Name  TS Name    Cols        Rows Chks C|
+  9      |       *                  *        * *        *             *           *    * *|
+ 10      | ----- ------------------ -------- - -------- -------- ------ ----------- ---- -|
+ 11      | *     SHIPPINGADDRESS    USER12   T VILNIUS  SHIPPING     10          -1    0  |
+ 12      |       INVENTORY          USER12   T VILNIUS  INVENTOR     10          -1    0  |
+ 13      |       INVORDER           USER12   T VILNIUS  INVORDER      9          -1    0  |
+ 14      | *     BASEPRICE          USER12   T VILNIUS  BASEPRIC      4          -1    0  |
+ 15      |       CUSTOMER           USER12   T VILNIUS  CUSTOMER      5          -1    0  |
+ 16      |       CCI                USER12   T VILNIUS  CCI          14          -1    0  |
+ 17      | ******************************* END OF DB2 DATA *******************************|
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB21T                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 12    |
+    | Column | 2     |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin                     HL2D Databases                   Row 1 to 1 of 1 |
+  1      |                                                                      More:    >|
+  2      | Commands: GRANT  MIG  DIS  STA  STO  UTIL  CT   MOVETB LAT                     |
+  3      | Line commands:                                                                 |
+  4      |  T - Tables  S - Table spaces  X - Indexes  G - Storage group  ICS - IC status |
+  5      |  DIS - Display database  STA - Start database  STO - Stop database  A - Auth   |
+  6      |  ? - Show all line commands                                                    |
+  7      |                          Storage  Buffer          Created      Index           |
+  8      | Select Name     Owner    Group    Pool       DBID By       T E BPool    I      |
+  9      |        *        *        *        *             * *        * * *        *      |
+ 10      | ------ -------- -------- -------- -------- ------ -------- - - -------- -      |
+ 11      | *      VILNIUS  USER12   SYSDEFLT BP0         945 USER12     E BP0      N      |
+ 12      | ******************************* END OF DB2 DATA *******************************|
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      | Command ===>                                                  Scroll ===> PAGE |
+ 23      |   *ADB21D                                                                      |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 12    |
+    | Column | 2     |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin ---------- HL2D System Catalog - Objects ---------------------- 15:06|
+  1      | Option ===>                                                                    |
+  2      |                                                           DB2 System: HL2D     |
+  3      |  AO - Display Authorization options                       DB2 SQL ID: USER12   |
+  4      |                                                                    More:     + |
+  5      | Object options:                                                                |
+  6      |   G - Storage groups                   P - Plans                               |
+  7      |   D - Databases                        L - Collections                         |
+  8      |   S - Table spaces                     K - Packages                            |
+  9      |   T - Tables, views, and aliases     JAR - JAR files                           |
+ 10      |   V - Views                            H - Schemas                             |
+ 11      |   A - Aliases for tables and views     E - User defined data types             |
+ 12      |   Y - Synonyms                         F - Functions                           |
+ 13      |   X - Indexes                          O - Stored procedures                   |
+ 14      |   C - Columns                          J - Triggers                            |
+ 15      |   N - Constraints                      Q - Sequences and aliases               |
+ 16      |  DS - Database structures            DSP - DS with plans and packages          |
+ 17      | PDC - DB2 pending definition changes  GV - Global variables                    |
+ 18      | XCU - Index cleanup                   RS - REST services                       |
+ 19      | Enter standard selection criteria: Settings: LIKE operator; Criteria not saved.|
+ 20      | Name  . . . . VIL%                       > Grantor . . .           >           |
+ 21      | Schema  . . .                            > Grantee . . .           >           |
+ 22      | Owner . . . .                            >                                     |
+ 23      |   *ADB21                                                                       |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 14    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 Admin -------------- DB2 Administration Menu 13.1.0 ----------------- 15:06|
+  1      | Option ===>                                                                    |
+  2      |                                                                                |
+  3      |    1 - DB2 system catalog                                DB2 System: HL2D      |
+  4      |    2 - Execute SQL statements                            DB2 SQL ID: USER12    |
+  5      |    3 - DB2 performance queries                           Userid    : USER12    |
+  6      |    4 - Change current SQL ID                             DB2 Schema: USER12    |
+  7      |    5 - Utility generation using LISTDEFs and TEMPLATEs   DB2 Rel   : 1315      |
+  8      |    P - Change DB2 Admin parameters                       DB2 F.Lvl : V13R1M505 |
+  9      |   DD - Distributed DB2 systems                           Max ApplC : V13R1M505 |
+ 10      |    E - Explain                                           ApplCompat: V13R1M505 |
+ 11      |    Z - DB2 system administration                         Cat Level : V13R1M505 |
+ 12      |   SM - Space management functions                                              |
+ 13      |    W - Manage work statement lists                                             |
+ 14      |    X - Exit DB2 Admin                                          HL02HL2D        |
+ 15      |   CC - DB2 catalog copy version maintenance                                    |
+ 16      |   CM - Change management                                                       |
+ 17      |                                                                    More:     + |
+ 18      | Interface to other DB2 products and offerings:                                 |
+ 19      |    I  DB2I                                                                     |
+ 20      |    C  DB2 OBJECT COMPARISON TOOL                                               |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |   *ADB2                                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 14    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      | DB2 ADMIN  --------------- AOC Invocation Panel ----------- 2026/04/02 AT 15:06|
+  1      | Command ===>                                                                   |
+  2      |                                                                    More:     + |
+  3      | DB2 Admin/OC Concatenation:                               User ID : USER12     |
+  4      |      HLQ.QUALIFIER            PREFIX                      Prefix  : USER12     |
+  5      | CUST USER12.QATEMP              SADB                      SYSNAME : HL02       |
+  6      | AOC1 HOLRTE.AOC.ADBD10          SADB                      PLEXNAME: RSPLEXRS   |
+  7      | AOC2 HOLRTE.AOC.GOCD10          SGOC                                           |
+  8      | AOC3                                                      Valid Commands:      |
+  9      | AOC4                                                      ADMIN    LTB         |
+ 10      | AOC5                                                      BIND     RBE         |
+ 11      | AOC6                                                      GETDB2   WLM         |
+ 12      | AOC7                                                      GETIDAA  GBP         |
+ 13      | AOC8                                                      TCZ                  |
+ 14      |                                                                                |
+ 15      | BIND Command Options:                                                          |
+ 16      | SSID HL2D  VERSION 13 MODE NFM                                                 |
+ 17      |   USER12P (ABC)   USER COLLECTION    PLAN NAME  USER12P                        |
+ 18      | V13R1M505 (Value) APPLCOMPAT         COLLECTION AS SCHEMA (Y/N)  N             |
+ 19      |         Y (Y/N)   BIND MESSAGES                                                |
+ 20      |         Y (Y/N)   ENABLE OC/CM                                                 |
+ 21      |         Y (Y/N)   ENABLE GRANT MANAGEMENT                                      |
+ 22      |         Y (Y/N)   ENABLE HEALTH REPORT                                         |
+ 23      |   *AOC@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 2     |
+    | Column | 15    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      |                                            More:     +                         |
+  4      | 0  Settings      Terminal and user parameters            User ID . : USER12    |
+  5      | 1  View          Display source data or listings         Time. . . : 15:06     |
+  6      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  7      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  8      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+  9      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 10      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 11      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER12    |
+ 12      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 13      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 14      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 15      | 11 Workplace     ISPF Object/Action Workplace                                  |
+ 16      | D  DB2           DB2 Products                                                  |
+ 17      | IT IMS Tools     IMS Tools                                                     |
+ 18      | I  IBM           IBM Program Products                                          |
+ 19      | RS Rocket        Products written by Rocket                                    |
+ 20      | S  SDSF          System Display and Search Facility                            |
+ 21      |                                                                                |
+ 22      | Option ===>                                                                    |
+ 23      |   *ISR@PRI                                                                     |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 23    |
+    | Column | 14    |
+    | Key    | PF3   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |  USER12.USER12.TSU00383.D0000103.? was preallocated (no free was done).        |
+  1      | READY                                                                          |
+  2      |                                                                                |
+  3      |                                                                                |
+  4      |                                                                                |
+  5      |                                                                                |
+  6      |                                                                                |
+  7      |                                                                                |
+  8      |                                                                                |
+  9      |                                                                                |
+ 10      |                                                                                |
+ 11      |                                                                                |
+ 12      |                                                                                |
+ 13      |                                                                                |
+ 14      |                                                                                |
+ 15      |                                                                                |
+ 16      |                                                                                |
+ 17      |                                                                                |
+ 18      |                                                                                |
+ 19      |                                                                                |
+ 20      |                                                                                |
+ 21      |                                                                                |
+ 22      |                                                                                |
+ 23      |                                                                                |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 3     |
+    | Column | 7     |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------+
+    | Row | Column | Modification qualifier | Value    |
+    +-----+--------+------------------------+----------+
+    | 2   | 9      | DIFFERENT              | "LOGOFF" |
+    +-----+--------+------------------------+----------+

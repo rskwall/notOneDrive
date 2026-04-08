@@ -1,0 +1,112 @@
+
+
+**Starting point:** The LEGADEMO main menu (`===>` prompt) is displayed.
+
+**Common pattern – Selecting from a popup list:** When a selection list appears, scroll to locate the desired row. Type `1` in the selection column next to the target row and press **Enter**.
+
+---
+
+## Sub-Workflow 1: Maintain Customers – View and Optionally Update a Customer Record
+
+1. At `===>`, type `1` and press **Enter**. *(Maintain Customers – CUSMAIN-F000)*
+2. Press **F4** (Prompt) to open the customer selection list. *(Select Customer popup)*
+3. Type `1` next to **[Target Customer]** and press **Enter**. *(Customer detail – CUSMAIN-F100)*
+4. *(Optional – to edit a field)* Tab to **[Field to Update]**, overtype the current value with **[New Field Value]**, then press **Enter** to save. *(Returns to CUSMAIN-F000)*
+5. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 2: Customer Payments – Access the Payment Entry Screen for a Customer
+
+1. At `===>`, type `2` and press **Enter**. *(Customer Payments – CUSTPAY-F000)*
+2. Press **F4** (Prompt) to open the customer selection list. *(Select Customer popup)*
+3. Type `1` next to **[Target Customer]** and press **Enter**. *(Customer payment detail – CUSTPAY-F100)*
+4. *(Optional)* In the "Order Number" field, type **[Order Number to Apply Payment To]** and press **Enter**.
+5. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 3: Maintain Items – View and Optionally Update an Item Record
+
+1. At `===>`, type `3` and press **Enter**. *(Maintain Items – ITMMAIN-F000)*
+2. Press **F4** (Prompt) to open the item selection list. *(Select Item popup)*
+3. Type `1` next to **[Target Item]** and press **Enter**. *(Item detail – ITMMAIN-F100)*
+4. *(Optional – to edit a field)* Tab to **[Field to Update]** (e.g., Item Description, Item Price), overtype the value with **[New Field Value]**, then press **Enter** to save. *(Returns to ITMMAIN-F000)*
+5. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 4: Incoming Stock – Record Incoming Inventory for an Item
+
+1. At `===>`, type `4` and press **Enter**. *(Incoming Stock – ITMSTOCK-F000)*
+2. Press **F4** (Prompt) to open the item selection list. *(Select Item popup)*
+3. Type `1` next to **[Target Item]** and press **Enter**. *(Incoming Stock detail – ITMSTOCK-F100)*
+4. In the "Incoming Stock" field, type **[Quantity Received]** and press **Enter** to record the stock.
+5. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 5: Order Entry – View an Existing Order
+
+1. At `===>`, type `6` and press **Enter**. *(Order Entry – ORDENTRY-F000)*
+2. Press **F4** (Prompt) to open the order selection list. *(Select Order popup – shows Order Number, Customer Number, Customer Name)*
+3. Type `1` next to **[Target Order]** and press **Enter**. *(Order detail – ORDENTRY-F100)*
+4. Review the order header and line items.
+5. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 6: Delivered Orders – View an Order Delivery Record
+
+1. At `===>`, type `7` and press **Enter**. *(Order Delivery – ORDDELIV-F000)*
+2. Press **F4** (Prompt) to open the order selection list. *(Select Order popup)*
+3. Type `1` next to **[Target Order]** and press **Enter**. *(Order Delivery detail – ORDDELIV-F100)*
+4. Review the delivery header and line items.
+5. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 7: View Customer Turn Over – Display a Customer Turn Over Report
+
+1. At `===>`, type `9` and press **Enter**. *(Turn Over per Customer – TRNCUST-F000)*
+2. With the cursor on the "From Customer number" field, press **F4** (Prompt).
+3. Type `1` next to **[Starting Customer]** and press **Enter**. *(Field is now populated)*
+4. Tab to the "To Customer number" field and press **F4** (Prompt).
+5. Type `1` next to **[Ending Customer]** and press **Enter**. *(Field is now populated)*
+6. *(Optional)* In "Display or Print", type **[Output Mode]** — `D` = Display (default), `P` = Print.
+7. *(Optional)* In "Select year", type **[Year Selection]** — `0` = This year (default), `1` = Last year, `2` = Two years ago, `3` = Three years ago.
+8. Press **Enter** to generate the report. *(Overview Customer Turn over – TRNCUST-F130)*
+9. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 8: View Item Turn Over – Display an Item Turn Over Report
+
+1. At `===>`, type `10` and press **Enter**. *(Turn Over per Item – TRNITEM-F000)*
+2. With the cursor on the "From Item number" field, press **F4** (Prompt).
+3. Type `1` next to **[Starting Item]** and press **Enter**. *(Field is now populated)*
+4. Tab to the "To Item number" field and press **F4** (Prompt).
+5. Type `1` next to **[Ending Item]** and press **Enter**. *(Field is now populated)*
+6. *(Optional)* Adjust "Display or Print" and "Select year" as described in Sub-Workflow 7, steps 6–7.
+7. Press **Enter** to generate the report. *(Overview Item Turn over – TRNITEM-F130)*
+8. Press **F3** (Exit) to return to the LEGADEMO main menu.
+
+---
+
+## Sub-Workflow 9: End of Year Procedure
+
+1. At `===>`, type `80` and press **Enter**. *(End of Year Procedure – YEAREND-F000, shows a confirmation prompt)*
+2. Press **Enter** to confirm and execute the procedure. *(Returns to LEGADEMO main menu)*
+
+---
+
+## Sub-Workflow 10: Sign Off
+
+1. At `===>`, type `90` and press **Enter**. *(Initiates sign off)*
+
+---
+
+**Verification checklist:**
+- No specific customer numbers, names, cities, item numbers, descriptions, order numbers, prices, or quantities from the recording appear in the steps above. ✓
+- Every placeholder (`[Target Customer]`, `[Field to Update]`, `[New Field Value]`, etc.) is named so a new user understands what to supply. ✓
+- Following these steps with real values substituted reproduces each workflow. ✓

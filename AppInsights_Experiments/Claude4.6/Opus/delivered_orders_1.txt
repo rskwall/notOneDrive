@@ -1,0 +1,25 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Workflow Overview: Delivered Orders in LegaSuite DEMO
+
+This file captures a step-by-step green-screen (5250) terminal session on an IBM i system:
+
+1. **IBM i Main Menu** → User types `legademo` and presses Enter to launch the demo application.
+2. **Intro Screen** → A welcome/informational splash screen is displayed; user presses Enter to continue.
+3. **LegaSuite DEMO Main Menu** → User selects option **7** ("Delivered Orders").
+4. **Order Delivery Screen** → Prompts for an Order Number; user presses **F4** to open a selection list.
+5. **Order Selection List (1st attempt)** → A popup lists open orders with Order Number, Customer Number, and Name. User selects an order but it doesn't appear to take (screen returns blank).
+6. **Order Selection List (2nd attempt)** → User presses **F4** again. This time, they select order **10005** (by placing a `1` next to "Rocket Insurance", customer 1001).
+7. **Order Detail Screen** → Displays order **10005** details:
+   - Customer: Rocket Insurance (cust 1001)
+   - Order total: $1,991.90
+   - 5 line items (sweaters in various sizes/colors from LegaSuite and GRAVINA brands)
+   - Shows stock levels, quantities, prices, discounts, and line amounts.
+8. **Exit (F3)** → User presses F3 to return to the main menu.
+9. **Sign Off** → User enters **90** to sign off the system.
+
+**In short:** The user navigated to the "Delivered Orders" function, browsed available orders via a prompt list, viewed the detail of order 10005, then exited and signed off.
+
+NOTE: It noticed that trying to select an order from the F4 menu didn't work, which interests me.

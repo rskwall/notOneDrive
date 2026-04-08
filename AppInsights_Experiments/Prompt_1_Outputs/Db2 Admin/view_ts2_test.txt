@@ -1,0 +1,47 @@
+RESPONSE:
+# Reusable Step-by-Step Instructions: View Table Space Status by Table Space Name in DB2 Admin
+
+> **Starting point:** DB2 Admin Main Menu
+
+---
+
+## Steps
+
+1. At the `Option ===>` prompt, type `1` and press **Enter** to open the DB2 System Catalog - Objects menu.
+
+2. At the `Option ===>` prompt, type `S` and press **Enter** to select Table Spaces.
+
+3. In the `Schema` field, type `[Table Space Name]` to filter results by the table space name you want to inspect.
+
+4. Press **Enter** to display the matching Table Spaces list.
+
+5. In the **HL2D Table Spaces** list, locate the specific table space entry for `[Database Name]`. In the `Select` column next to that row, type `DIS` and press **Enter** to display the table space status.
+
+6. Review the **Browse DB2 Command Output** screen, confirming the status (e.g., `RW` for Read/Write) for the selected table space within `[Database Name]`.
+
+7. Press **PF3** to return to the **HL2D Table Spaces** list.
+
+8. *(Optional)* To navigate to the parent database from the Table Spaces list, in the `Select` column next to `[Table Space Name]`, type `D` and press **Enter** to view the **HL2D Databases** list.
+
+9. *(Optional)* To view all tables in that database, in the `Select` column next to `[Database Name]` in the Databases list, type `T` and press **Enter** to display the **Tables, Views, and Aliases** list.
+
+10. When finished, at the `Command ===>` prompt, type `=X.ALL` and press **Enter** to exit DB2 Admin and return to the TSO READY prompt.
+
+---
+
+## Variable Placeholders Reference
+
+| Placeholder | Description |
+|---|---|
+| `[Table Space Name]` | The name of the table space you want to inspect; entered in the `Schema` filter field on the Objects menu |
+| `[Database Name]` | The specific DB2 database that contains the table space; used to select the correct row when multiple databases contain a table space with the same name |
+
+---
+
+## Notes
+
+- Filtering by `[Table Space Name]` in the `Schema` field on the Objects screen may return **multiple rows** if the same table space name exists in more than one database. Use the `DB Name` column to identify the correct row before issuing the `DIS` line command.
+- The `DIS` line command issues a `DISPLAY DATABASE` command scoped to the selected table space, showing its current **STATUS**, **PHYERRLO**, **PHYERRHI**, **CATALOG**, and **PIECE** values.
+- The `=X.ALL` fast-path command exits all DB2 Admin panels in one step and returns directly to the TSO READY prompt.
+
+NOTE: Wrong, tells user to hit enter before table name has been inserted.

@@ -1,0 +1,9 @@
+PROMPT: Can you give me the steps to check another order? The order ID is 20001. Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+Type 7, then press Enter.
+
+Press F4.
+
+Type 1 next to order 20001, then press Enter.
+
+That will open the detail screen for order 20001.

@@ -1,0 +1,13 @@
+{
+  "workflow_file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\check_item.txt",
+  "prompt_file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_Iterations\\prompt_2.json",
+  "model": "gpt-5.4",
+  "timestamp": "2026-04-07T16:25:34.763140+00:00",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 32178,
+    "completion_tokens": 380,
+    "total_tokens": 32558
+  },
+  "response": "{\"workflow_name\":\"Update Item Price\",\"steps\":[{\"step\":1,\"type\":\"type\",\"description\":\"Type the LEGADEMO command on the IBM i main menu command line\",\"text\":\"legademo\",\"row\":19,\"col\":7},{\"step\":2,\"type\":\"key\",\"description\":\"Run the command\",\"key\":\"Enter\"},{\"step\":3,\"type\":\"key\",\"description\":\"Continue past the introduction screen\",\"key\":\"Enter\"},{\"step\":4,\"type\":\"type\",\"description\":\"Select the Maintain Items option from the LEGADEMO main menu\",\"text\":\"3\",\"row\":18,\"col\":4},{\"step\":5,\"type\":\"key\",\"description\":\"Open the Maintain Items screen\",\"key\":\"Enter\"},{\"step\":6,\"type\":\"key\",\"description\":\"Open item search by description\",\"key\":\"F4\"},{\"step\":7,\"type\":\"key\",\"description\":\"Exit the item selection window and return to the item entry screen\",\"key\":\"F3\"},{\"step\":8,\"type\":\"type_variable\",\"description\":\"Type the item number to maintain\",\"placeholder\":\"[Item Number]\",\"row\":2,\"col\":31},{\"step\":9,\"type\":\"key\",\"description\":\"Open the selected item\",\"key\":\"Enter\"},{\"step\":10,\"type\":\"type_variable\",\"description\":\"Type the new item price\",\"placeholder\":\"[New Item Price]\",\"row\":5,\"col\":31},{\"step\":11,\"type\":\"key\",\"description\":\"Save the updated item price\",\"key\":\"Enter\"},{\"step\":12,\"type\":\"key\",\"description\":\"Exit the item details screen\",\"key\":\"F3\"},{\"step\":13,\"type\":\"type\",\"description\":\"Select the Sign off option from the LEGADEMO main menu\",\"text\":\"90\",\"row\":18,\"col\":4},{\"step\":14,\"type\":\"key\",\"description\":\"Submit the sign off selection\",\"key\":\"Enter\"}]}"
+}

@@ -1,0 +1,48 @@
+PROMPT:
+The prompt to run is in prompt.json, with WORKFLOW_TEXT being view_rows.txt.
+
+RESPONSE:
+Based on the prompt.json system/user instructions and the view_rows.txt workflow recording, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## Workflow: View Table Rows in DB2 Admin (Starting from DB2 Admin Main Menu)
+
+> **Starting point:** DB2 Administration Menu (Option `1` through `D.AOC` → `ADMIN`)
+
+---
+
+1. At the **DB2 Administration Menu**, type `1` in the Option field.
+2. Press **Enter**.
+3. At the **System Catalog – Objects** screen, type `[Database Name Filter]` in the **Name** field (e.g., the database name or a wildcard pattern).
+4. Type `D` in the **Option** field.
+5. Press **Enter**.
+6. At the **Databases** list, locate the target database row.
+7. Type `T` in the **Select** field next to `[Database Name]`.
+8. Press **Enter**.
+9. At the **Tables, Views, and Aliases** list, locate the target table row.
+10. Type `L` in the **Sel** field next to `[Table Name]`.
+11. Press **Enter**.
+12. At the **List** screen, review the displayed rows. The data is shown starting from the first page.
+13. To scroll **forward** through rows, press **PF8**.
+14. Repeat **PF8** as needed to page through all rows until **END OF DB2 DATA** is displayed.
+15. To scroll **backward** through rows, press **PF7**.
+16. To scroll **right** to view additional columns, press **PF11**.
+17. To scroll **left** to return to the original column view, press **PF10**.
+18. When finished reviewing the table data, press **PF3** to return to the **Tables, Views, and Aliases** list.
+19. Repeat steps 10–18 for any additional `[Table Name]` entries as needed.
+20. Press **PF3** to return to the **Databases** list.
+21. Press **PF3** to return to the **System Catalog – Objects** screen.
+22. Press **PF3** to return to the **DB2 Administration Menu**.
+
+---
+
+**Variable placeholders summary:**
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name Filter]` | The name or wildcard (e.g., `VIL%`) used to filter the database list |
+| `[Database Name]` | The specific database to select from the list |
+| `[Table Name]` | The specific table whose rows you want to list |
+
+NOTE: Awful. Steps end at step 12, everything else is completely unnecessary.

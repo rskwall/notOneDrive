@@ -1,0 +1,113 @@
+{
+  "workflow_name": "View Database Storage Groups, Volumes, and Volume Interpretation via DB2 System Catalog",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type option 1 to select DB2 system catalog on the DB2 Admin main menu",
+      "text": "1",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the System Catalog Objects screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type",
+      "description": "Type option D to select Databases on the System Catalog Objects screen",
+      "text": "D",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 4,
+      "type": "type_variable",
+      "description": "Type a schema name or pattern to filter the database list on the System Catalog Objects screen",
+      "placeholder": "[Database Schema Filter]",
+      "row": 21,
+      "col": 16
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to submit the filter and display the Databases list",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "type",
+      "description": "Type line command G in the Select field next to the target database to view its storage groups",
+      "text": "G",
+      "row": 12,
+      "col": 2
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to navigate to the Storage Groups list for the selected database",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "type": "type",
+      "description": "Type line command VOL in the Select field next to the target storage group to view its volumes",
+      "text": "VOL",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 9,
+      "type": "key",
+      "description": "Press Enter to navigate to the Volumes list for the selected storage group",
+      "key": "Enter"
+    },
+    {
+      "step": 10,
+      "type": "type",
+      "description": "Type line command I in the Select field next to the target volume to view its interpretation details",
+      "text": "I",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "step": 11,
+      "type": "key",
+      "description": "Press Enter to display the Interpretation of an Object in SYSVOLUMES screen",
+      "key": "Enter"
+    },
+    {
+      "step": 12,
+      "type": "key",
+      "description": "Press PF3 to return to the Volumes list",
+      "key": "PF3"
+    },
+    {
+      "step": 13,
+      "type": "key",
+      "description": "Press PF3 to return to the Storage Groups list",
+      "key": "PF3"
+    },
+    {
+      "step": 14,
+      "type": "key",
+      "description": "Press PF3 to return to the Databases list",
+      "key": "PF3"
+    },
+    {
+      "step": 15,
+      "type": "key",
+      "description": "Press PF3 to return to the System Catalog Objects screen",
+      "key": "PF3"
+    },
+    {
+      "step": 16,
+      "type": "key",
+      "description": "Press PF3 to return to the DB2 Admin main menu",
+      "key": "PF3"
+    }
+  ]
+}

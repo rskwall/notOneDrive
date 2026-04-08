@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo version="1.1.2" buildnumber="1.0" exename="Host Picture Builder" exeversion="2.5.2"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout_version="1.1.2" application="collector" application_version="5.0" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000017" library="LEGADEMO" member_name="INTRO" message_line_y="6" originator="PictureBuilderMoaxWriter">
+        <size cx="80" cy="24"/>
+        <action key="f3"/>
+        <action key="f12"/>
+        <action key="print"/>
+        <action key="enter"/>
+        <field field_type="window" window_type="fixed_position_generated_border">
+            <area>
+                <position x="1" y="4"/>
+                <size cx="44" cy="9"/>
+            </area>
+            <window_border border_characters="        " reverse_image="true">
+                <color foreground="blue"/>
+            </window_border>
+            <field field_type="window_border">
+                <field reverse_image="true" value="                                            " data_length="44" display_length="44" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="0"/>
+                        <size cx="44" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="1"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="1"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="2"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="2"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="3"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="3"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="4"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="4"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="5"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="5"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="6"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="6"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="7"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="43" y="7"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value="                                            " data_length="44" display_length="44" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="8"/>
+                        <size cx="44" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+            </field>
+            <field name="F020" field_type="screen_part">
+                <field name="EYR0004" value="LegaSuite DEMO is in use" data_type="alphanumeric" data_length="24" display_length="24" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="1"/>
+                        <size cx="24" cy="1"/>
+                    </area>
+                    <color foreground="white"/>
+                </field>
+                <field value="   INTRO-F020" data_length="13" display_length="13" field_type="fixed_text">
+                    <area>
+                        <position x="29" y="1"/>
+                        <size cx="13" cy="1"/>
+                    </area>
+                </field>
+                <field name="EYR0005" value="Please wait before starting" data_type="alphanumeric" data_length="27" display_length="27" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="3"/>
+                        <size cx="27" cy="1"/>
+                    </area>
+                </field>
+                <field name="EYR0006" value="the End of Year Procedure" data_type="alphanumeric" data_length="25" display_length="25" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="4"/>
+                        <size cx="25" cy="1"/>
+                    </area>
+                </field>
+                <field name="KEY0003" value="F3=Exit" data_type="alphanumeric" data_length="7" display_length="7" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="6"/>
+                        <size cx="7" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field name="KEY0012" value="F12=Cancel" data_type="alphanumeric" data_length="10" display_length="10" field_type="msgid_text">
+                    <area>
+                        <position x="12" y="6"/>
+                        <size cx="10" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+            </field>
+            <field field_type="screen_part">
+                <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="40" display_length="40" usage="output" field_type="field" conditional="true">
+                    <area>
+                        <position x="2" y="7"/>
+                        <size cx="40" cy="1"/>
+                    </area>
+                </field>
+            </field>
+        </field>
+    </screen>
+</header>

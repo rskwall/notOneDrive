@@ -1,0 +1,31 @@
+PROMPT:
+Can you give me the steps to add another order? The customer is ID 1010. They are ordering item 1106 (qty 10, 5% discount) and item 1204 (qty 7, 11% discount). Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to Add a New Order for Customer 1010
+
+Starting from the LEGADEMO main menu:
+
+1. **Select Order Entry** — Type `6` in the `===>` field, press **Enter**.
+
+2. **Enter Order Number** — Type a new order number (e.g. `40007`) in the Order Number field, press **F6** (Add).
+
+3. **Enter Customer Number** — Type `1010` in the Customer Number field, press **Enter**.
+
+4. **Add first line item (1106)** — On the blank line item row:
+   - Type `1106` in the Item Number field (column 2)
+   - Type `10` in the Ordered Quant field (column 48)
+   - Type `5` in the % Dis field (column 64)
+   - Press **Enter**
+
+5. **Add second line item (1204)** — On the next blank line item row:
+   - Type `1204` in the Item Number field (column 2)
+   - Type `7` in the Ordered Quant field (column 48)
+   - Type `11` in the % Dis field (column 64)
+   - Press **Enter**
+
+6. **Submit/Save the order** — Press **Enter** with no modifications (this saves and returns to the blank Order Entry screen).
+
+7. **Exit back to main menu** — Press **F3** (Exit).
+
+NOTE: Worked. No complaints.

@@ -1,0 +1,83 @@
+Role: You are a Information Developer tasked with creating Documentation for this output. | Goal: Explain the output and what the application does. Provide instructions on how to navigate the menu as well. | Constraints: Use clear and concise wording and avoid verbose language. Avoid emojis. | Input: Use the output provided above | Output: Create a Markdown file for the docs | Verification: Ensure all menu navigation steps have been listed as well as what the application does. 
+
+# LegaSuite DEMO Application Documentation
+
+## Overview
+
+The LegaSuite DEMO application is a demonstration tool designed to showcase the capabilities of LegaSuite products on IBM i systems. It is not intended for real-time or production use, but rather to illustrate various features and navigation patterns available within LegaSuite-enabled applications.
+
+## Main Features
+
+- **Customer Maintenance:** View, add, update, or delete customer records.
+- **Customer Payments:** Manage and review payments made by customers.
+- **Item Maintenance:** Maintain inventory items.
+- **Incoming Stock:** Track and manage incoming stock.
+- **Order Entry:** Enter and manage customer orders.
+- **Delivered Orders:** Review orders that have been delivered.
+- **View Turnover:** View customer and item turnover statistics.
+- **End of Year Procedure:** Perform end-of-year processing.
+- **Sign Off:** Exit the application.
+
+## Menu Navigation
+
+### Main Menu
+
+Upon logging in, you are presented with the main menu:
+
+```
+Select one of the following:
+  1. Maintain Customers
+  2. Customer Payments
+  3. Maintain Items
+  4. Incoming Stock
+  6. Order Entry
+  7. Delivered Orders
+  9. View Customer Turn over
+ 10. View Item Turn over
+ 80. End of year procedure
+ 90. Sign off
+```
+
+- To select an option, type the corresponding number at the `===>` prompt and press **Enter**.
+
+### Example Navigation: Maintain Customers
+
+1. **Select "1"** at the main menu to access Customer Maintenance.
+2. You will be prompted for a Customer Number. You can:
+   - Enter a customer number and press **Enter** to view or edit details.
+   - Press **F4** to prompt for a customer number.
+   - Press **F6** to add a new customer.
+   - Press **F14** to search by customer name.
+3. When searching or prompting, a list of customers is displayed. Use:
+   - **RollUp** (Page Down) to scroll through the list.
+   - **Enter** on a customer to select and view details.
+4. In the customer detail screen, you can:
+   - View and edit customer information.
+   - Press **F3** to exit.
+   - Press **F12** to cancel.
+   - Press **F23** to delete the customer.
+
+### Returning to the Main Menu
+
+- Use **F3** or **F12** to exit submenus and return to the main menu.
+- To sign off, enter `90` at the main menu prompt and press **Enter**.
+
+## Function Key Reference
+
+- **F3**: Exit
+- **F4**: Prompt
+- **F6**: Add (where available)
+- **F7**: Fold/Unfold (in lists)
+- **F12**: Cancel
+- **F14**: Search Name (in Customer Maintenance)
+- **F23**: Delete (in Customer Maintenance)
+
+## Notes
+
+- This application is for demonstration purposes only.
+- Some screens or actions may not reflect real-world business processes.
+- The intent is to provide an understanding of LegaSuite product capabilities.
+
+## Support
+
+For more information on LegaSuite products, refer to the official product documentation or contact your system administrator.

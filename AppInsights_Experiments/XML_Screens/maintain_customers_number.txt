@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo version="1.1.2" buildnumber="1.0" exename="Host Picture Builder" exeversion="2.5.2"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout_version="1.1.2" application="collector" application_version="5.0" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000004" library="LEGADEMO" member_name="CUSTD" message_line_y="24" originator="PictureBuilderMoaxWriter">
+        <size cx="80" cy="24"/>
+        <action key="f3"/>
+        <action key="f4"/>
+        <action key="f6"/>
+        <action key="f12"/>
+        <action key="f14"/>
+        <action key="print"/>
+        <action key="enter"/>
+        <field name="F000" field_type="screen_part">
+            <area>
+                <position x="0" y="0"/>
+                <size cx="80" cy="23"/>
+            </area>
+            <field name="CUS0001" value="LegaSuite DEMO - Maintain Customers" data_type="alphanumeric" data_length="35" display_length="35" field_type="msgid_text">
+                <area>
+                    <position x="21" y="0"/>
+                    <size cx="35" cy="1"/>
+                </area>
+                <color foreground="white"/>
+            </field>
+            <field value=" CUSMAIN-F000" data_length="13" display_length="13" field_type="fixed_text">
+                <area>
+                    <position x="66" y="0"/>
+                    <size cx="13" cy="1"/>
+                </area>
+            </field>
+            <field name="CUS0002" value="Customer Number  . . . . ." data_type="alphanumeric" data_length="26" display_length="26" field_type="msgid_text">
+                <area>
+                    <position x="1" y="2"/>
+                    <size cx="26" cy="1"/>
+                </area>
+            </field>
+            <field name="#CUSNR" underline="true" data_type="zoned_decimal" data_length="6" display_length="6" usage="both" lowercase="true" field_type="field">
+                <area>
+                    <position x="30" y="2"/>
+                    <size cx="6" cy="1"/>
+                </area>
+            </field>
+            <field name="KEY0003" value="F3=Exit" data_type="alphanumeric" data_length="7" display_length="7" field_type="msgid_text">
+                <area>
+                    <position x="1" y="22"/>
+                    <size cx="7" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0004" value="F4=Prompt" data_type="alphanumeric" data_length="9" display_length="9" field_type="msgid_text">
+                <area>
+                    <position x="11" y="22"/>
+                    <size cx="9" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0006" value="F6=Add" data_type="alphanumeric" data_length="6" display_length="6" field_type="msgid_text">
+                <area>
+                    <position x="23" y="22"/>
+                    <size cx="6" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0012" value="F12=Cancel" data_type="alphanumeric" data_length="10" display_length="10" field_type="msgid_text">
+                <area>
+                    <position x="32" y="22"/>
+                    <size cx="10" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+            <field name="KEY0014" value="F14=Search Name" data_type="alphanumeric" data_length="15" display_length="15" field_type="msgid_text">
+                <area>
+                    <position x="45" y="22"/>
+                    <size cx="15" cy="1"/>
+                </area>
+                <color foreground="blue"/>
+            </field>
+        </field>
+        <field field_type="screen_part">
+            <field value="No selection found" data_length="78" display_length="78" field_type="errmsgid_text" conditional="true">
+                <area>
+                    <position x="1" y="24"/>
+                    <size cx="78" cy="1"/>
+                </area>
+                <indicator id="30"/>
+            </field>
+            <field value="Customer already present" data_length="78" display_length="78" field_type="errmsgid_text" conditional="true">
+                <area>
+                    <position x="1" y="24"/>
+                    <size cx="78" cy="1"/>
+                </area>
+                <indicator id="31"/>
+            </field>
+            <field value="Customer not found" data_length="78" display_length="78" field_type="errmsgid_text" conditional="true">
+                <area>
+                    <position x="1" y="24"/>
+                    <size cx="78" cy="1"/>
+                </area>
+                <indicator id="32"/>
+            </field>
+            <field value="Value must be greater than 0" data_length="78" display_length="78" field_type="errmsgid_text" conditional="true">
+                <area>
+                    <position x="1" y="24"/>
+                    <size cx="78" cy="1"/>
+                </area>
+                <indicator id="33"/>
+            </field>
+        </field>
+    </screen>
+</header>

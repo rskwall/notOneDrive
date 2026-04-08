@@ -1,0 +1,123 @@
+{
+  "workflow_name": "Drop Database via DB2 System Catalog",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type option 1 to select DB2 system catalog on the DB2 Admin main menu",
+      "text": "1",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the System Catalog Objects screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type_variable",
+      "description": "Type a name filter pattern in the Schema filter field to narrow the search to the target database",
+      "placeholder": "[Database Name Filter Pattern]",
+      "row": 21,
+      "col": 16
+    },
+    {
+      "step": 4,
+      "type": "type",
+      "description": "Type option D to select Databases in the Option field on the System Catalog Objects screen",
+      "text": "D",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to display the list of matching databases",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "type",
+      "description": "Type line command T in the Select field next to the target database to view its tables for pre-drop verification",
+      "text": "T",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to navigate to the Tables, Views, and Aliases list for the selected database",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "type": "key",
+      "description": "Press PF3 to return to the Databases list",
+      "key": "PF3"
+    },
+    {
+      "step": 9,
+      "type": "type",
+      "description": "Type line command DROP in the Select field next to the target database to initiate the drop",
+      "text": "DROP",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 10,
+      "type": "key",
+      "description": "Press Enter to navigate to the Drop Database confirmation screen",
+      "key": "Enter"
+    },
+    {
+      "step": 11,
+      "type": "type_variable",
+      "description": "Clear the Display Drop Impact Report field and type the desired report option",
+      "placeholder": "[Drop Impact Report Option (Yes, No, or Batch)]",
+      "row": 10,
+      "col": 35
+    },
+    {
+      "step": 12,
+      "type": "key",
+      "description": "Press Enter to proceed — a Change Management prompt will appear",
+      "key": "Enter"
+    },
+    {
+      "step": 13,
+      "type": "type_variable",
+      "description": "Type the response to the Change Management prompt asking whether to use Change Management for the DROP statement",
+      "placeholder": "[Change Management Response (Yes or No)]",
+      "row": 6,
+      "col": 60
+    },
+    {
+      "step": 14,
+      "type": "key",
+      "description": "Press Enter to execute the DROP DATABASE statement — the screen will confirm DROP stmt executed",
+      "key": "Enter"
+    },
+    {
+      "step": 15,
+      "type": "key",
+      "description": "Press PF3 to return to the System Catalog Objects screen",
+      "key": "PF3"
+    },
+    {
+      "step": 16,
+      "type": "type",
+      "description": "Optionally type option D again in the Option field to re-query databases and confirm the database no longer exists",
+      "text": "D",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 17,
+      "type": "key",
+      "description": "Press Enter — a No rows returned message confirms the database was successfully dropped",
+      "key": "Enter"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+PROMPT: Could you give me step-by-step instructions for how to view the customer with ID 1010 instead? Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+1 + Enter
+1010 + Enter

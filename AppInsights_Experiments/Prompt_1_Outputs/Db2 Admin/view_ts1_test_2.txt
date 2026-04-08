@@ -1,0 +1,49 @@
+PROMPT:
+{
+  "system": "You are an IBM i terminal workflow analyst. You understand 5250 and 3270 screen navigation, function keys, and how to read recorded terminal session files.\n\nYour task is to generate reusable, generic, step-by-step keyboard navigation instructions from recorded IBM i terminal sessions.\n\nConstraints:\n- Distinguish clearly between constant steps (navigation that is always the same) and variable steps (steps where the user must supply situation-specific values).\n- Represent all variable values as clearly labeled placeholders in brackets (e.g., [Customer ID], [Menu Option Number]).\n- Steps must be keyboard-input focused, showing exactly what the user types or which key they press.\n- Do not include internal or technical details from the recording (such as host states, call stacks, database IDs, or implementation details).\n- Always assume the workflow starts from the Db2 Admin main menu.\n\nOutput requirements:\n- Produce a numbered list of steps.\n- Each step must be either:\n  - A constant step: Press [Key] or Type \"literal value\" (no placeholders), or\n  - A variable step: Type [Placeholder], where the placeholder name clearly describes what the user must provide.\n\nVerification checklist:\n- No literal data values from the recording appear in the steps (e.g., specific IDs or names).\n- Every placeholder is descriptive enough for a new user to understand what to enter.\n- Following the steps with real values substituted would reproduce the same workflow outcome.",
+  "user": "Given the following recorded IBM i terminal session file, generate reusable step-by-step keyboard navigation instructions as described above.\n\n{{view_tablespace_1.txt}}"
+}
+
+RESPONSE:
+# Reusable Step-by-Step Instructions: View Table Space Status in DB2 Admin
+
+> **Starting point:** DB2 Admin Main Menu
+
+---
+
+## Steps
+
+1. At the `Option ===>` prompt, type `1` and press **Enter** to open the DB2 System Catalog - Objects menu.
+
+2. In the `Schema` field, type `[Database Owner/Schema Name]`.
+
+3. At the `Option ===>` prompt, type `D` and press **Enter** to list Databases.
+
+4. In the **HL2D Databases** list, locate the database entry. In the `Select` column next to `[Database Name]`, type `S` and press **Enter** to display its Table Spaces.
+
+5. In the **HL2D Table Spaces** list, locate the table space entry. In the `Select` column next to `[Table Space Name]`, type `DIS` and press **Enter** to display the table space status.
+
+6. Review the DB2 command output shown on the **Browse DB2 Command Output** screen, confirming the status (e.g., `RW` for Read/Write) for `[Table Space Name]` within `[Database Name]`.
+
+7. Press **PF3** to return to the **HL2D Table Spaces** list.
+
+---
+
+## Variable Placeholders Reference
+
+| Placeholder | Description |
+|---|---|
+| `[Database Owner/Schema Name]` | The schema or owner prefix used to filter the database list (e.g., the owner's TSO user ID or organizational prefix) |
+| `[Database Name]` | The specific DB2 database containing the table space you wish to inspect |
+| `[Table Space Name]` | The specific table space within the database whose status you want to display |
+
+---
+
+## Notes
+
+- The `DIS` line command issues a `DISPLAY DATABASE` command against the selected table space and displays its current **STATUS**, **PHYERRLO**, **PHYERRHI**, **CATALOG**, and **PIECE** information.
+- All six table spaces in the database will be visible in the list; repeat step 5 for any additional table spaces you wish to inspect.
+- After reviewing, use `=X.ALL` at the `Command ===>` prompt to fully exit DB2 Admin and return to the TSO/E READY prompt, then type `LOGOFF` and press **Enter** to end the session.
+
+
+NOTE: Steps worked, more info than desired though.

@@ -1,0 +1,7 @@
+Sure, here's a proposed directory structure for a IBM i Terminal Workflow Analyzer app:
+
+(A BUNCH OF FILES IN THE DIRECTORY)
+
+Create Workspace...
+
+NOTE: Huh? No idea what happened here.

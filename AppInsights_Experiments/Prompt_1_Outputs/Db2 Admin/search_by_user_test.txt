@@ -1,0 +1,31 @@
+Based on the prompt.json system/user instructions and the workflow recorded in search_by_user.txt, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## Workflow: Search DB2 Catalog Objects by Owner/User
+
+> **Starting point:** DB2 Admin main menu
+
+---
+
+1. Type `1` and press **Enter** to select **DB2 system catalog**.
+2. Type `D` and press **Enter** to select **Databases**.
+3. In the **Owner** field, type `[Username / Owner ID]` and press **Enter** to filter databases by the specified owner.
+4. In the **Select** column next to the desired database row, type `T` and press **Enter** to display **Tables, Views, and Aliases** for that database.
+5. Review the list of tables displayed for the selected database.
+6. To exit DB2 Admin, type `=X.ALL` in the command field and press **Enter**.
+
+---
+
+**Variable steps:**
+
+| Placeholder | Description |
+|---|---|
+| `[Username / Owner ID]` | The TSO user ID or DB2 owner whose databases you want to search (e.g., the user whose objects you are investigating) |
+
+**Notes:**
+- Step 3 uses the **Owner** filter field on the catalog objects screen — not the Name or Schema fields.
+- Step 4 applies the `T` line command against a specific database row returned by the filtered list.
+- If multiple databases are returned, apply the `T` line command to each relevant database row individually.
+
+NOTE: Told to hit enter too early.

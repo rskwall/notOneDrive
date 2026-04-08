@@ -1,0 +1,19 @@
+PROMPT: Can you give me the steps to add another order? The customer is ID 1010. They are ordering item 1106 (qty 10, 5% discount) and item 1204 (qty 7, 11% discount). Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+Assuming the next available order number is 40007, the keyboard input sequence is:
+
+6 Enter
+
+F6
+
+40007 Enter
+
+1010 Enter
+
+1106 Tab/field advance 10 Tab/field advance 5 Enter
+
+1204 Tab/field advance 7 Tab/field advance 11 Enter
+
+Enter
+
+If 40007 is already used, replace it with the next available order number.

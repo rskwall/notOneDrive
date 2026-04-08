@@ -1,0 +1,451 @@
+{
+  "workflow_name": "LEGADEMO Application Navigation Tour",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type Maintain Customers menu option at the LEGADEMO main menu command prompt",
+      "text": "1",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to Maintain Customers",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "key",
+      "description": "Press F4 to open the Select Customer lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 4,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired customer record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to select the customer and open the customer detail screen",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "type_variable",
+      "description": "Type the new city value in the Customer City field",
+      "placeholder": "[Customer City]",
+      "row": 7,
+      "col": 31
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to save the customer changes and return to the Maintain Customers screen",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "type": "key",
+      "description": "Press F3 to exit Maintain Customers and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 9,
+      "type": "type",
+      "description": "Type Customer Payments menu option at the LEGADEMO main menu command prompt",
+      "text": "2",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 10,
+      "type": "key",
+      "description": "Press Enter to navigate to Customer Payments",
+      "key": "Enter"
+    },
+    {
+      "step": 11,
+      "type": "key",
+      "description": "Press F4 to open the Select Customer lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 12,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired customer record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "step": 13,
+      "type": "key",
+      "description": "Press Enter to select the customer and open the customer payments detail screen",
+      "key": "Enter"
+    },
+    {
+      "step": 14,
+      "type": "key",
+      "description": "Press F3 to exit Customer Payments and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 15,
+      "type": "type",
+      "description": "Type Maintain Items menu option at the LEGADEMO main menu command prompt",
+      "text": "3",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 16,
+      "type": "key",
+      "description": "Press Enter to navigate to Maintain Items",
+      "key": "Enter"
+    },
+    {
+      "step": 17,
+      "type": "key",
+      "description": "Press F4 to open the Select Item lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 18,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired item record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 10,
+      "col": 4
+    },
+    {
+      "step": 19,
+      "type": "key",
+      "description": "Press Enter to select the item and open the item detail screen",
+      "key": "Enter"
+    },
+    {
+      "step": 20,
+      "type": "key",
+      "description": "Press Enter to confirm and return to the Maintain Items screen",
+      "key": "Enter"
+    },
+    {
+      "step": 21,
+      "type": "key",
+      "description": "Press F3 to exit Maintain Items and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 22,
+      "type": "type",
+      "description": "Type Incoming Stock menu option at the LEGADEMO main menu command prompt",
+      "text": "4",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 23,
+      "type": "key",
+      "description": "Press Enter to navigate to Incoming Stock",
+      "key": "Enter"
+    },
+    {
+      "step": 24,
+      "type": "key",
+      "description": "Press F3 to exit Incoming Stock and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 25,
+      "type": "type",
+      "description": "Type Incoming Stock menu option again at the LEGADEMO main menu command prompt",
+      "text": "4",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 26,
+      "type": "key",
+      "description": "Press Enter to navigate to Incoming Stock",
+      "key": "Enter"
+    },
+    {
+      "step": 27,
+      "type": "key",
+      "description": "Press F4 to open the Select Item lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 28,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired item record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 10,
+      "col": 4
+    },
+    {
+      "step": 29,
+      "type": "key",
+      "description": "Press Enter to select the item and view its incoming stock detail screen",
+      "key": "Enter"
+    },
+    {
+      "step": 30,
+      "type": "key",
+      "description": "Press F3 to exit Incoming Stock and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 31,
+      "type": "type",
+      "description": "Type Order Entry menu option at the LEGADEMO main menu command prompt",
+      "text": "6",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 32,
+      "type": "key",
+      "description": "Press Enter to navigate to Order Entry",
+      "key": "Enter"
+    },
+    {
+      "step": 33,
+      "type": "key",
+      "description": "Press F4 to open the Select Order lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 34,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired order record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 11,
+      "col": 4
+    },
+    {
+      "step": 35,
+      "type": "key",
+      "description": "Press Enter to select the order and open the order detail screen",
+      "key": "Enter"
+    },
+    {
+      "step": 36,
+      "type": "key",
+      "description": "Press F3 to exit Order Entry and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 37,
+      "type": "type",
+      "description": "Type Delivered Orders menu option at the LEGADEMO main menu command prompt",
+      "text": "7",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 38,
+      "type": "key",
+      "description": "Press Enter to navigate to Delivered Orders",
+      "key": "Enter"
+    },
+    {
+      "step": 39,
+      "type": "key",
+      "description": "Press F4 to open the Select Order lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 40,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired order record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 10,
+      "col": 4
+    },
+    {
+      "step": 41,
+      "type": "key",
+      "description": "Press Enter to select the order and view the order delivery detail screen",
+      "key": "Enter"
+    },
+    {
+      "step": 42,
+      "type": "key",
+      "description": "Press F3 to exit Delivered Orders and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 43,
+      "type": "type",
+      "description": "Type View Customer Turn over menu option at the LEGADEMO main menu command prompt",
+      "text": "9",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 44,
+      "type": "key",
+      "description": "Press Enter to navigate to View Customer Turn over",
+      "key": "Enter"
+    },
+    {
+      "step": 45,
+      "type": "key",
+      "description": "Press F4 on the From Customer number field to open the Select Customer lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 46,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired starting customer record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "step": 47,
+      "type": "key",
+      "description": "Press Enter to set the From Customer number",
+      "key": "Enter"
+    },
+    {
+      "step": 48,
+      "type": "key",
+      "description": "Press F4 on the To Customer number field to open the Select Customer lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 49,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired ending customer record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 20,
+      "col": 4
+    },
+    {
+      "step": 50,
+      "type": "key",
+      "description": "Press Enter to set the To Customer number",
+      "key": "Enter"
+    },
+    {
+      "step": 51,
+      "type": "key",
+      "description": "Press Enter to submit the criteria and display the Customer Turn over overview report",
+      "key": "Enter"
+    },
+    {
+      "step": 52,
+      "type": "key",
+      "description": "Press F3 to exit View Customer Turn over and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 53,
+      "type": "type",
+      "description": "Type View Item Turn over menu option at the LEGADEMO main menu command prompt",
+      "text": "10",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 54,
+      "type": "key",
+      "description": "Press Enter to navigate to View Item Turn over",
+      "key": "Enter"
+    },
+    {
+      "step": 55,
+      "type": "key",
+      "description": "Press F4 on the From Item number field to open the Select Item lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 56,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired starting item record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "step": 57,
+      "type": "key",
+      "description": "Press Enter to set the From Item number",
+      "key": "Enter"
+    },
+    {
+      "step": 58,
+      "type": "key",
+      "description": "Press F4 on the To Item number field to open the Select Item lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 59,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired ending item record in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 20,
+      "col": 4
+    },
+    {
+      "step": 60,
+      "type": "key",
+      "description": "Press Enter to set the To Item number",
+      "key": "Enter"
+    },
+    {
+      "step": 61,
+      "type": "key",
+      "description": "Press Enter to submit the criteria and display the Item Turn over overview report",
+      "key": "Enter"
+    },
+    {
+      "step": 62,
+      "type": "key",
+      "description": "Press F3 to exit View Item Turn over and return to the LEGADEMO main menu",
+      "key": "F3"
+    },
+    {
+      "step": 63,
+      "type": "type",
+      "description": "Type End of Year Procedure menu option at the LEGADEMO main menu command prompt",
+      "text": "80",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 64,
+      "type": "key",
+      "description": "Press Enter to navigate to the End of Year Procedure confirmation screen",
+      "key": "Enter"
+    },
+    {
+      "step": 65,
+      "type": "key",
+      "description": "Press Enter to confirm and execute the End of Year Procedure",
+      "key": "Enter"
+    },
+    {
+      "step": 66,
+      "type": "type",
+      "description": "Type Sign off menu option at the LEGADEMO main menu command prompt",
+      "text": "90",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 67,
+      "type": "key",
+      "description": "Press Enter to sign off and exit the LEGADEMO application",
+      "key": "Enter"
+    }
+  ]
+}

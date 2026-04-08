@@ -1,0 +1,23 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Workflow Overview: Create Order in LegaSuite DEMO (IBM i)
+
+This file captures a green-screen 5250 terminal session walking through an order creation workflow:
+
+1. **IBM i Main Menu** → User types `LEGADEMO` command and presses Enter.
+2. **Intro Screen** → Welcome/disclaimer screen for the LegaSuite DEMO app; user presses Enter to continue.
+3. **LEGADEMO Main Menu** → User selects option `6` (Order Entry).
+4. **Order Entry (F000)** → Blank order number prompt; user types `40006` and presses **F6 (Add)** to create a new order.
+5. **Order Entry (F010)** → Order 40006 created with date 3/31/26; user enters customer number `1010`.
+6. **Order Entry (F100)** → Customer "Zachary Taylor" loaded with address/credit info. User adds three line items:
+   - **Item 1104** – Red Sweater S (LegaSuite), qty 150, price $49.95, 10% discount → $6,743.25
+   - **Item 1102** – Beer, qty 1, price $49.95, 50% discount → $24.98
+   - **Item 1205** – White Sweater L (LegaSuite), qty 10, price $49.95, 0% discount → $499.50
+   - **Order total**: $7,267.73
+7. **Confirm/Submit** → User presses Enter with no modifications, returning to the blank Order Entry screen.
+8. **Verify via F4 (Prompt)** → User presses F4 to browse existing orders, scrolls down (Page Down), and confirms order 40006 for Zachary Taylor appears in the list.
+9. **Exit** → User presses **F3** to exit back to the LEGADEMO main menu, then selects option `90` to sign off.
+
+**In short:** Navigate to Order Entry → create order 40006 → assign customer 1010 → add 3 line items → save → verify the order exists in the order list → sign off.

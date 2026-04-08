@@ -1,0 +1,66 @@
+ Role: You are an Information Developer tasked with creating Documentation for this output. | Goal: Explain the output and what the application does. Provide instructions on how to navigate the menu as well. | Constraints: Use clear and concise wording and avoid verbose language. Avoid emojis. | Input: Use the output provided above | Output: Create a Markdown file for the docs | Verification: Ensure all menu navigation steps have been listed as well as what the application does.  
+
+ # LegaSuite DEMO Application Documentation
+
+## Overview
+
+The LegaSuite DEMO application is a demonstration tool designed to showcase the capabilities of LegaSuite products. It simulates a business environment where users can manage customers, items, orders, and view related information. This application is not intended for real-time business use but to illustrate possible workflows and features.
+
+## Main Menu
+
+Upon logging in, you are presented with the IBM i Main Menu. Enter `LEGADEMO` at the command prompt to launch the LegaSuite DEMO application.
+
+### LegaSuite DEMO Main Menu Options
+
+- **1. Maintain Customers**: Manage customer records.
+- **2. Customer Payments**: Record and view customer payments.
+- **3. Maintain Items**: Manage inventory items.
+- **4. Incoming Stock**: Record stock arrivals.
+- **6. Order Entry**: Create and manage customer orders.
+- **7. Delivered Orders**: View orders that have been delivered.
+- **9. View Customer Turn over**: Display turnover statistics per customer.
+- **10. View Item Turn over**: Display turnover statistics per item.
+- **80. End of year procedure**: Run end-of-year processes.
+- **90. Sign off**: Exit the application.
+
+## Navigation Instructions
+
+1. **Selecting a Menu Option**
+   - Use the arrow keys to move the cursor to the command line (indicated by `===>`).
+   - Type the number corresponding to your desired menu option.
+   - Press `Enter` to proceed.
+
+2. **Order Entry Workflow**
+   - Select option `6` from the main menu to enter the Order Entry module.
+   - Enter a new order number or select an existing one.
+   - Input the customer number and press `Enter`.
+   - Add items to the order by entering the item number, quantity, and discount as prompted.
+   - The order summary will display the items, quantities, prices, discounts, and total amount.
+   - Use function keys as indicated at the bottom of the screen for additional actions:
+     - `F3=Exit`: Return to the previous menu.
+     - `F4=Prompt`: Get field prompts.
+     - `F6=Add`: Add a new order.
+     - `F12=Cancel`: Cancel the current operation.
+     - `F14=Search Name/Description`: Search for customers or items.
+
+3. **Viewing and Selecting Orders**
+   - In the Order Entry module, you can view a list of existing orders.
+   - Use the `RollUp` key to scroll through the list.
+   - Select an order by positioning the cursor and pressing the appropriate function key.
+
+4. **Signing Off**
+   - From the main menu, enter `90` at the command prompt and press `Enter` to sign off.
+
+## Application Purpose
+
+This application demonstrates:
+- Customer and item management
+- Order creation and editing
+- Viewing order and turnover information
+- Simulated business processes for training or demonstration
+
+## Notes
+
+- The application is for demonstration only; data and workflows are not intended for production use.
+- Function key assignments are displayed at the bottom of each screen.
+- Some screens may contain unexpected panels to illustrate LegaSuite features.

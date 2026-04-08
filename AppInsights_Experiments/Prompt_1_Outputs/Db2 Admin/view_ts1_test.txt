@@ -1,0 +1,47 @@
+PROMPT:
+The prompt to run is in prompt.json, with WORKFLOW_TEXT being view_tablespace_1.txt.
+
+RESPONSE:
+# Reusable Step-by-Step Navigation Instructions: Display Table Space Status in DB2 Admin
+
+**Starting point:** DB2 Admin Main Menu
+
+---
+
+## Steps
+
+1. At the **DB2 Administration Menu**, type `1` and press **Enter** to select **DB2 system catalog**.
+
+2. At the **System Catalog - Objects** screen, type `D` in the **Option** field.
+
+3. In the **Schema** filter field, type `[Database Name Pattern]` (a full or partial name to filter the database list, e.g., using a wildcard prefix).
+
+4. Press **Enter** to submit and display the matching databases.
+
+5. On the **Databases** list, locate the target database row. In the **Select** column next to `[Database Name]`, type `S` and press **Enter** to view its table spaces.
+
+6. On the **Table Spaces** list, locate the target table space row. In the **Select** column next to `[Table Space Name]`, type `DIS` and press **Enter** to display the table space status.
+
+7. Review the **Browse DB2 Command Output** screen, which shows the current status of the table space (e.g., `RW` for read/write).
+
+8. Press **PF3** to return to the **Table Spaces** list.
+
+9. Repeat steps 6–8 for any additional table spaces you wish to inspect.
+
+10. Press **PF3** to return to the **Databases** list.
+
+11. Press **PF3** to return to the **System Catalog - Objects** screen.
+
+12. Press **PF3** to return to the **DB2 Administration Menu**.
+
+---
+
+## Placeholders Reference
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name Pattern]` | The name or wildcard pattern used to filter the database list on the System Catalog - Objects screen |
+| `[Database Name]` | The specific database containing the table space you want to inspect |
+| `[Table Space Name]` | The specific table space whose status you want to display |
+
+NOTE: Steps worked, still extraneous parts at the end.

@@ -1,0 +1,109 @@
+{
+  "workflow_name": "Grant Database Privileges to a User",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type option 1 to select DB2 system catalog on the DB2 Admin main menu",
+      "text": "1",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the System Catalog Objects screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type",
+      "description": "Type option D to select Databases on the System Catalog Objects screen",
+      "text": "D",
+      "row": 1,
+      "col": 14
+    },
+    {
+      "step": 4,
+      "type": "type_variable",
+      "description": "Type the database name or partial name in the Name filter field to locate the target database",
+      "placeholder": "[Database Name Filter]",
+      "row": 20,
+      "col": 16
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to display the matching Databases list",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "type",
+      "description": "Type the A line command in the Select field next to the target database to open its authorization list",
+      "text": "A",
+      "row": 11,
+      "col": 2
+    },
+    {
+      "step": 7,
+      "type": "key",
+      "description": "Press Enter to open the Database Authorizations screen",
+      "key": "Enter"
+    },
+    {
+      "step": 8,
+      "type": "type",
+      "description": "Type the GR line command in the Sel field next to an existing authorization entry for the target database to open the Grant Database Privileges form",
+      "text": "GR",
+      "row": 12,
+      "col": 2
+    },
+    {
+      "step": 9,
+      "type": "key",
+      "description": "Press Enter to open the Grant Database Privileges form pre-populated with the selected database name and privilege settings",
+      "key": "Enter"
+    },
+    {
+      "step": 10,
+      "type": "type_variable",
+      "description": "Type the user ID to receive the granted privileges in the TO field, replacing any pre-populated value",
+      "placeholder": "[Grantee User ID]",
+      "row": 15,
+      "col": 17
+    },
+    {
+      "step": 11,
+      "type": "key",
+      "description": "Press Enter to submit the grant request and display the Change Management prompt",
+      "key": "Enter"
+    },
+    {
+      "step": 12,
+      "type": "type",
+      "description": "Type No in the Change Management prompt to skip change management and execute the GRANT statement immediately",
+      "text": "No",
+      "row": 6,
+      "col": 60
+    },
+    {
+      "step": 13,
+      "type": "key",
+      "description": "Press Enter to confirm the choice and execute the GRANT statement",
+      "key": "Enter"
+    },
+    {
+      "step": 14,
+      "type": "key",
+      "description": "Press PF3 to return to the Database Authorizations list, where the new grant entry is now visible",
+      "key": "PF3"
+    },
+    {
+      "step": 15,
+      "type": "key",
+      "description": "Press PF3 to return to the Databases list",
+      "key": "PF3"
+    }
+  ]
+}

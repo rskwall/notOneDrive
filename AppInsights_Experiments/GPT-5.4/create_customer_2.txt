@@ -1,0 +1,21 @@
+PROMPT: Can you give me the steps to add another customer? The customer is Ted Walliams, who lives at 2323 W North St., Seattle with the zip code 75777 in the United States. Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+Assuming the next available customer number is 1041, the inputs are:
+
+1 Enter
+
+1041 F6
+
+Ted Walliams in Customer Name
+
+2323 W North St. in Customer Address
+
+Seattle in Customer City
+
+75777 in Customer Zip Code
+
+United States in Customer Country
+
+Enter a credit limit in Credit Limit
+
+Enter

@@ -1,0 +1,37 @@
+PROMPT:
+
+RESPONSE:
+Looking at the prompt.json and view_columns.txt files, I'll apply the system prompt to the workflow recording and generate the reusable navigation instructions.
+
+---
+
+## Reusable Step-by-Step Instructions: View Columns for a Table in DB2 Admin
+
+**Starting point:** DB2 Admin main menu (`*ADB2`)
+
+---
+
+1. Type `1` and press **Enter** to select **DB2 system catalog**.
+2. Type `D` in the **Option** field and press **Enter** to select **Databases**.
+3. In the **Name** field, type `[Database Name Pattern]` (e.g., use `%` as a wildcard if needed) and press **Enter**.
+4. Locate the database row matching `[Database Name]` in the results list.
+5. In the **Select** field next to `[Database Name]`, type `T` and press **Enter** to list tables.
+6. Locate the table row matching `[Table Name]` in the results list.
+7. In the **Sel** field next to `[Table Name]`, type `C` and press **Enter** to view columns.
+8. Review the column list displayed for `[Table Name]`.
+9. Press **PF3** to return to the Tables, Views, and Aliases list.
+10. Press **PF3** to return to the Databases list.
+11. Press **PF3** to return to the System Catalog Objects menu.
+12. Press **PF3** to return to the DB2 Administration main menu.
+
+---
+
+**Variable steps summary:**
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name Pattern]` | Search string used to filter the database list (supports wildcards) |
+| `[Database Name]` | The specific database containing the target table |
+| `[Table Name]` | The specific table whose columns you want to view |
+
+NOTE: Wrong. Step 2 has you press enter before inputting the DB name, which would cause issues.

@@ -1,0 +1,52 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give a brief overview of each step of the workflow.
+
+RESPONSE:
+## Overview
+
+This file is a **recorded session trace** of a user interacting with an IBM i (AS/400) green-screen application called **LEGADEMO** (LegaSuite DEMO). It captures each screen state and user action in a step-by-step workflow. Here's a summary of each step:
+
+---
+
+### Step 1 — IBM i Main Menu (Ordinal 2–3)
+The user starts at the **IBM i Main Menu** on system `LSDEV72A`. They type **`legademo`** in the command line and press **Enter** to launch the LegaSuite DEMO application.
+
+### Step 2 — Introduction Screen (Ordinal 4–5)
+The **LEGADEMO Introduction screen** appears, explaining that this is a demo application for showcasing LegaSuite products. The user presses **Enter** to continue.
+
+### Step 3 — LegaSuite DEMO Main Menu (Ordinal 6–7)
+The **LegaSuite DEMO main menu** is displayed with options including Maintain Customers, Customer Payments, Maintain Items, Order Entry, etc. The user selects option **`1` (Maintain Customers)** and presses **Enter**.
+
+### Step 4 — Customer Maintenance: Enter Customer Number (Ordinal 8–9)
+The **Maintain Customers** screen (`CUSMAIN-F000`) appears, prompting for a **Customer Number**. The user presses **F4 (Prompt)** to browse available customers.
+
+### Step 5 — Customer Selection List (Page 1) (Ordinal 10–11)
+A **window/subfile** (`CUSMAIN-F030`) pops up listing customers (1001–1013) with their names and cities (e.g., "Rocket Insurance – Rogers", "John Quincy Adams – Falls Church"). The user presses **Page Down (RollUp)** to see more customers.
+
+### Step 6 — Customer Selection List (Page 2) (Ordinal 12–13)
+The second page of customers appears (1014–1025), including names like "Fred Parker", "Ulysses S. Grant", and "Calvin Coolidge". The user presses **Enter** (without selecting a specific row via option field), which closes the prompt and returns to the Customer Number entry screen.
+
+### Step 7 — Enter Customer Number Directly (Ordinal 14–15)
+Back on the **Maintain Customers** screen, the user manually types **`1025`** in the Customer Number field and presses **Enter**.
+
+### Step 8 — Customer Detail: Calvin Coolidge (Ordinal 16–17)
+The **customer detail screen** (`CUSMAIN-F100`) displays the record for customer **1025 – Calvin Coolidge**:
+- Address: 1960 Chain Bridge Rd
+- City: Washington DC
+- Zip: 22030
+- Country: United States
+- Open Amount: .00
+- Turnover: .00
+
+The user presses **F3 (Exit)** to leave the customer detail.
+
+### Step 9 — Return to LEGADEMO Main Menu (Ordinal 18–19)
+The user is returned to the **LegaSuite DEMO main menu**. They select option **`90` (Sign off)** and press **Enter** to end the session.
+
+---
+
+## Summary
+
+The workflow demonstrates a **customer lookup flow**: launch the demo app → navigate to Customer Maintenance → browse customers via a prompt list → page through the list → look up a specific customer (Calvin Coolidge, #1025) → view customer details → exit back to the menu → sign off. The trace includes detailed metadata for each screen (display files, record formats, call stacks, open files) typical of IBM i 5250 application recording/testing tools.
+
+NOTE: Pretty good, but still fairly verbose.

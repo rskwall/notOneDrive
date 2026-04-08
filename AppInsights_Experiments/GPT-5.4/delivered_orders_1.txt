@@ -1,0 +1,21 @@
+PROMPT: Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+delivered_orders.txt is a captured IBM i green-screen session showing a user navigating the LegaSuite demo to inspect a delivered order.
+
+The user starts at the IBM i main menu and enters legademo as a command to launch the demo app.
+
+The app shows an introduction screen; the user presses Enter to continue.
+
+On the LegaSuite main menu, the user chooses option 7 for Delivered Orders.
+
+The Delivered Orders screen opens with an empty Order Number field. The user uses F4 prompt to open the order selection list.
+
+A list of available orders appears. One Enter press appears to just return without selecting anything.
+
+The user opens the prompt again, types 1 next to order 10005, and opens that order’s detail screen.
+
+The detail screen shows customer info, order date, totals, and line items for order 10005.
+
+The user exits back to the LegaSuite menu with F3, then enters 90 to sign off.
+
+In short: launch demo, enter Delivered Orders, prompt for an order, select order 10005, review its details, then exit.

@@ -1,0 +1,58 @@
+PROMPT:
+{
+  "system": "You are an IBM i terminal workflow analyst. You understand 5250 and 3270 screen navigation, function keys, and how to read recorded terminal session files.\n\nYour task is to generate reusable, generic, step-by-step keyboard navigation instructions from recorded IBM i terminal sessions.\n\nConstraints:\n- Distinguish clearly between constant steps (navigation that is always the same) and variable steps (steps where the user must supply situation-specific values).\n- Represent all variable values as clearly labeled placeholders in brackets (e.g., [Customer ID], [Menu Option Number]).\n- Steps must be keyboard-input focused, showing exactly what the user types or which key they press.\n- Do not include internal or technical details from the recording (such as host states, call stacks, database IDs, or implementation details).\n- Always assume the workflow starts from the Db2 Admin main menu.\n\nOutput requirements:\n- Produce a numbered list of steps.\n- Each step must be either:\n  - A constant step: Press [Key] or Type \"literal value\" (no placeholders), or\n  - A variable step: Type [Placeholder], where the placeholder name clearly describes what the user must provide.\n\nVerification checklist:\n- No literal data values from the recording appear in the steps (e.g., specific IDs or names).\n- Every placeholder is descriptive enough for a new user to understand what to enter.\n- Following the steps with real values substituted would reproduce the same workflow outcome.",
+  "user": "Given the following recorded IBM i terminal session file, generate reusable step-by-step keyboard navigation instructions as described above.\n\n{{view_columns.txt}}"
+}
+
+RESPONSE:
+# DB2 Admin: View Columns for a Table Workflow
+
+The following steps describe how to navigate to and view the column definitions for a specific table in the DB2 Admin system catalog. All steps begin from the **DB2 Admin Main Menu**.
+
+---
+
+## Steps
+
+1. At the **Option ===>** prompt, type `1` and press **Enter** to open the **System Catalog - Objects** menu.
+
+2. In the **Name** field, type `[Database Name Pattern]` (e.g., a partial name using a wildcard such as `ABC%`).
+
+3. At the **Option ===>** prompt, type `D` and press **Enter** to display the **Databases** list.
+
+4. In the **Select** column next to the target database entry, type `T` and press **Enter** to open the **Tables, Views, and Aliases** list for that database.
+
+5. In the **Sel** column next to the target table, type `C` and press **Enter** to view the **Columns** for that table.
+
+6. Review the column list, which displays:
+   - Column Name
+   - Column Number
+   - Column Type
+   - Length
+   - Scale
+   - Nullable indicator
+   - Default indicator
+   - Column Cardinality
+
+7. When finished reviewing, press **PF3** to return to the **Tables, Views, and Aliases** list.
+
+8. Press **PF3** again to return to the **Databases** list.
+
+9. Press **PF3** again to return to the **System Catalog - Objects** menu.
+
+10. Press **PF3** again to return to the **DB2 Admin Main Menu**.
+
+---
+
+## Variable Placeholders Reference
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name Pattern]` | The name or partial name (with wildcard `%`) of the database to filter by in the Name field |
+| `[Target Database]` | The specific database row in the list where you enter the `T` line command |
+| `[Target Table]` | The specific table row in the list where you enter the `C` line command |
+
+---
+
+> **Note:** If the desired database or table does not appear, verify the name pattern entered in step 2. Wildcards using `%` are supported when the **LIKE operator** setting is active (visible in the criteria settings line on the Objects menu).
+
+NOTE: Better, but still has superfluous steps at the end. Could be useful, however, to get program back to initial state. Sort of like a stack.

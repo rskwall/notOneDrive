@@ -1,0 +1,68 @@
+## Reusable Step-by-Step Instructions: Alter Table — Add Column (DB2 Admin)
+
+> **Starting point:** DB2 Admin main menu (`*ADB2`)
+
+---
+
+### Steps
+
+1. At the **DB2 Administration Menu**, type `1` and press **Enter** to select **DB2 system catalog**.
+
+2. At the **System Catalog - Objects** screen, type `D` in the **Option** field and press **Enter** to select **Databases**.
+
+3. In the **Name** filter field, type `[Database Name]` and press **Enter** to search.
+
+4. When the database appears in the list, type `T` in the **Select** field next to `[Database Name]` and press **Enter** to display its tables.
+
+5. When the **Tables, Views, and Aliases** list appears, type `AL` in the **Sel** field next to `[Table Name]` and press **Enter** to open the **Alter Table** panel.
+
+6. At the **Alter Table** panel, type `S` in the selection field next to **ALTER/RENAME COLUMN** and press **Enter** to open the **Add Column** panel.
+
+   > *(To add a column, select **ADD COLUMN** instead if that is the intended operation — in this workflow, the user selected the add column form via the ALTER/RENAME path.)*
+
+7. In the **Column name** field, type `[New Column Name]` and press **Enter** or move to the next field.
+
+8. In the **Column type** field, type `[Column Data Type]` (e.g., `VARCHAR`, `INTEGER`, `DATE`).
+
+9. In the **Data length** field, type `[Column Length]` (applicable for types such as `VARCHAR` or `CHAR`).
+
+10. In the **Allow nulls** field, type `[Nullability]` (type `NO` for `NOT NULL`, or leave blank for nullable).
+
+11. Press **Enter** to submit the column definition.
+
+12. When the **Change Management Prompt** popup appears, type `NO` in the **Do you wish to use Change Management** field and press **Enter** to execute the statement directly.
+
+    > *(Type `YES` instead if your site requires change management approval before execution.)*
+
+13. Verify the confirmation message **ALTER stmt executed** appears at the top of the screen.
+
+14. Press **PF3** to return to the **Alter Table** main options screen.
+
+15. Press **PF3** again to return to the **Tables, Views, and Aliases** list.
+
+16. *(Optional verification)* Type `L` in the **Sel** field next to `[Table Name]` and press **Enter** to list the table's data and confirm the new column appears.
+
+17. Press **PF11** to scroll right and verify the new column `[New Column Name]` is visible in the listing.
+
+18. Press **PF10** to scroll back left.
+
+19. Press **PF3** to return to the **Tables, Views, and Aliases** list.
+
+20. Press **PF3** to return to the **Databases** list.
+
+21. To exit DB2 Admin entirely, type `=X.ALL` in the command field and press **Enter**.
+
+---
+
+### Placeholders Reference
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name]` | The name of the DB2 database containing the target table |
+| `[Table Name]` | The name of the table to be altered |
+| `[New Column Name]` | The name of the new column to add |
+| `[Column Data Type]` | The built-in DB2 data type (e.g., `VARCHAR`, `INTEGER`, `CHAR`, `DATE`) |
+| `[Column Length]` | The length/size of the column (applicable for character and binary types) |
+| `[Nullability]` | Whether the column allows nulls: `NO` for NOT NULL, blank for nullable |
+
+NOTE: Completely wrong, tells user to hit enter early and gives them the wrong option to select.

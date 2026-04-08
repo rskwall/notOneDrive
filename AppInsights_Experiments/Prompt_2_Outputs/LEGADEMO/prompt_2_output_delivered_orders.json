@@ -1,0 +1,45 @@
+{
+  "workflow_name": "Delivered Orders - View Order Details",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type the Delivered Orders menu option at the LEGADEMO main menu command prompt",
+      "text": "7",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the Order Delivery screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "key",
+      "description": "Press F4 to open the Select Order lookup list",
+      "key": "F4"
+    },
+    {
+      "step": 4,
+      "type": "type_variable",
+      "description": "Type the selection option next to the desired order in the lookup list",
+      "placeholder": "[Selection Option]",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "step": 5,
+      "type": "key",
+      "description": "Press Enter to open the order details screen",
+      "key": "Enter"
+    },
+    {
+      "step": 6,
+      "type": "key",
+      "description": "Press F3 to exit Order Delivery and return to the LEGADEMO main menu",
+      "key": "F3"
+    }
+  ]
+}

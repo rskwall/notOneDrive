@@ -1,0 +1,73 @@
+{
+  "workflow_name": "Customer Payment - Apply Payment to Order",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Type the Customer Payments menu option at the LEGADEMO main menu command prompt",
+      "text": "2",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Press Enter to navigate to the Customer Payments screen",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type_variable",
+      "description": "Type the customer number in the Customer Number field",
+      "placeholder": "[Customer Number]",
+      "row": 3,
+      "col": 31
+    },
+    {
+      "step": 4,
+      "type": "key",
+      "description": "Press Enter to look up the customer and display customer details",
+      "key": "Enter"
+    },
+    {
+      "step": 5,
+      "type": "type_variable",
+      "description": "Type the order number to apply the payment against in the Order Number field",
+      "placeholder": "[Order Number]",
+      "row": 14,
+      "col": 31
+    },
+    {
+      "step": 6,
+      "type": "key",
+      "description": "Press Enter to look up the order and display order payment details",
+      "key": "Enter"
+    },
+    {
+      "step": 7,
+      "type": "type_variable",
+      "description": "Type the payment amount in the Paid Amount field",
+      "placeholder": "[Payment Amount]",
+      "row": 19,
+      "col": 31
+    },
+    {
+      "step": 8,
+      "type": "key",
+      "description": "Press Enter to submit the payment and display the confirmation popup",
+      "key": "Enter"
+    },
+    {
+      "step": 9,
+      "type": "key",
+      "description": "Press Enter to confirm and finalize the payment",
+      "key": "Enter"
+    },
+    {
+      "step": 10,
+      "type": "key",
+      "description": "Press F3 to exit Customer Payments and return to the LEGADEMO main menu",
+      "key": "F3"
+    }
+  ]
+}

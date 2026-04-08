@@ -1,0 +1,29 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Overview of delivered_orders.txt
+
+This file captures a recorded IBM i (AS/400) green-screen session. Here's the workflow:
+
+1. **IBM i Main Menu** – User types `legademo` at the command prompt and presses Enter.
+
+2. **LegaSuite Intro Screen** – A welcome/disclaimer screen appears. User presses Enter to continue.
+
+3. **LegaSuite DEMO Menu** – User selects option **7 (Delivered Orders)** and presses Enter.
+
+4. **Order Delivery Screen (ORDDELIV-F000)** – An order number prompt appears. User presses **F4** to open a selection list instead of typing an order number.
+
+5. **Select Order Popup (ORDDELIV-F030)** – A list of orders is displayed. User clicks on row 10 (**Order 10004, Andrew Jackson**) but no order is selected (0 modified fields returned).
+
+6. **Back to Order Delivery** – Screen resets. User presses **F4** again to reopen the order list.
+
+7. **Second Order Selection** – User selects row 13 (**Order 20001, Jan Klaassen**), but the modified field shows `"1"` entered on row 12, which corresponds to **Order 10005, Rocket Insurance**.
+
+8. **Order Detail Screen (ORDDELIV-F100)** – Details for **Order 10005** (Rocket Insurance) are displayed, showing 5 line items of sweaters totaling **$1,991.90**.
+
+9. **F3=Exit** – User exits back to the LegaSuite DEMO main menu.
+
+10. **Sign Off** – User enters **90** to sign off.
+
+NOTE: Not as insightful as Opus, but accurate nonetheless.

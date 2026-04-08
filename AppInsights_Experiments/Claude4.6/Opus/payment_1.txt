@@ -1,0 +1,39 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Overview of payment.txt
+
+This file is a **detailed trace/log of an IBM i (AS/400) 5250 terminal session** interacting with the **LegaSuite DEMO application**. It captures each screen (Host State), user action, and system metadata (call stacks, open files, display files, etc.).
+
+### Workflow Steps
+
+| Step | Screen | User Action |
+|------|--------|-------------|
+| 1 | **IBM i Main Menu** | Types `legademo` and presses Enter |
+| 2 | **LegaSuite DEMO Introduction** | Presses Enter to continue |
+| 3 | **LegaSuite DEMO Main Menu** | Selects option **2** (Customer Payments) |
+| 4 | **Customer Payments – Enter Customer** | Enters customer number **1024** |
+| 5 | **Customer Payments – Customer Details** (Warren G. Harding) | Enters order number **40005** |
+| 6 | **Customer Payments – Order Details** (Order Amount: $2,845.01) | Enters paid amount **$2,000.00** |
+| 7 | **Confirmation Window** ("Press Enter to confirm") | Presses Enter to confirm payment |
+| 8 | **Customer Payments – Enter Customer** (back to start) | Presses **F3** to exit |
+| 9 | **Main Menu** | Selects option **6** (Order Entry) |
+| 10 | **Order Entry** | Enters order **40005** → gets error **"Order already invoiced"** |
+| 11 | **Order Entry** (with error) | Presses **F3** to exit |
+| 12 | **Main Menu** | Selects option **9** (View Customer Turn Over) |
+| 13 | **Customer Turn Over – Selection** | Enters customer range **1024–1025**, Display mode |
+| 14 | **Customer Turn Over – Results** (subfile list for customers 1024 & 1025) | Presses **F3** to exit |
+| 15 | **Main Menu** | Selects option **7** (Delivered Orders) |
+| 16 | **Order Delivery** | Enters order **40005** → gets **"Order already invoiced"** again |
+| 17 | **Order Delivery** (with error) | Presses **F3** to exit |
+| 18 | **Main Menu** | Enters **5** → gets error **"Value not valid"** (no option 5) |
+| 19 | **Main Menu** (with error) | Selects option **1** (Maintain Customers) |
+| 20 | **Maintain Customers – Enter Customer** | Enters customer **1024** |
+| 21 | **Maintain Customers – Customer Details** (shows Open Amount: $2,000.00-) | Presses **F3** to exit |
+| 22 | **Main Menu** | Selects **90** (Sign off) |
+
+### Summary
+The user **applies a $2,000 partial payment** to customer 1024's order 40005, then explores several other modules (Order Entry, Delivered Orders, Customer Turnover) confirming the order is already invoiced, encounters a validation error on an invalid menu option, and finally verifies in Maintain Customers that the **open amount reflects the -$2,000 payment** before signing off.
+
+NOTE: I don't know why it made it a table, but the info is accurate. The summary is especially accurate, though it assumes  my actions were intentional rather than me fumbling around until I found the -$2000 in the customers page.

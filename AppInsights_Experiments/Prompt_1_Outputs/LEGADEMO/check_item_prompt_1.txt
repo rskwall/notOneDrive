@@ -1,0 +1,53 @@
+**Pre-condition:** You are at the LEGADEMO main menu (screen title: *LegaSuite DEMO*).
+
+> **Note:** If you are at the IBM i Main Menu, type `legademo` at the `===>` prompt and press **Enter**, then press **Enter** again to dismiss the Introduction screen.
+
+---
+
+### Steps
+
+**1.** `[Constant]` At the `===>` prompt, type `3` and press **Enter**.
+- Selects *Maintain Items* — the Item Number entry screen appears.
+
+**2.** `[Constant]` Press **F4** (Prompt).
+- A *Select Item* popup window opens, listing all available items by number and description.
+
+**3.** `[Optional]` Review the item list. Press **Page Down** to scroll if the list has additional entries.
+
+**4.** `[Constant]` Press **F3** (Exit) to close the Select Item window.
+- Returns directly to the LEGADEMO main menu.
+
+**5.** `[Constant]` At the `===>` prompt, type `3` and press **Enter**.
+- Returns to the Item Number entry screen.
+
+**6.** `[Variable]` In the *Item Number* field, type `[Item Number]` and press **Enter**.
+- The item detail screen opens, displaying the item's current description, price, quantity in stock, and year-to-date turnover.
+
+**7.** `[Variable]` In the *Item Price* field, overtype the current value with `[New Item Price]` and press **Enter**.
+- The updated price is saved. The Item Number entry screen is displayed again.
+
+**8.** `[Variable]` In the *Item Number* field, type `[Item Number]` (the same number used in step 6) and press **Enter**.
+- The item detail screen reopens. **Verify** that the *Item Price* field now shows the value entered in step 7.
+
+**9.** `[Constant]` Press **F3** (Exit).
+- Returns to the LEGADEMO main menu.
+
+**10.** `[Constant]` At the `===>` prompt, type `90` and press **Enter**.
+- Signs off from the application.
+
+---
+
+### Placeholders
+
+| Placeholder | What to supply |
+|---|---|
+| `[Item Number]` | The numeric identifier of the item you want to view or update |
+| `[New Item Price]` | The new price to assign to the item (numeric, decimal format) |
+
+---
+
+### Verification
+
+- No specific data values from the recording (item numbers, price figures, item descriptions) appear in any step. ✓
+- Both placeholders are named to clearly convey what the user must provide. ✓
+- Following these steps with real values substituted would produce the same outcome: browse the item list, select a specific item by number, update its price, confirm the change was persisted, and exit. ✓

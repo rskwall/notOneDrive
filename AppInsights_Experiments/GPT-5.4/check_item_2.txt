@@ -1,0 +1,10 @@
+PROMPT: Could you give me step-by-step instructions for how to update the price of item ID 1003 to 12.59? Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+3 then Enter
+
+1003 then Enter
+
+12.59 then Enter
+
+If they want to return to the menu after saving:
+4. F3

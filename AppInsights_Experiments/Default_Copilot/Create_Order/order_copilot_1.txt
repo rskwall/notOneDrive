@@ -1,0 +1,141 @@
+Here’s a clear, end‑to‑end explanation of **what happened in this IBM i / 5250 session**, step by step, and **what the final outcome was**.
+
+***
+
+## High‑level summary
+
+The user:
+
+1.  Entered the **LEGADEMO** application from the IBM i main menu
+2.  Navigated to **Order Entry**
+3.  **Created a new order (40006)** for customer **1010 – Zachary Taylor**
+4.  Added **three line items** to the order
+5.  Verified the order via the **Order Selection** list
+6.  Returned to the LEGADEMO menu
+7.  **Signed off**
+
+***
+
+## Detailed walkthrough
+
+### 1. Launching the demo application
+
+*   From the **IBM i Main Menu**, the user entered:
+        LEGADEMO
+*   This started the **LegaSuite DEMO application**.
+*   The introductory screen was displayed and confirmed with **Enter**.
+
+***
+
+### 2. Navigating to Order Entry
+
+*   From the LEGADEMO main menu, the user selected:
+        6. Order Entry
+
+***
+
+### 3. Creating a new order
+
+*   On the **Order Entry (ORDENTRY-F000)** screen:
+    *   The user pressed **F6 (Add)**.
+    *   Entered a new order number:
+            40006
+*   The system assigned the order date:
+        Order Date: 3/31/26
+
+***
+
+### 4. Selecting a customer
+
+*   Customer number entered:
+        1010
+*   The system displayed customer details:
+    *   **Name:** Zachary Taylor
+    *   **Address:** 2391 Sandberg Street, Washington DC, United States
+    *   **Credit Limit:** 8500
+    *   **Open Amount:** 0.00
+
+***
+
+### 5. Adding line items
+
+#### Line item 1
+
+*   **Item:** 1104 – Red Sweater (Small)
+*   **Quantity:** 150
+*   **Price:** 49.95
+*   **Discount:** 10%
+*   **Line amount:** 6743.25
+
+#### Line item 2
+
+*   **Item:** 1102 – Beer
+*   **Quantity:** 1
+*   **Price:** 49.95
+*   **Discount:** 50%
+*   **Line amount:** 24.98
+
+#### Line item 3
+
+*   **Item:** 1205 – White Sweater (Large)
+*   **Quantity:** 10
+*   **Price:** 49.95
+*   **Discount:** none
+*   **Line amount:** 499.50
+
+✅ After all items were added:
+
+    Total order amount: 7267.73
+
+***
+
+### 6. Exiting Order Entry
+
+*   Pressed **Enter** on an empty item line to complete entry.
+*   Returned to the initial **Order Entry** screen.
+
+***
+
+### 7. Viewing existing orders
+
+*   Pressed **F4 (Prompt)** to open **Select Order (ORDENTRY-F030)**.
+*   Used **RollUp** to page through orders.
+*   Verified that **Order 40006** appeared in the list:
+        40006 – Customer 1010 – Zachary Taylor
+
+***
+
+### 8. Returning to the menu
+
+*   Pressed **F3 (Exit)**.
+*   Returned to the **LEGADEMO main menu**.
+
+***
+
+### 9. Signing off
+
+*   Selected:
+        90. Sign off
+*   Session ended successfully.
+
+***
+
+## Final state
+
+*   ✅ **Order 40006** created
+*   ✅ Customer: **Zachary Taylor**
+*   ✅ **3 items added**
+*   ✅ Total order value: **7267.73**
+*   ✅ Order visible in selection list
+*   ✅ User signed off cleanly
+
+***
+
+If you want, I can also:
+
+*   Translate this into **test steps / acceptance criteria**
+*   Convert it into a **process flow diagram**
+*   Extract it as **automation steps** (e.g., RPA or LegaSuite scripting)
+*   Help debug or explain **field coordinates & function key usage**
+
+Just tell me what you want next 🙂

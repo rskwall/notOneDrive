@@ -1,0 +1,27 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Overview of Workflow in check_item.txt
+
+This file captures an IBM i (AS/400) 5250 terminal session recording the following steps:
+
+1. **IBM i Main Menu** (Ordinal 2-3): User types `legademo` at the command line and presses Enter.
+
+2. **LegaSuite Intro Screen** (Ordinal 4-5): Introduction/welcome screen for the LEGADEMO application. User presses Enter to continue.
+
+3. **LegaSuite DEMO Main Menu** (Ordinal 6-7): User selects option **3 (Maintain Items)** and presses Enter.
+
+4. **Maintain Items - Search Screen** (Ordinal 8-9): Empty item search screen appears. User presses **F4 (Prompt)** to get an item list.
+
+5. **Item Selection List** (Ordinal 10-11): A popup window shows available items. User presses **F3 (Exit)** to close it.
+
+6. **Return to LegaSuite DEMO Main Menu** (Ordinal 12-13): User selects option **3 (Maintain Items)** again.
+
+7. **Maintain Items - Enter Item 1201** (Ordinal 14-15): User types item number `1201` and presses Enter.
+
+8. **Item 1201 Detail Screen** (Ordinal 16-17): Item "Black Sweater L" displayed with price **49.95**. User changes price to **59.95** and saves.
+
+9. **Re-open Item 1201** (Ordinal 18-19): User navigates back and re-opens item `1201`, confirming price is now **59.95**.
+
+10. **Exit to Main Menu → Sign Off** (Ordinal 20-23): User presses **F3** to exit, returns to main menu, then selects **option 90 (Sign off)**.

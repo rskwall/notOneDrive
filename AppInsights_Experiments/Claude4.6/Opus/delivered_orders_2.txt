@@ -1,0 +1,12 @@
+PROMPT:
+Can you give me the steps to check another order? The order ID is 20001. Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to Check Order 20001 from LEGADEMO Main Menu
+
+1. **Type `7` in the command field (Row 19, Column 7) and press Enter** — selects "Delivered Orders".
+2. **Press F4** on the Order Number field (Row 3, Column 27) — opens the order selection list.
+3. **Type `1` next to order 20001 (Row 12, Column 4) and press Enter** — selects order 20001 (Jan Klaassen, customer 1030).
+4. **Press F3** — exits back to the main menu when done reviewing.
+
+NOTE: I have absolutely no idea how it knew to select using "1". I don't think any of us knew that?

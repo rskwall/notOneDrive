@@ -1,0 +1,22 @@
+PROMPT: Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+Shows a complete IBM i green-screen session for creating and then verifying a customer in the LegaSuite demo.
+
+From the IBM i Main Menu, the user enters LEGADEMO to launch the demo application.
+
+On the intro screen, they press Enter to continue to the LegaSuite main menu.
+
+They choose 1 for Maintain Customers.
+
+On the customer maintenance screen, they use F6=Add and supply customer number 1040.
+
+On the add-customer form, they enter the new customer details:
+name Abraham Lincoln, address 2828 W Street St., city Benton, zip 72727, country United States, credit limit 10250.
+
+After submitting, the workflow returns to the customer selection screen, which implies the create action completed.
+
+They then use F4=Prompt to open the customer list and page down several times to confirm customer 1040 Abraham Lincoln appears in the list.
+
+Finally, they back out of the customer screens, return to the IBM i Main Menu, and enter 90 to sign off.
+
+In short: open app, navigate to customer maintenance, add customer 1040, verify it exists, then exit.

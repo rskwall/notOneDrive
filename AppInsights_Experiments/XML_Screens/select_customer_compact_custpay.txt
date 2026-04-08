@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?VersionInfo version="1.1.2" buildnumber="1.0" exename="Host Picture Builder" exeversion="2.5.2"?>
+<header xmlns="http://www.seagullsoftware.com/schemas/legasuite/screendefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout_version="1.1.2" application="collector" application_version="5.0" xsi:schemaLocation="http://www.seagullsoftware.com/schemas/legasuite/screendefinition http://www.seagullsoftware.com/schemas/legasuite/screendefinition1_1.xsd">
+    <screen name="AW000013" library="LEGADEMO" member_name="CUSTPD" message_line_y="17" originator="PictureBuilderMoaxWriter">
+        <size cx="80" cy="24"/>
+        <action key="f3"/>
+        <action key="f7" conditional="true"/>
+        <action key="f12"/>
+        <action key="print"/>
+        <action key="enter"/>
+        <field field_type="window" window_type="fixed_position_generated_border">
+            <area>
+                <position x="1" y="4"/>
+                <size cx="79" cy="20"/>
+            </area>
+            <window_border border_characters="        " reverse_image="true">
+                <color foreground="blue"/>
+            </window_border>
+            <field field_type="window_border">
+                <field reverse_image="true" value="                                                                               " data_length="79" display_length="79" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="0"/>
+                        <size cx="79" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="1"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="1"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="2"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="2"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="3"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="3"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="4"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="4"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="5"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="5"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="6"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="6"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="7"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="7"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="8"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="8"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="9"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="9"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="10"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="10"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="11"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="11"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="12"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="12"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="13"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="13"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="14"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="14"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="15"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="15"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="16"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="16"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="17"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="17"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="18"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value=" " data_length="1" display_length="1" field_type="fixed_text">
+                    <area>
+                        <position x="78" y="18"/>
+                        <size cx="1" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field reverse_image="true" value="                                                                               " data_length="79" display_length="79" field_type="fixed_text">
+                    <area>
+                        <position x="0" y="19"/>
+                        <size cx="79" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+            </field>
+            <field name="F030" field_type="screen_part" overlay="true">
+                <field field_type="subfile_container">
+                    <field field_type="subfile_header">
+                        <field name="CUS0041" value="Select Customer" data_type="alphanumeric" data_length="15" display_length="15" field_type="msgid_text">
+                            <area>
+<position x="2" y="1"/>
+<size cx="15" cy="1"/>
+                            </area>
+                            <color foreground="white"/>
+                        </field>
+                        <field value=" CUSTPAY-F030" data_length="13" display_length="13" field_type="fixed_text">
+                            <area>
+<position x="64" y="1"/>
+<size cx="13" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="CUS0044" value="Number" data_type="alphanumeric" data_length="6" display_length="6" field_type="msgid_text">
+                            <area>
+<position x="5" y="3"/>
+<size cx="6" cy="1"/>
+                            </area>
+                            <color foreground="white"/>
+                        </field>
+                        <field name="CUS0045" value="Name" data_type="alphanumeric" data_length="4" display_length="4" field_type="msgid_text">
+                            <area>
+<position x="14" y="3"/>
+<size cx="4" cy="1"/>
+                            </area>
+                            <color foreground="white"/>
+                        </field>
+                        <field name="CUS0046" value="City" data_type="alphanumeric" data_length="4" display_length="4" field_type="msgid_text">
+                            <area>
+<position x="47" y="3"/>
+<size cx="4" cy="1"/>
+                            </area>
+                            <color foreground="white"/>
+                        </field>
+                    </field>
+                </field>
+                <field field_type="subfile_container">
+                    <field field_type="subfile_record">
+                        <field name="SELECT" underline="true" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                            <area>
+<position x="2" y="4"/>
+<size cx="1" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSNR" data_type="zoned_decimal" data_length="6" display_length="6" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="5" y="4"/>
+<size cx="6" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSNM" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="4"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSCT" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="4"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSAD" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="5"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSZP" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="5"/>
+<size cx="10" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="CS0021" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="6"/>
+<size cx="15" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUST0" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="30" y="6"/>
+<size cx="11" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSCN" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="6"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="CS0022" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="7"/>
+<size cx="15" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSOP" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="30" y="7"/>
+<size cx="11" cy="1"/>
+                            </area>
+                        </field>
+                    </field>
+                    <field field_type="subfile_record">
+                        <field name="SELECT" underline="true" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                            <area>
+<position x="2" y="8"/>
+<size cx="1" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSNR" data_type="zoned_decimal" data_length="6" display_length="6" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="5" y="8"/>
+<size cx="6" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSNM" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="8"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSCT" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="8"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSAD" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="9"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSZP" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="9"/>
+<size cx="10" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="CS0021" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="10"/>
+<size cx="15" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUST0" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="30" y="10"/>
+<size cx="11" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSCN" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="10"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="CS0022" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="11"/>
+<size cx="15" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSOP" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="30" y="11"/>
+<size cx="11" cy="1"/>
+                            </area>
+                        </field>
+                    </field>
+                    <field field_type="subfile_record">
+                        <field name="SELECT" underline="true" data_type="alphanumeric" data_length="1" display_length="1" usage="both" field_type="field" conditional="true">
+                            <area>
+<position x="2" y="12"/>
+<size cx="1" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSNR" data_type="zoned_decimal" data_length="6" display_length="6" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="5" y="12"/>
+<size cx="6" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSNM" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="12"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSCT" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="12"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSAD" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="13"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSZP" data_type="alphanumeric" data_length="10" display_length="10" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="13"/>
+<size cx="10" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="CS0021" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="14"/>
+<size cx="15" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUST0" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="30" y="14"/>
+<size cx="11" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSCN" data_type="alphanumeric" data_length="30" display_length="30" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="47" y="14"/>
+<size cx="30" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="CS0022" data_type="alphanumeric" data_length="15" display_length="15" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="14" y="15"/>
+<size cx="15" cy="1"/>
+                            </area>
+                        </field>
+                        <field name="#CUSOP" data_type="zoned_decimal" data_length="11" display_length="11" usage="output" field_type="field" conditional="true">
+                            <area>
+<position x="30" y="15"/>
+<size cx="11" cy="1"/>
+                            </area>
+                        </field>
+                    </field>
+                    <field field_type="subfile_record">
+                        <field name=".MOREIND" value="     More..." data_length="12" display_length="12" field_type="subfile_end_more" conditional="true">
+                            <area>
+<position x="65" y="16"/>
+<size cx="12" cy="1"/>
+                            </area>
+                            <color foreground="white"/>
+                        </field>
+                        <field name=".BOTTIND" value="      Bottom" data_length="12" display_length="12" field_type="subfile_end_bottom" conditional="true">
+                            <area>
+<position x="65" y="16"/>
+<size cx="12" cy="1"/>
+                            </area>
+                            <color foreground="white"/>
+                        </field>
+                    </field>
+                </field>
+            </field>
+            <field name="F040" field_type="screen_part" overlay="true">
+                <field name="KEY0003" value="F3=Exit" data_type="alphanumeric" data_length="7" display_length="7" field_type="msgid_text">
+                    <area>
+                        <position x="2" y="17"/>
+                        <size cx="7" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field name="KEY0007" value="F7=Fold/Unfold" data_type="alphanumeric" data_length="14" display_length="14" field_type="msgid_text">
+                    <area>
+                        <position x="12" y="17"/>
+                        <size cx="14" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+                <field name="KEY0012" value="F12=Cancel" data_type="alphanumeric" data_length="10" display_length="10" field_type="msgid_text">
+                    <area>
+                        <position x="29" y="17"/>
+                        <size cx="10" cy="1"/>
+                    </area>
+                    <color foreground="blue"/>
+                </field>
+            </field>
+            <field field_type="screen_part">
+                <field name=".SFLMSGREC" high_intensity="true" data_type="alphanumeric" data_length="75" display_length="75" usage="output" field_type="field" conditional="true">
+                    <area>
+                        <position x="2" y="18"/>
+                        <size cx="75" cy="1"/>
+                    </area>
+                </field>
+            </field>
+        </field>
+    </screen>
+</header>

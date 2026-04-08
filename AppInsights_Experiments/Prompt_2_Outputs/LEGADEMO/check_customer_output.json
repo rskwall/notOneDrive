@@ -1,0 +1,13 @@
+{
+  "workflow_file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\check_customer.txt",
+  "prompt_file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_Iterations\\prompt_2.json",
+  "model": "gpt-5.4",
+  "timestamp": "2026-04-07T16:25:29.044532+00:00",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 26799,
+    "completion_tokens": 311,
+    "total_tokens": 27110
+  },
+  "response": "{\"workflow_name\":\"View a customer from Maintain Customers using search prompt\",\"steps\":[{\"step\":1,\"type\":\"type\",\"description\":\"Type the LEGADEMO command on the IBM i Main Menu command line\",\"text\":\"legademo\",\"row\":19,\"col\":7},{\"step\":2,\"type\":\"key\",\"description\":\"Submit the command\",\"key\":\"Enter\"},{\"step\":3,\"type\":\"key\",\"description\":\"Continue past the introduction screen\",\"key\":\"Enter\"},{\"step\":4,\"type\":\"type\",\"description\":\"Select Maintain Customers from the LEGADEMO main menu\",\"text\":\"1\",\"row\":18,\"col\":4},{\"step\":5,\"type\":\"key\",\"description\":\"Open the Maintain Customers function\",\"key\":\"Enter\"},{\"step\":6,\"type\":\"key\",\"description\":\"Open the prompt for Customer Number\",\"key\":\"F4\"},{\"step\":7,\"type\":\"key\",\"description\":\"Page down in the customer selection list\",\"key\":\"RollUp\"},{\"step\":8,\"type\":\"key\",\"description\":\"Close the customer selection list and return to the Customer Number field\",\"key\":\"Enter\"},{\"step\":9,\"type\":\"type_variable\",\"description\":\"Type the selected customer number in the Customer Number field\",\"placeholder\":\"[Customer Number]\",\"row\":3,\"col\":31},{\"step\":10,\"type\":\"key\",\"description\":\"Display the selected customer\",\"key\":\"Enter\"},{\"step\":11,\"type\":\"key\",\"description\":\"Exit the customer detail screen back to the LEGADEMO main menu\",\"key\":\"F3\"}]}"
+}

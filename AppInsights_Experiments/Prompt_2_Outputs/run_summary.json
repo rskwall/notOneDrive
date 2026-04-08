@@ -1,0 +1,285 @@
+{
+  "run_timestamp": "2026-04-07T16:27:06.341054+00:00",
+  "prompt_file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_Iterations\\prompt_2.json",
+  "model": "gpt-5.4",
+  "total": 25,
+  "succeeded": 25,
+  "failed": 0,
+  "results": [
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\alter_table.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12984,
+        "completion_tokens": 868,
+        "total_tokens": 13852
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\alter_table_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\alter_table_remove.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 42877,
+        "completion_tokens": 1202,
+        "total_tokens": 44079
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\alter_table_remove_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\auth_grant.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9673,
+        "completion_tokens": 626,
+        "total_tokens": 10299
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\auth_grant_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\auth_revoke.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11582,
+        "completion_tokens": 702,
+        "total_tokens": 12284
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\auth_revoke_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\auth_view.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 6881,
+        "completion_tokens": 458,
+        "total_tokens": 7339
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\auth_view_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\check_commands.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11799,
+        "completion_tokens": 719,
+        "total_tokens": 12518
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\check_commands_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\drop_table.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10039,
+        "completion_tokens": 576,
+        "total_tokens": 10615
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\drop_table_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\exec_jcl.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 22195,
+        "completion_tokens": 1930,
+        "total_tokens": 24125
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\exec_jcl_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\search_by_user.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 7471,
+        "completion_tokens": 562,
+        "total_tokens": 8033
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\search_by_user_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\sql_select.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 11620,
+        "completion_tokens": 577,
+        "total_tokens": 12197
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\sql_select_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\view_columns.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10662,
+        "completion_tokens": 652,
+        "total_tokens": 11314
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\view_columns_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\view_index_1.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8500,
+        "completion_tokens": 399,
+        "total_tokens": 8899
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\view_index_1_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\view_index_2.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 10420,
+        "completion_tokens": 792,
+        "total_tokens": 11212
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\view_index_2_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\view_rows.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 16916,
+        "completion_tokens": 859,
+        "total_tokens": 17775
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\view_rows_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\view_storage.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 9081,
+        "completion_tokens": 715,
+        "total_tokens": 9796
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\view_storage_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\view_tablespace_1.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8424,
+        "completion_tokens": 383,
+        "total_tokens": 8807
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\view_tablespace_1_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\Db2 Admin\\view_tablespace_2.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 8515,
+        "completion_tokens": 581,
+        "total_tokens": 9096
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\Db2 Admin\\view_tablespace_2_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\check_customer.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 26799,
+        "completion_tokens": 311,
+        "total_tokens": 27110
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\check_customer_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\check_item.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 32178,
+        "completion_tokens": 380,
+        "total_tokens": 32558
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\check_item_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\create_customer.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 6324,
+        "completion_tokens": 620,
+        "total_tokens": 6944
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\create_customer_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\create_order.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 6404,
+        "completion_tokens": 753,
+        "total_tokens": 7157
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\create_order_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\delivered_orders.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 4416,
+        "completion_tokens": 172,
+        "total_tokens": 4588
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\delivered_orders_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\full_demo.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 23763,
+        "completion_tokens": 1882,
+        "total_tokens": 25645
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\full_demo_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\navigate.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 22610,
+        "completion_tokens": 1522,
+        "total_tokens": 24132
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\navigate_output.json"
+    },
+    {
+      "file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\payment.txt",
+      "status": "ok",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 66043,
+        "completion_tokens": 985,
+        "total_tokens": 67028
+      },
+      "output": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_2_Outputs\\LEGADEMO\\payment_output.json"
+    }
+  ]
+}

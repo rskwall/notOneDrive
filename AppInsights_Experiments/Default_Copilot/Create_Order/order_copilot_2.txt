@@ -1,0 +1,85 @@
+PROMPT:
+Can you make me an ordered series of steps for how to add the same items to the order, but for user 1038 instead? Assume we start from the LEGADEMO main menu. Make the steps ordered, with just what the user would type for each step.
+
+RESPONSE:
+Below is a **strictly ordered, keystroke‑focused set of steps**, starting from the **LEGADEMO main menu**, showing **only what the user types or presses**.  
+(Assumes a **new order number** will be assigned manually, just like before.)
+
+***
+
+## Ordered user steps (customer **1038**, same items)
+
+1.  **Type**
+        6
+    **Press** `Enter`
+
+2.  **Press**
+        F6
+    *(Add new order)*
+
+3.  **Type**
+        40007
+    **Press** `Enter`
+
+4.  **Type**
+        1038
+    **Press** `Enter`
+
+***
+
+### Add line item 1
+
+5.  **Type**
+        1104
+6.  **Type**
+        150
+7.  **Type**
+        10
+    **Press** `Enter`
+
+***
+
+### Add line item 2
+
+8.  **Type**
+        1102
+9.  **Type**
+        1
+10. **Type**
+        50
+    **Press** `Enter`
+
+***
+
+### Add line item 3
+
+11. **Type**
+        1205
+12. **Type**
+        10
+13. **Press**
+        Enter
+
+***
+
+### Finish order entry
+
+14. **Press**
+        Enter
+    *(on blank item line)*
+
+15. **Press**
+        F3
+    *(Exit Order Entry)*
+
+***
+
+This creates a new order for **customer 1038** with the **same three items, quantities, and discounts** as before.
+
+If you want, I can also give you:
+
+*   A **function‑key–only version**
+*   A **test script / acceptance‑criteria version**
+*   Or a **side‑by‑side comparison** with the 1010 order
+
+NOTE: Instructions were wrong. Step 2 (hit F6) should be after Step 3. Following the instructions as written leads to an error.

@@ -1,0 +1,46 @@
+Based on the recorded terminal session in alter_table_remove.txt and the instructions in prompt.json, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## Workflow: Alter Table — Drop Column (with REORG)
+
+> **Starting point:** DB2 Admin main menu
+
+---
+
+1. Type `1` and press **Enter** to select **DB2 system catalog**.
+2. Type `D` in the Option field and press **Enter** to navigate to **Databases**.
+3. In the **Name** filter field, type `[Database Name]`.
+4. Press **Enter** to execute the search.
+5. Next to the database result row, type `T` and press **Enter** to view **Tables**.
+6. Next to the target table row, type `AL` and press **Enter** to open the **Alter Table** panel.
+7. On the **Alter Table** panel, navigate to the **DROP COLUMN** option, type `S` next to it, and press **Enter**.
+8. On the **Columns** list, next to the column to be dropped, type `DROP` and press **Enter**.
+9. On the **Change Management Prompt**, type `NO` in the Change Management field and press **Enter**.
+10. On the **Restrictive State** panel (SQLCODE +610 / ADVISORY REORG), set the **REORG** field to `YES` and press **Enter**.
+11. Review the generated JCL in the ISPF editor.
+12. Type `SUB` in the Command field and press **Enter** to submit the REORG job.
+13. Press **PF3** to exit the JCL editor and return to the Restrictive State panel.
+14. Press **PF3** again to return to the Columns panel.
+15. Press **PF9** to return to the previous SDSF or swap screen if needed.
+16. Navigate to SDSF by typing `=X.ALL` in the Command field and pressing **Enter** (or use the ISPF jump command appropriate for your system to reach SDSF ST).
+17. In SDSF, scroll (**PF8**) to locate job `[Job Name]` (the submitted REORG job).
+18. Press **Enter** on the job row to open the **Job Data Set Display**.
+19. Press **Enter** on the **JESYSMSG** (DSID 4) row to view job output.
+20. Type `F 0008` in the Command field and press **Enter** to search for the completion condition code.
+21. Verify the step completed with **COND CODE 0008** (expected for a REORG that succeeds with warnings).
+22. Press **PF9** to return to the DB2 Admin Columns panel.
+23. Type `=X.ALL` in the Command field and press **Enter** to exit all panels and log off, or type `LOGOFF` at the TSO READY prompt and press **Enter**.
+
+---
+
+**Variable placeholders summary:**
+
+| Placeholder | Description |
+|---|---|
+| `[Database Name]` | The name of the DB2 database containing the target table |
+| `[Table Name]` | The name of the table from which a column will be dropped |
+| `[Column to Drop]` | The specific column name to remove from the table |
+| `[Job Name]` | The submitted batch job name to monitor in SDSF |
+
+NOTE: Everything was right until it was giving instructions for navigating to S.ST, those instructions did not make any sense and would not have worked.

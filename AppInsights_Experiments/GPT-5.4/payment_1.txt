@@ -1,0 +1,37 @@
+PROMPT: Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+Start at the IBM i main menu.
+The user enters legademo to launch the demo application.
+
+Pass through the intro screen.
+An introduction panel appears, and Enter moves past it.
+
+Open the demo menu.
+The LegaSuite demo menu appears, and the user selects 2 for Customer Payments.
+
+Look up the customer.
+On the Customer Payments entry screen, the user enters customer 1024.
+
+Load customer details.
+The system shows customer 1024 as Warren G. Harding with current credit/open balance information.
+
+Choose the order to pay.
+The user enters order 40005.
+
+Review the payment target.
+The system displays the order amount 2845.01, already paid 0.00, and open amount 2845.01.
+
+Enter a payment.
+The user enters a payment amount of 2000.00.
+
+Confirm the payment.
+A confirmation window appears asking to press Enter to confirm. The user confirms.
+
+Return to the starting payment screen.
+The workflow drops back to the Customer Payments entry screen, which strongly suggests the payment was accepted and posted.
+
+After that, the file also shows some follow-up navigation and checks:
+
+Attempts to use Order Entry and Delivered Orders with an order that is already invoiced.
+A Customer Turn Over inquiry showing zero turnover values.
+A Maintain Customers lookup for customer 1024, where the open amount now shows 2000.00-, indicating the payment changed the customer balance.

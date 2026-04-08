@@ -1,0 +1,60 @@
+## Create Customer Workflow — LegaSuite DEMO
+
+**Starting point:** LEGADEMO Main Menu
+
+---
+
+### Navigate to Maintain Customers
+
+| # | Type | Instruction |
+|---|------|-------------|
+| 1 | Constant | Type `1` and press **Enter** to select "Maintain Customers" |
+
+---
+
+### Add a New Customer Record
+
+| # | Type | Instruction |
+|---|------|-------------|
+| 2 | Variable | In the **Customer Number** field, type `[New Customer Number]` |
+| 3 | Constant | Press **F6** to add a new customer |
+| 4 | Variable | In the **Customer Name** field, type `[Customer Name]` |
+| 5 | Variable | In the **Customer Address** field, type `[Customer Street Address]` |
+| 6 | Variable | In the **Customer City** field, type `[Customer City]` |
+| 7 | Variable | In the **Customer Zip Code** field, type `[Customer Zip Code]` |
+| 8 | Variable | In the **Customer Country** field, type `[Customer Country]` |
+| 9 | Variable | In the **Credit Limit** field, type `[Credit Limit Amount]` |
+| 10 | Constant | Press **Enter** to save the record |
+
+*The screen returns to the Maintain Customers entry screen (CUSMAIN-F000).*
+
+---
+
+### Verify the Customer Was Created (Optional)
+
+| # | Type | Instruction |
+|---|------|-------------|
+| 11 | Constant | Press **F4** to open the Select Customer lookup list |
+| 12 | Constant | Press **Page Down** (RollUp) as needed to scroll through the list and locate the newly added customer |
+| 13 | Constant | Press **F3** to close the lookup and return to the Maintain Customers screen |
+
+---
+
+### Exit the Workflow
+
+| # | Type | Instruction |
+|---|------|-------------|
+| 14 | Constant | Press **F3** to exit Maintain Customers and return to the LEGADEMO Main Menu |
+| 15 | Constant | Press **F3** to exit the LEGADEMO Main Menu (the LegaSuite Introduction screen appears) |
+| 16 | Constant | Press **F3** to exit the Introduction screen and return to the IBM i Main Menu |
+| 17 | Constant | Type `90` and press **Enter** to sign off |
+
+---
+
+### Verification Checklist
+
+- No specific data values from the recording (customer numbers, names, addresses, credit amounts) appear literally in the steps above.
+- All variable placeholders are descriptive: `[New Customer Number]`, `[Customer Name]`, `[Customer Street Address]`, `[Customer City]`, `[Customer Zip Code]`, `[Customer Country]`, `[Credit Limit Amount]`.
+- Steps 2–10 reproduce the core create-customer operation for any new customer.
+- Step 12 correctly notes that the number of Page Down presses is data-dependent (varies with how many customers exist in the system).
+- Following these steps end-to-end with real values substituted will reproduce the same workflow outcome.

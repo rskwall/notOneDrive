@@ -1,0 +1,214 @@
+This is a **classic IBM i (AS/400) green‑screen business demo application** called **LegaSuite DEMO**. It is designed to **show how real business processes can be built on IBM i using LegaSuite tooling**, not to be a production system.
+
+Below is a **plain‑English explanation of what this application is, how it works, and what you just did in it**.
+
+***
+
+# What This Application Is
+
+**LegaSuite DEMO** is a **menu‑driven ERP‑style application** running on **IBM i** using **5250 terminal screens**.
+
+Its purpose is to demonstrate:
+
+*   Order processing
+*   Customer management
+*   Item management
+*   Payments and deliveries
+*   End‑to‑end business flows  
+    all within a traditional IBM i environment.
+
+It mimics what many real companies still use today for **back‑office operations**.
+
+***
+
+# How the Application Is Structured
+
+## 1. Platform
+
+*   **System**: IBM i (AS/400)
+*   **UI**: 5250 green‑screen terminals
+*   **Navigation**: Numeric menus and function keys (F‑keys)
+*   **Data**: Customer, order, item, and financial records
+
+***
+
+## 2. Main Menu (LEGADEMO)
+
+After launching the application (`legademo`), you land on this menu:
+
+    1. Maintain Customers
+    2. Customer Payments
+    3. Maintain Items
+    4. Incoming Stock
+    6. Order Entry
+    7. Delivered Orders
+    9. View Customer Turn over
+    10.View Item Turn over
+    90.Sign off
+
+Each option opens a **business module**.
+
+***
+
+# What You Did in This Session (Delivered Orders)
+
+## Step 1: Start the demo
+
+You ran the command:
+
+    legademo
+
+This launched the LegaSuite DEMO application.
+
+***
+
+## Step 2: Go to **Delivered Orders**
+
+From the main menu, you selected:
+
+    7. Delivered Orders
+
+This opened:
+
+**LegaSuite DEMO – Order Delivery (ORDDELIV-F000)**
+
+This screen asks for an **Order Number**, or lets you search.
+
+***
+
+## Step 3: Search for an Order
+
+You pressed **F4 (Prompt)**, which opened a **selection list**:
+
+    Select Order (ORDDELIV-F030)
+    Order Number | Customer | Name
+    10002        | 1010     | Zachary Taylor
+    10004        | 1005     | Andrew Jackson
+    10005        | 1001     | Rocket Insurance
+    ...
+
+This is a **browse/list screen**, very common in IBM i apps.
+
+***
+
+## Step 4: Select Order **10005**
+
+You selected order **10005**, belonging to:
+
+*   **Customer**: 1001
+*   **Name**: Rocket Insurance
+
+***
+
+## Step 5: View Order Delivery Details
+
+You then saw the **full order detail screen (ORDDELIV-F100)**.
+
+This screen shows:
+
+### Order Header Information
+
+*   **Order Number**: 10005
+*   **Order Date**: 4/06/23
+*   **Customer**: Rocket Insurance
+*   **Credit Limit**
+*   **Open Amount**
+*   **Amount This Order**
+
+***
+
+### Order Line Items
+
+You can see what was ordered:
+
+| Item | Description       | Qty | Price | Discount | Amount |
+| ---- | ----------------- | --- | ----- | -------- | ------ |
+| 1403 | Green Sweater XXL | 7   | 52.95 | —        | 370.65 |
+| 1404 | Red Sweater XXL   | 5   | 52.95 | —        | 264.75 |
+| 2303 | Green Sweater XL  | 5   | 65.00 | —        | 325.00 |
+| 2304 | Red Sweater XL    | 10  | 65.00 | 5%       | 617.50 |
+| 2404 | Red Sweater XXL   | 6   | 69.00 | —        | 414.00 |
+
+This represents a **delivered order**, not a draft or open cart.
+
+***
+
+## Step 6: Exit Back to the Menu
+
+You pressed **F3 (Exit)** and returned to the **LegaSuite main menu**.
+
+***
+
+## Step 7: Sign Off
+
+Finally, you selected:
+
+    90. Sign off
+
+This exited the demo application.
+
+***
+
+# What Kind of Application This Is (Conceptually)
+
+This is a **mini ERP system**, demonstrating:
+
+✅ Customer master data  
+✅ Orders and deliveries  
+✅ Inventory quantities  
+✅ Pricing and discounts  
+✅ Financial totals
+
+All implemented with:
+
+*   Flat screens
+*   Function keys
+*   Screen‑level validation
+*   Implicit save on Enter
+
+This is exactly how **many real enterprise IBM i systems still work** today.
+
+***
+
+# Why This Demo Exists
+
+The introduction screen explains it clearly:
+
+> “This application is only meant to show the various possibilities of the LegaSuite products.”
+
+Meaning:
+
+*   It’s not optimized UX
+*   It’s not realistic data volume
+*   It intentionally shows different patterns and screen types
+*   It’s used for **training, demos, and tooling showcases**
+
+***
+
+# Why This Matters Today
+
+Even in 2026:
+
+*   IBM i powers **banks, retailers, manufacturers, logistics, and government**
+*   Many modern UIs still connect to systems like this underneath
+*   Tools like **LegaSuite** help:
+    *   Modernize screens
+    *   Automate flows
+    *   Expose IBM i logic as APIs
+    *   Migrate to web or services without rewriting everything
+
+***
+
+# In One Sentence
+
+**This application is a demonstration ERP‑style IBM i system showing how customers, orders, and deliveries are managed using traditional 5250 screens, built to showcase LegaSuite’s capabilities.**
+
+***
+
+If you want next, I can:
+
+*   Map **each screen to a business concept**
+*   Explain **function keys and screen IDs**
+*   Show **how this would look as a modern web app**
+*   Explain **how automation or modernization would work**
+*   Translate this into **test cases or documentation**

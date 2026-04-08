@@ -1,0 +1,30 @@
+Based on the prompt.json system/user prompt and the view_storage.txt workflow recording, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## Workflow: View Storage Group Volumes and Interpretation
+
+> **Starting point:** DB2 Admin main menu
+
+---
+
+1. Type `1` and press **Enter** to select **DB2 system catalog**.
+2. Type `D` in the **Option** field and press **Enter** to select **Databases**.
+3. In the **Schema** field, type `[Database Name Prefix]` to filter the database list.
+4. Press **Enter** to display the matching databases.
+5. On the row for the target database, type `G` in the **Select** field and press **Enter** to navigate to **Storage Groups**.
+6. On the row for the target storage group, type `VOL` in the **Select** field and press **Enter** to view **Volumes**.
+7. On the row for the target volume, type `I` in the **Select** field and press **Enter** to view the **Interpretation** of the volume object.
+8. Press **PF3** to return to the **Volumes** list.
+9. Press **PF3** to return to the **Storage Groups** list.
+10. Press **PF3** to return to the **Databases** list.
+11. In the command field, type `=X.ALL` and press **Enter** to exit DB2 Admin and return to the TSO **READY** prompt.
+12. Type `LOGOFF` and press **Enter** to log off the system.
+
+---
+
+**Variable steps:** Steps 3 contains a placeholder — `[Database Name Prefix]` — which the user must supply based on the database they want to inspect.
+
+**Constant steps:** All other steps follow a fixed navigation path that does not change between sessions.
+
+NOTE: Told to enter Enter too early again, also told user to logoff at the end.

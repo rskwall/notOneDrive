@@ -1,0 +1,86 @@
+Role: You are a Information Developer tasked with creating Documentation for this output. | Goal: Explain the output and what the application does. Provide instructions on how to navigate the menu as well. | Constraints: Use clear and concise wording and avoid verbose language. Avoid emojis. | Input: Use the output provided above | Output: Create a Markdown file for the docs | Verification: Ensure all menu navigation steps have been listed as well as what the application does. 
+
+# LegaSuite DEMO Application Documentation
+
+## Overview
+
+The LegaSuite DEMO application is an interactive IBM i (AS/400) demonstration tool designed to showcase the capabilities of LegaSuite products. It provides a menu-driven interface for exploring various business functions, such as customer and item maintenance, order entry, and reporting. This application is for demonstration purposes only and is not intended for real-time business use.
+
+---
+
+## Main Menu Navigation
+
+Upon logging in, you are presented with the **LegaSuite DEMO Main Menu**. The menu options are selected by entering the corresponding number at the `===>` prompt and pressing **Enter**.
+
+### Main Menu Options
+
+| Option | Description                    |
+|--------|--------------------------------|
+| 1      | Maintain Customers             |
+| 2      | Customer Payments              |
+| 3      | Maintain Items                 |
+| 4      | Incoming Stock                 |
+| 6      | Order Entry                    |
+| 7      | Delivered Orders               |
+| 9      | View Customer Turn over        |
+| 10     | View Item Turn over            |
+| 80     | End of year procedure          |
+| 90     | Sign off                       |
+
+---
+
+## Example Navigation Steps
+
+### 1. Accessing Item Maintenance
+
+- At the main menu, type `3` at the `===>` prompt and press **Enter**.
+- The **Maintain Items** screen appears.
+- To search for an item, press **F4** (Prompt) or **F14** (Search description).
+- To add a new item, press **F6** (Add).
+- To exit, press **F3** (Exit) or **F12** (Cancel).
+
+### 2. Selecting and Editing an Item
+
+- On the item list, select an item by entering its number in the `Item Number` field and press **Enter**.
+- The item details screen will display:
+  - Item Number
+  - Description
+  - Price
+  - Stock quantity
+  - Turnover for the year
+- To update the price or other fields, enter the new value and press **Enter**.
+- To delete the item, press **F23** (Delete).
+- To return to the previous menu, press **F3** (Exit) or **F12** (Cancel).
+
+### 3. Signing Off
+
+- At any menu, type `90` at the `===>` prompt and press **Enter** to sign off.
+
+---
+
+## Function Key Reference
+
+| Key   | Action                    |
+|-------|---------------------------|
+| F3    | Exit                      |
+| F4    | Prompt                    |
+| F6    | Add                       |
+| F9    | Retrieve                  |
+| F12   | Cancel                    |
+| F13   | Information Assistant     |
+| F14   | Search description        |
+| F23   | Set initial menu / Delete |
+
+---
+
+## Notes
+
+- The application is for demonstration and training purposes.
+- Some screens and flows may not reflect real-world business processes.
+- Use the function keys as indicated at the bottom of each screen for additional actions.
+
+---
+
+## Getting Help
+
+For more information on LegaSuite products, refer to the official product documentation or contact your system administrator.

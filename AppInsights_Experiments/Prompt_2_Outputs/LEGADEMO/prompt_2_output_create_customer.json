@@ -1,0 +1,87 @@
+{
+  "workflow_name": "Create Customer",
+  "steps": [
+    {
+      "step": 1,
+      "type": "type",
+      "description": "Select '''Maintain Customers''' from the LegaSuite DEMO main menu",
+      "text": "1",
+      "row": 19,
+      "col": 7
+    },
+    {
+      "step": 2,
+      "type": "key",
+      "description": "Submit the menu selection",
+      "key": "Enter"
+    },
+    {
+      "step": 3,
+      "type": "type_variable",
+      "description": "Enter the new customer number in the Customer Number field",
+      "placeholder": "[Customer Number]",
+      "row": 3,
+      "col": 31
+    },
+    {
+      "step": 4,
+      "type": "key",
+      "description": "Press F6 to open the Add Customer form",
+      "key": "F6"
+    },
+    {
+      "step": 5,
+      "type": "type_variable",
+      "description": "Enter the customer's full name",
+      "placeholder": "[Customer Name]",
+      "row": 5,
+      "col": 31
+    },
+    {
+      "step": 6,
+      "type": "type_variable",
+      "description": "Enter the customer's street address",
+      "placeholder": "[Customer Address]",
+      "row": 6,
+      "col": 31
+    },
+    {
+      "step": 7,
+      "type": "type_variable",
+      "description": "Enter the customer's city",
+      "placeholder": "[Customer City]",
+      "row": 7,
+      "col": 31
+    },
+    {
+      "step": 8,
+      "type": "type_variable",
+      "description": "Enter the customer's zip code",
+      "placeholder": "[Customer Zip Code]",
+      "row": 8,
+      "col": 31
+    },
+    {
+      "step": 9,
+      "type": "type_variable",
+      "description": "Enter the customer's country",
+      "placeholder": "[Customer Country]",
+      "row": 9,
+      "col": 31
+    },
+    {
+      "step": 10,
+      "type": "type_variable",
+      "description": "Enter the customer's credit limit",
+      "placeholder": "[Credit Limit]",
+      "row": 10,
+      "col": 31
+    },
+    {
+      "step": 11,
+      "type": "key",
+      "description": "Press Enter to save the new customer record",
+      "key": "Enter"
+    }
+  ]
+}

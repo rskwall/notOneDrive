@@ -1,0 +1,14 @@
+PROMPT:
+Could you give me step-by-step instructions for how to update the price of item ID 1003 to 12.59? Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to Update Item 1003 Price to 12.59
+
+Starting from the **LegaSuite DEMO main menu**:
+
+1. Type `3`, press **Enter**
+2. Type `1003`, press **Enter**
+3. Clear the price field, type `12.59`, press **Enter**
+4. Press **F3** to exit back to the main menu
+
+NOTES: Best instructions so far, compact and succinct.

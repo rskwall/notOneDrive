@@ -1,0 +1,27 @@
+Collecting workspace informationBased on the prompt.json system instructions and the workflow recorded in view_index_2.txt, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## View Index Details, Display Index Status, Navigate to Table, and List Table Rows
+
+**Starting point:** DB2 Admin main menu
+
+1. Type `1` and press **Enter** to navigate to the DB2 System Catalog - Objects screen.
+2. Type `X` in the Option field and press **Enter** to select the Indexes object type.
+3. In the Schema field, type `[Table Schema]` (e.g., the schema/owner of the table).
+4. In the Name field, type `[Table Name]` (the name of the table whose index you want to view) and press **Enter**.
+5. On the Indexes list screen, locate the index for `[Table Name]`.
+6. Type `DIS` next to the index row and press **Enter** to display the index space status.
+7. Review the displayed DB2 command output showing the database status for the index space.
+8. Press **PF3** to return to the Indexes list screen.
+9. Type `T` next to the index row and press **Enter** to navigate to the associated Tables, Views, and Aliases screen.
+10. On the Tables list screen, type `L` next to `[Table Name]` and press **Enter** to list the table rows.
+11. Review the displayed rows for `[Table Name]`.
+12. Press **PF3** to return to the Tables list screen.
+13. Press **PF3** to return to the Indexes list screen.
+14. Type `D` next to the index row and press **Enter** to navigate to the associated Databases screen.
+15. On the Databases list screen, type `T` next to `[Database Name]` and press **Enter** to view all tables in the database.
+16. Review the list of all tables in `[Database Name]`.
+17. Press **=X.ALL** in the Command field and press **Enter** to exit DB2 Admin and log off.
+
+NOTE: Wrong again.

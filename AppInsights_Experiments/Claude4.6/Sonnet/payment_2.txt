@@ -1,0 +1,13 @@
+PROMPT:
+Can you give me the steps to pay another order? The customer ID is 1010 and the order ID is 40007. Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to Pay Order 40007 for Customer 1010
+
+Starting from the **LegaSuite DEMO** main menu (`LEGADEMO`):
+
+1. Type `2`, press **Enter** *(select Customer Payments)*
+2. Type `1010`, press **Enter** *(enter customer number)*
+3. Type `40007`, press **Enter** *(enter order number)*
+4. Type the payment amount in the **Paid Amount** field, press **Enter**
+5. Press **Enter** *(confirm payment in the popup window)*

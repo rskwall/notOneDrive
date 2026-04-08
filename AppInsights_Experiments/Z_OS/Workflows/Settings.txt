@@ -1,0 +1,207 @@
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Menu  Utilities  Compilers  Options  Status  Help                            |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                            ISPF Primary Option Menu                            |
+  3      | Option ===>                                                                    |
+  4      |                                            More:     +                         |
+  5      | 0  Settings      Terminal and user parameters            User ID . : USER25    |
+  6      | 1  View          Display source data or listings         Time. . . : 14:35     |
+  7      | 2  Edit          Create or change source data            Terminal. : 3278      |
+  8      | 3  Utilities     Perform utility functions               Screen. . : 1         |
+  9      | 4  Foreground    Interactive language processing         Language. : ENGLISH   |
+ 10      | 5  Batch         Submit job for language processing      Appl ID . : ISR       |
+ 11      | 6  Command       Enter TSO or Workstation commands       TSO logon : ROCKPROC  |
+ 12      | 7  Dialog Test   Perform dialog testing                  TSO prefix: USER25    |
+ 13      | 8  LM Facility   Library administrator functions         System ID : HL02      |
+ 14      | 9  IBM Products  IBM program development products        MVS acct. : ACCT#     |
+ 15      | 10 SCLM          SW Configuration Library Manager        Release . : ISPF 7.5  |
+ 16      |EssssssssssssssssssssssssssssssssssssssssssssssN                                |
+ 17      |e Licensed Materials - Property of IBM         e                                |
+ 18      |e 5650-ZOS     Copyright IBM Corp. 1980, 2021. e                                |
+ 19      |e US Government Users Restricted Rights -      e                                |
+ 20      |e Use, duplication or disclosure restricted    e                                |
+ 21      |e by GSA ADP Schedule Contract with IBM Corp.  e ity                            |
+ 22      |DssssssssssssssssssssssssssssssssssssssssssssssM ard  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 4     |
+    | Column | 15    |
+    | Key    | Enter |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 1
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | Row | Column | Modification qualifier | Value                                                                |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+    | 4   | 14     | DIFFERENT              | "0                                                                 " |
+    +-----+--------+------------------------+----------------------------------------------------------------------+
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Log/List  Function keys  Colors  Environ  Identifier  Help                   |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                                 ISPF Settings                                  |
+  3      | Command ===>                                                                   |
+  4      |                                                                    More:     + |
+  5      | Options                                   Print Graphics                       |
+  6      |   Enter "/" to select option                Family printer type 2              |
+  7      |      Command line at bottom                 Device name . . . .                |
+  8      |   /  Panel display CUA mode                 Aspect ratio  . . . 0              |
+  9      |   /  Long message in pop-up                                                    |
+ 10      |      Tab to action bar choices                                                 |
+ 11      |      Tab to point-and-shoot fields        General                              |
+ 12      |   /  Restore TEST/TRACE options             Input field pad . . B              |
+ 13      |      Session Manager mode                   Command delimiter . ;              |
+ 14      |   /  Jump from leader dots                                                     |
+ 15      |      Edit PRINTDS Command                                                      |
+ 16      |   /  Always show split line                                                    |
+ 17      |      Enable EURO sign                                                          |
+ 18      |                                                                                |
+ 19      | Member list options                                                            |
+ 20      |   Enter "/" to select option                                                   |
+ 21      |   /  Scroll member list                                                        |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 9     |
+    | Column | 4     |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Log/List  Function keys  Colors  Environ  Identifier  Help                   |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                                 ISPF Settings                                  |
+  3      | Command ===>                                                                   |
+  4      |                                                                    More:   - + |
+  5      |   /  Panel display CUA mode                 Aspect ratio  . . . 0              |
+  6      |   /  Long message in pop-up                                                    |
+  7      |      Tab to action bar choices                                                 |
+  8      |      Tab to point-and-shoot fields        General                              |
+  9      |   /  Restore TEST/TRACE options             Input field pad . . B              |
+ 10      |      Session Manager mode                   Command delimiter . ;              |
+ 11      |   /  Jump from leader dots                                                     |
+ 12      |      Edit PRINTDS Command                                                      |
+ 13      |   /  Always show split line                                                    |
+ 14      |      Enable EURO sign                                                          |
+ 15      |                                                                                |
+ 16      | Member list options                                                            |
+ 17      |   Enter "/" to select option                                                   |
+ 18      |   /  Scroll member list                                                        |
+ 19      |      Allow empty member list                                                   |
+ 20      |      Allow empty member list (nomatch)                                         |
+ 21      |   /  Empty member list for edit only                                           |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 6     |
+    | Column | 4     |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Log/List  Function keys  Colors  Environ  Identifier  Help                   |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                                 ISPF Settings                                  |
+  3      | Command ===>                                                                   |
+  4      |                                                                    More:   -   |
+  5      |   /  Scroll member list                                                        |
+  6      |      Allow empty member list                                                   |
+  7      |      Allow empty member list (nomatch)                                         |
+  8      |   /  Empty member list for edit only                                           |
+  9      |                                                                                |
+ 10      | Terminal Characteristics                                                       |
+ 11      |   Screen format   3  1. Data    2. Std     3. Max     4. Part                  |
+ 12      |                                                                                |
+ 13      |   Terminal Type   3    1. 3277       2. 3277A      3. 3278       4. 3278A      |
+ 14      |                        5. 3290A      6. 3278T      7. 3278CF     8. 3277KN     |
+ 15      |                        9. 3278KN    10. 3278AR    11. 3278CY    12. 3278HN     |
+ 16      |                       13. 3278HO    14. 3278IS    15. 3278L2    16. BE163      |
+ 17      |                       17. BE190     18. 3278TH    19. 3278CU    20. DEU78      |
+ 18      |                       21. DEU78A    22. DEU78T    23. DEU90A    24. SW116      |
+ 19      |                       25. SW131     26. SW500     27. 3278GR    28. 3278L1     |
+ 20      |                       29. OTHER                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+
+
+User Action:
+  Key stroke action:
+    +--------+-------+
+    | Item   | Value |
+    +--------+-------+
+    | Row    | 6     |
+    | Column | 4     |
+    | Key    | PF8   |
+    | CCSID  | 37    |
+    +--------+-------+
+  Modified fields: 0
+
+Host State:
+  Serialized host model
+    Screen size: 80 columns x 24 rows
+    CCSID      : 37
+         +--------------------------------------------------------------------------------+
+  0      |   Log/List  Function keys  Colors  Environ  Identifier  Help                   |
+  1      | ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss |
+  2      |                                 ISPF Settings                      End of data |
+  3      | Command ===>                                                                   |
+  4      |                                                                    More:   -   |
+  5      |   /  Scroll member list                                                        |
+  6      |      Allow empty member list                                                   |
+  7      |      Allow empty member list (nomatch)                                         |
+  8      |   /  Empty member list for edit only                                           |
+  9      |                                                                                |
+ 10      | Terminal Characteristics                                                       |
+ 11      |   Screen format   3  1. Data    2. Std     3. Max     4. Part                  |
+ 12      |                                                                                |
+ 13      |   Terminal Type   3    1. 3277       2. 3277A      3. 3278       4. 3278A      |
+ 14      |                        5. 3290A      6. 3278T      7. 3278CF     8. 3277KN     |
+ 15      |                        9. 3278KN    10. 3278AR    11. 3278CY    12. 3278HN     |
+ 16      |                       13. 3278HO    14. 3278IS    15. 3278L2    16. BE163      |
+ 17      |                       17. BE190     18. 3278TH    19. 3278CU    20. DEU78      |
+ 18      |                       21. DEU78A    22. DEU78T    23. DEU90A    24. SW116      |
+ 19      |                       25. SW131     26. SW500     27. 3278GR    28. 3278L1     |
+ 20      |                       29. OTHER                                                |
+ 21      |                                                                                |
+ 22      |  F1=Help      F2=Split     F3=Exit      F7=Backward  F8=Forward   F9=Swap      |
+ 23      | F10=Actions  F12=Cancel                                                        |
+         +--------------------------------------------------------------------------------+

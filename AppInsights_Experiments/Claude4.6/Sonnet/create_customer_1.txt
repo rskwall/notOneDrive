@@ -1,0 +1,29 @@
+PROMPT:
+Can you give me a description of what you see in this text file? Specifically give an overview of each step of the workflow on display. Be efficient and short.
+
+RESPONSE:
+## Overview of create_customer.txt
+
+This file captures a recorded IBM i (AS/400) terminal session creating a new customer. Here's the workflow:
+
+1. **IBM i Main Menu** → User types `LEGADEMO` in the command line and presses Enter.
+
+2. **LegaSuite Intro Screen** → User presses Enter to dismiss the welcome/intro panel.
+
+3. **LegaSuite DEMO Main Menu** → User selects option `1` (Maintain Customers).
+
+4. **Maintain Customers Screen (CUSMAIN-F000)** → User presses **F6 (Add)** with customer number `1040` pre-entered, triggering the add customer form.
+
+5. **Add Customer Form (CUSMAIN-F100)** → User fills in the following fields and presses Enter:
+   - **Name:** Abraham Lincoln
+   - **Address:** 2828 W Street St.
+   - **City:** Benton
+   - **Zip:** 72727
+   - **Country:** United States
+   - **Credit Limit:** 10250
+
+6. **Back on Maintain Customers** → User presses **F4 (Prompt)** to open the customer selection list, scrolls through it with **RollUp (Page Down)** three times, confirms the new customer `1040 - Abraham Lincoln` appears, then presses **F3 (Exit)** to close the list.
+
+7. **Exit navigation** → User presses F3 repeatedly, navigating back through Maintain Customers → LegaSuite Menu → Intro Screen → IBM i Main Menu.
+
+8. **Sign Off** → User enters `90` on the Main Menu and presses Enter to sign off.

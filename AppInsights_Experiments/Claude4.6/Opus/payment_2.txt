@@ -1,0 +1,20 @@
+PROMPT:
+Can you give me the steps to pay another order? The customer ID is 1010 and the order ID is 40007. Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to Pay Order 40007 for Customer 1010
+
+Based on the payment workflow observed in the trace, starting from the LegaSuite DEMO main menu:
+
+| Step | Action |
+|------|--------|
+| 1 | Type `2` in the `===>` field (row 19, col 7), press **Enter** |
+| 2 | Type `1010` in the Customer Number field (row 3, col 31), press **Enter** |
+| 3 | Type `40007` in the Order Number field (row 14, col 31), press **Enter** |
+| 4 | Type the payment amount in the Paid Amount field (row 19, col 31), press **Enter** |
+| 5 | Press **Enter** to confirm payment in the confirmation window |
+| 6 | Press **F3** to exit back to the main menu |
+
+> **Note:** Step 4 requires you to know the amount to pay. In the trace, the user entered `2000.00` as a partial payment against a `2845.01` order. You can enter the full order amount or a partial amount as needed.
+
+NOTE: Worked, no complaints. The note it gives is still unwanted though.

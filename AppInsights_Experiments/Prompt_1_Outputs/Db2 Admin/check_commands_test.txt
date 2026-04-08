@@ -1,0 +1,22 @@
+Collecting workspace informationBased on the prompt.json system instructions and the workflow recorded in check_commands.txt, here are the reusable step-by-step keyboard navigation instructions:
+
+---
+
+## Workflow: Check Available Line Commands for a Database in DB2 Admin
+
+**Starting point:** DB2 Admin main menu
+
+1. Type `1` in the Option field and press **Enter** to navigate to the DB2 System Catalog - Objects menu.
+2. Type `D` in the Option field to select **Databases** as the object type.
+3. Type `[Database Name Pattern]` in the **Name** field (e.g., a name or wildcard pattern to filter databases).
+4. Press **Enter** to submit the search and display the matching databases list.
+5. In the **Sel** column next to the target database row, type `?` and press **Enter** to display all available line commands for that database.
+6. Press **PF8** repeatedly to scroll forward through the paginated list of line commands.
+7. *(Optional)* Press **PF7** to scroll back to a previous page of line commands.
+8. Press **PF3** to exit the Line Commands list and return to the Databases list.
+9. In the **Sel** column next to the target database, type `DDL` and press **Enter** to view the generated DDL statements for the database.
+10. Press **PF3** to exit the DDL view and return to the Databases list.
+11. In the **Command** field, type `=X.ALL` and press **Enter** to exit DB2 Admin and return to the TSO READY prompt.
+12. At the READY prompt, type `LOGOFF` and press **Enter** to log off the system.
+
+NOTE: Looks good!

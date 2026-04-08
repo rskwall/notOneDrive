@@ -1,0 +1,30 @@
+Collecting workspace informationHere are the reusable step-by-step keyboard navigation instructions generated from auth_revoke.txt, following the system prompt in prompt.json:
+
+---
+
+## Workflow: Revoke Database Privileges in Db2 Admin
+
+**Starting point:** Db2 Admin main menu
+
+---
+
+1. Type `1` in the **Option ===>** field and press **Enter** to navigate to the DB2 System Catalog.
+2. In the **System Catalog - Objects** panel, type `D` in the **Option ===>** field and press **Enter** to select Databases.
+3. In the **Schema** field, type `[Database Name Pattern]` (e.g., a partial name with wildcard) and press **Enter** to search for the target database.
+4. On the **Databases** list panel, type `A` next to the target database row and press **Enter** to open Database Authorizations.
+5. On the **Db2 Database Authorizations** panel, review the list of grantees. Type `R` next to the row for the grantee whose privileges you want to revoke and press **Enter**.
+6. On the **Revoke Database Privileges** panel:
+   - Verify or mark all privileges to be revoked (they are pre-filled with the grantee's current privileges).
+   - In the **From** field, confirm or type `[Grantee User ID]` (the user to revoke from).
+   - In the **By** field, type `[Revoking User ID]` (the user performing the revoke) and press **Enter**.
+7. On the **Revoke Impact Report** panel, review the impact of the revoke. Press **Enter** to acknowledge, then press **PF3** to return to the Revoke Database Privileges panel.
+8. Back on the **Revoke Database Privileges** panel, set **Report Dropped Synonyms & Aliases** to `NO` and press **Enter**.
+9. On the **Change Management Prompt** dialog, type `NO` in the **Do you wish to use Change Management** field and press **Enter** to execute the REVOKE statement.
+10. Confirm the "REVOKE stmt executed" message is displayed on the panel.
+11. Press **PF3** to return to the **Db2 Database Authorizations** panel.
+12. Press **PF3** to return to the **Databases** list panel.
+13. On the **Databases** panel, type `T` next to the target database row and press **Enter** to view tables.
+14. On the **Tables, Views, and Aliases** panel, review the listed tables to confirm the database context.
+15. Type `=X.ALL` in the **Command ===>** field and press **Enter** to exit all panels and log off.
+
+NOTE: Steps were completely wrong, told to hit enter too early and did not put NO in the right spot.

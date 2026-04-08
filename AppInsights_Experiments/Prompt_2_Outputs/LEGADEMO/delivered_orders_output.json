@@ -1,0 +1,13 @@
+{
+  "workflow_file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Workflows\\LEGADEMO\\delivered_orders.txt",
+  "prompt_file": "C:\\Users\\chinrichs\\OneDrive - Rocket Software, Inc\\Kassidy Wall's files - ADEOBigFolder\\AppInsights_Experiments\\Prompt_Iterations\\prompt_2.json",
+  "model": "gpt-5.4",
+  "timestamp": "2026-04-07T16:25:55.404270+00:00",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4416,
+    "completion_tokens": 172,
+    "total_tokens": 4588
+  },
+  "response": "{\"workflow_name\":\"View Delivered Order Details\",\"steps\":[{\"step\":1,\"type\":\"type\",\"description\":\"Type the Delivered Orders menu option\",\"text\":\"7\",\"row\":19,\"col\":7},{\"step\":2,\"type\":\"key\",\"description\":\"Submit the menu selection\",\"key\":\"Enter\"},{\"step\":3,\"type\":\"key\",\"description\":\"Open the order selection list\",\"key\":\"F4\"},{\"step\":4,\"type\":\"type_variable\",\"description\":\"Type the selection option next to the desired order\",\"placeholder\":\"[Select Option]\",\"row\":12,\"col\":4},{\"step\":5,\"type\":\"key\",\"description\":\"Open the selected delivered order\",\"key\":\"Enter\"},{\"step\":6,\"type\":\"key\",\"description\":\"Exit the order details screen and return to the LEGADEMO main menu\",\"key\":\"F3\"}]}"
+}

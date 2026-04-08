@@ -1,0 +1,15 @@
+PROMPT:
+Could you give me step-by-step instructions for how to view the customer with ID 1010 instead? Assume the user starts from the LEGADEMO main menu. Each step should simply be the keyboard inputs to user will do.
+
+RESPONSE:
+## Steps to View Customer 1010 from the LegaSuite DEMO Main Menu
+
+1. Type `1`, press **Enter** *(selects "Maintain Customers")*
+2. Press **F4** *(opens the Select Customer prompt window)*
+3. Press **RollUp (Page Down)** *(scrolls to the page containing customer 1010)*
+4. Press **F12** or **Enter** *(closes the prompt window without selecting)*
+5. Type `1010`, press **Enter** *(loads the customer detail record for Zachary Taylor)*
+
+> **Note:** Customer 1010 (Zachary Taylor) appears on the first page of the Select Customer subfile, so only one RollUp is needed to confirm it's there — or you can skip steps 2–4 entirely and just type `1010` directly in the Customer Number field and press **Enter**.
+
+NOTE: Technically correct, but steps 2 3 and 4 don't actually do anything. Only steps 1 and 5 are needed. The simple copilot model wins this one.

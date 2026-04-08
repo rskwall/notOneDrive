@@ -1,0 +1,27 @@
+## Workflow: View Index Space Status and Display Index Information
+
+> **Starting point:** DB2 Admin main menu
+
+---
+
+1. Type `1` and press **Enter** to select **DB2 system catalog**.
+2. In the **Option** field, type `D` and press **Enter** to select **Databases**.
+3. In the **Schema** filter field, type `[Database Schema Prefix]` to narrow the database list.
+4. Press **Enter** to display the matching databases.
+5. On the row for the target database, type `X` in the **Select** field and press **Enter** to navigate to **Indexes**.
+6. On the row for the target index, type `DIS` in the **Select** field and press **Enter** to display the index space status.
+7. Review the **Display Database** command output showing the index space name, type, partition, and status.
+8. Press **PF3** to return to the **Indexes** list.
+9. Press **PF3** to return to the **Databases** list.
+10. In the **Command** field, type `=X.ALL` and press **Enter** to exit DB2 Admin and return to the TSO **READY** prompt.
+11. At the **READY** prompt, type `LOGOFF` and press **Enter** to log off the system.
+
+---
+
+**Variable steps:**
+- **Step 3** — `[Database Schema Prefix]`: The schema or partial name used to filter the database list to find the target database.
+- **Step 6** — The user must identify which index row to apply the `DIS` command to based on the table and index name relevant to their task.
+
+**Constant steps:** All other steps follow a fixed navigation path that does not change between sessions.
+
+NOTE: Wrong, also told to logoff again.
